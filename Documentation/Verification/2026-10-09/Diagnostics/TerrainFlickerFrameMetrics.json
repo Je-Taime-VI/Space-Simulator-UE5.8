@@ -1,0 +1,387 @@
+[
+  {
+    "case": "FlickerRebased",
+    "frame": "frame_00.png",
+    "dark_ground_ratio": 0.8979
+  },
+  {
+    "case": "FlickerRebased",
+    "frame": "frame_01.png",
+    "dark_ground_ratio": 0.9315
+  },
+  {
+    "case": "FlickerRebased",
+    "frame": "frame_02.png",
+    "dark_ground_ratio": 0.9098
+  },
+  {
+    "case": "FlickerRebased",
+    "frame": "frame_03.png",
+    "dark_ground_ratio": 0.0051
+  },
+  {
+    "case": "FlickerRebased",
+    "frame": "frame_04.png",
+    "dark_ground_ratio": 0.0054
+  },
+  {
+    "case": "FlickerRebased",
+    "frame": "frame_05.png",
+    "dark_ground_ratio": 0.0051
+  },
+  {
+    "case": "FlickerRebased",
+    "frame": "frame_06.png",
+    "dark_ground_ratio": 0.0054
+  },
+  {
+    "case": "FlickerRebased",
+    "frame": "frame_07.png",
+    "dark_ground_ratio": 0.0051
+  },
+  {
+    "case": "FlickerRebased",
+    "frame": "frame_08.png",
+    "dark_ground_ratio": 0.0051
+  },
+  {
+    "case": "FlickerRebased",
+    "frame": "frame_09.png",
+    "dark_ground_ratio": 0.9103
+  },
+  {
+    "case": "FlickerRebased",
+    "frame": "frame_10.png",
+    "dark_ground_ratio": 0.0019
+  },
+  {
+    "case": "FlickerRebased",
+    "frame": "frame_11.png",
+    "dark_ground_ratio": 0.0273
+  },
+  {
+    "case": "FlickerRebased",
+    "frame": "frame_12.png",
+    "dark_ground_ratio": 0.0078
+  },
+  {
+    "case": "FlickerRebased",
+    "frame": "frame_13.png",
+    "dark_ground_ratio": 0.0044
+  },
+  {
+    "case": "FlickerRebased",
+    "frame": "frame_14.png",
+    "dark_ground_ratio": 0.0078
+  },
+  {
+    "case": "FlickerRebased",
+    "frame": "frame_15.png",
+    "dark_ground_ratio": 0.0044
+  },
+  {
+    "case": "FlickerRebased",
+    "frame": "frame_16.png",
+    "dark_ground_ratio": 0.0078
+  },
+  {
+    "case": "FlickerRebased",
+    "frame": "frame_17.png",
+    "dark_ground_ratio": 0.0044
+  },
+  {
+    "case": "FlickerNoOcclusion",
+    "frame": "frame_00.png",
+    "dark_ground_ratio": 0.9157
+  },
+  {
+    "case": "FlickerNoOcclusion",
+    "frame": "frame_01.png",
+    "dark_ground_ratio": 0.9218
+  },
+  {
+    "case": "FlickerNoOcclusion",
+    "frame": "frame_02.png",
+    "dark_ground_ratio": 0.0093
+  },
+  {
+    "case": "FlickerNoOcclusion",
+    "frame": "frame_03.png",
+    "dark_ground_ratio": 0.0095
+  },
+  {
+    "case": "FlickerNoOcclusion",
+    "frame": "frame_04.png",
+    "dark_ground_ratio": 0.0097
+  },
+  {
+    "case": "FlickerNoOcclusion",
+    "frame": "frame_05.png",
+    "dark_ground_ratio": 0.0097
+  },
+  {
+    "case": "FlickerNoOcclusion",
+    "frame": "frame_06.png",
+    "dark_ground_ratio": 0.01
+  },
+  {
+    "case": "FlickerNoOcclusion",
+    "frame": "frame_07.png",
+    "dark_ground_ratio": 0.0095
+  },
+  {
+    "case": "FlickerNoOcclusion",
+    "frame": "frame_08.png",
+    "dark_ground_ratio": 0.0097
+  },
+  {
+    "case": "FlickerNoOcclusion",
+    "frame": "frame_09.png",
+    "dark_ground_ratio": 0.0095
+  },
+  {
+    "case": "FlickerNoOcclusion",
+    "frame": "frame_10.png",
+    "dark_ground_ratio": 0.0093
+  },
+  {
+    "case": "FlickerNoOcclusion",
+    "frame": "frame_11.png",
+    "dark_ground_ratio": 0.0085
+  },
+  {
+    "case": "FlickerNoRenderLag",
+    "frame": "frame_00.png",
+    "dark_ground_ratio": 0.3333
+  },
+  {
+    "case": "FlickerNoRenderLag",
+    "frame": "frame_01.png",
+    "dark_ground_ratio": 0.3209
+  },
+  {
+    "case": "FlickerNoRenderLag",
+    "frame": "frame_02.png",
+    "dark_ground_ratio": 0.3321
+  },
+  {
+    "case": "FlickerNoRenderLag",
+    "frame": "frame_03.png",
+    "dark_ground_ratio": 0.3226
+  },
+  {
+    "case": "FlickerNoRenderLag",
+    "frame": "frame_04.png",
+    "dark_ground_ratio": 0.3321
+  },
+  {
+    "case": "FlickerNoRenderLag",
+    "frame": "frame_05.png",
+    "dark_ground_ratio": 0.3204
+  },
+  {
+    "case": "FlickerNoRenderLag",
+    "frame": "frame_06.png",
+    "dark_ground_ratio": 0.3304
+  },
+  {
+    "case": "FlickerNoRenderLag",
+    "frame": "frame_07.png",
+    "dark_ground_ratio": 0.3204
+  },
+  {
+    "case": "FlickerNoRenderLag",
+    "frame": "frame_08.png",
+    "dark_ground_ratio": 0.3316
+  },
+  {
+    "case": "FlickerFXAA",
+    "frame": "frame_00.png",
+    "dark_ground_ratio": 0.335
+  },
+  {
+    "case": "FlickerFXAA",
+    "frame": "frame_01.png",
+    "dark_ground_ratio": 0.3377
+  },
+  {
+    "case": "FlickerFXAA",
+    "frame": "frame_02.png",
+    "dark_ground_ratio": 0.3443
+  },
+  {
+    "case": "FlickerFXAA",
+    "frame": "frame_03.png",
+    "dark_ground_ratio": 0.3372
+  },
+  {
+    "case": "FlickerFXAA",
+    "frame": "frame_04.png",
+    "dark_ground_ratio": 0.3436
+  },
+  {
+    "case": "FlickerFXAA",
+    "frame": "frame_05.png",
+    "dark_ground_ratio": 0.337
+  },
+  {
+    "case": "FlickerFXAA",
+    "frame": "frame_06.png",
+    "dark_ground_ratio": 0.3438
+  },
+  {
+    "case": "FlickerFXAA",
+    "frame": "frame_07.png",
+    "dark_ground_ratio": 0.3375
+  },
+  {
+    "case": "FlickerVelocityFixed",
+    "frame": "frame_00.png",
+    "dark_ground_ratio": 0.0
+  },
+  {
+    "case": "FlickerVelocityFixed",
+    "frame": "frame_01.png",
+    "dark_ground_ratio": 0.0
+  },
+  {
+    "case": "FlickerVelocityFixed",
+    "frame": "frame_02.png",
+    "dark_ground_ratio": 0.0
+  },
+  {
+    "case": "FlickerVelocityFixed",
+    "frame": "frame_03.png",
+    "dark_ground_ratio": 0.0
+  },
+  {
+    "case": "FlickerVelocityFixed",
+    "frame": "frame_04.png",
+    "dark_ground_ratio": 0.0
+  },
+  {
+    "case": "FlickerVelocityFixed",
+    "frame": "frame_05.png",
+    "dark_ground_ratio": 0.0
+  },
+  {
+    "case": "FlickerVelocityFixed",
+    "frame": "frame_06.png",
+    "dark_ground_ratio": 0.0
+  },
+  {
+    "case": "FlickerVelocityFixed",
+    "frame": "frame_07.png",
+    "dark_ground_ratio": 0.0
+  },
+  {
+    "case": "FlickerVelocityFixed",
+    "frame": "frame_08.png",
+    "dark_ground_ratio": 0.0
+  },
+  {
+    "case": "FlickerVelocityFixed",
+    "frame": "frame_09.png",
+    "dark_ground_ratio": 0.0
+  },
+  {
+    "case": "FlickerVelocityFixed",
+    "frame": "frame_10.png",
+    "dark_ground_ratio": 0.0
+  },
+  {
+    "case": "FlickerVelocityFixed",
+    "frame": "frame_11.png",
+    "dark_ground_ratio": 0.0
+  },
+  {
+    "case": "FlickerVelocityFixed",
+    "frame": "frame_12.png",
+    "dark_ground_ratio": 0.0
+  },
+  {
+    "case": "FlickerVelocityFixed",
+    "frame": "frame_13.png",
+    "dark_ground_ratio": 0.0
+  },
+  {
+    "case": "FlickerVelocityFixed",
+    "frame": "frame_14.png",
+    "dark_ground_ratio": 0.0
+  },
+  {
+    "case": "FlickerVelocityFixed",
+    "frame": "frame_15.png",
+    "dark_ground_ratio": 0.0
+  },
+  {
+    "case": "FlickerVelocityFixed",
+    "frame": "frame_16.png",
+    "dark_ground_ratio": 0.0
+  },
+  {
+    "case": "FlickerVelocityFixed",
+    "frame": "frame_17.png",
+    "dark_ground_ratio": 0.0
+  },
+  {
+    "case": "FlickerColdBuild",
+    "frame": "frame_00.png",
+    "dark_ground_ratio": 0.0
+  },
+  {
+    "case": "FlickerColdBuild",
+    "frame": "frame_01.png",
+    "dark_ground_ratio": 0.0
+  },
+  {
+    "case": "FlickerColdBuild",
+    "frame": "frame_02.png",
+    "dark_ground_ratio": 0.0
+  },
+  {
+    "case": "FlickerColdBuild",
+    "frame": "frame_03.png",
+    "dark_ground_ratio": 0.0
+  },
+  {
+    "case": "FlickerColdBuild",
+    "frame": "frame_04.png",
+    "dark_ground_ratio": 0.0
+  },
+  {
+    "case": "FlickerColdBuild",
+    "frame": "frame_05.png",
+    "dark_ground_ratio": 0.0
+  },
+  {
+    "case": "FlickerColdBuild",
+    "frame": "frame_06.png",
+    "dark_ground_ratio": 0.0
+  },
+  {
+    "case": "FlickerColdBuild",
+    "frame": "frame_07.png",
+    "dark_ground_ratio": 0.0
+  },
+  {
+    "case": "FlickerColdBuild",
+    "frame": "frame_08.png",
+    "dark_ground_ratio": 0.0
+  },
+  {
+    "case": "FlickerColdBuild",
+    "frame": "frame_09.png",
+    "dark_ground_ratio": 0.0
+  },
+  {
+    "case": "FlickerColdBuild",
+    "frame": "frame_10.png",
+    "dark_ground_ratio": 0.0
+  },
+  {
+    "case": "FlickerColdBuild",
+    "frame": "frame_11.png",
+    "dark_ground_ratio": 0.0
+  }
+]

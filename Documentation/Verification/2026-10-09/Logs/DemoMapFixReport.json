@@ -1,0 +1,318 @@
+[
+  {
+    "map": "/WorldScape/Levels/Bonus_Levels/Demonstration_Asteroid",
+    "is_demonstration": true,
+    "game_mode_override": "/WorldScape/Blueprints/PlayerLogic/WorldScapeGamemode.WorldScapeGamemode_C",
+    "world_bounds_before": false,
+    "kill_z": -1048575.0,
+    "planets": [
+      {
+        "label": "Asteroid",
+        "generation_type": "<WorldScapeType.PLANET: 1>",
+        "radius_cm": 5000.0,
+        "ocean": false,
+        "noise": "<Object '/WorldScape/Ressources/Noise/AsteroidLike.AsteroidLike' (0x0000025921208400) Class 'WorldScapeCustomNoise'>"
+      },
+      {
+        "label": "EarthScape",
+        "generation_type": "<WorldScapeType.PLANET: 1>",
+        "radius_cm": 636000000.0,
+        "ocean": true,
+        "noise": "<Object '/WorldScape/Levels/Bonus_Levels/Demonstration_Asteroid.Demonstration_Asteroid:PersistentLevel.EarthScape_C_1.WorldScapeCustomNoise_0' (0x000002594D93EF80) Class 'WorldScapeCustomNoise'>"
+      }
+    ],
+    "game_mode_after": "/Game/Blueprints/BP_WorldScapeDemoGameMode.BP_WorldScapeDemoGameMode_C",
+    "saved": true,
+    "world_bounds_after": false
+  },
+  {
+    "map": "/WorldScape/Levels/Bonus_Levels/Demonstration_CubeWorld",
+    "is_demonstration": true,
+    "game_mode_override": "/WorldScape/Blueprints/PlayerLogic/WorldScapeGamemode.WorldScapeGamemode_C",
+    "world_bounds_before": false,
+    "kill_z": -1048575.0,
+    "planets": [
+      {
+        "label": "WorldScapeRoot1",
+        "generation_type": "<WorldScapeType.FLAT: 0>",
+        "radius_cm": 637817792.0,
+        "ocean": false,
+        "noise": "<Object '/WorldScape/Ressources/Noise/CubeWorldLike.CubeWorldLike' (0x000002594E8F3440) Class 'CubeNoise'>"
+      }
+    ],
+    "game_mode_after": "/Game/Blueprints/BP_WorldScapeDemoGameMode.BP_WorldScapeDemoGameMode_C",
+    "saved": true,
+    "world_bounds_after": false
+  },
+  {
+    "map": "/WorldScape/Levels/Bonus_Levels/Demonstration_TerraFormedMoon",
+    "is_demonstration": true,
+    "game_mode_override": null,
+    "world_bounds_before": true,
+    "kill_z": -1048575.0,
+    "planets": [
+      {
+        "label": "PlanetBp2",
+        "generation_type": "<WorldScapeType.PLANET: 1>",
+        "radius_cm": 318908896.0,
+        "ocean": true,
+        "noise": "<Object '/WorldScape/Ressources/Noise/Selenae.Selenae' (0x0000025958A51F40) Class 'SelenaeNoise'>"
+      },
+      {
+        "label": "Planet",
+        "generation_type": "<WorldScapeType.PLANET: 1>",
+        "radius_cm": 637817792.0,
+        "ocean": true,
+        "noise": "<Object '/WorldScape/Ressources/Noise/TeraformedMoon.TeraformedMoon' (0x000002594EC15340) Class 'HeightMapBased'>"
+      }
+    ],
+    "game_mode_after": "/Game/Blueprints/BP_WorldScapeDemoGameMode.BP_WorldScapeDemoGameMode_C",
+    "saved": true,
+    "world_bounds_after": false
+  },
+  {
+    "map": "/WorldScape/Levels/FlatWorld_Levels/Demonstration_FlatEarth",
+    "is_demonstration": true,
+    "game_mode_override": null,
+    "world_bounds_before": true,
+    "kill_z": -1048575.0,
+    "planets": [
+      {
+        "label": "FlatEarth",
+        "generation_type": "<WorldScapeType.PLANET: 1>",
+        "radius_cm": 318908896.0,
+        "ocean": true,
+        "noise": "<Object '/WorldScape/Ressources/Noise/Selenae.Selenae' (0x0000025958A51F40) Class 'SelenaeNoise'>"
+      },
+      {
+        "label": "WorldScapeManager",
+        "generation_type": "<WorldScapeType.FLAT: 0>",
+        "radius_cm": 637817792.0,
+        "ocean": true,
+        "noise": "<Object '/WorldScape/Ressources/Noise/TerraFlatworldSet.TerraFlatworldSet' (0x000002594EC155C0) Class 'TerraNoiseExample'>"
+      }
+    ],
+    "game_mode_after": "/Game/Blueprints/BP_WorldScapeDemoGameMode.BP_WorldScapeDemoGameMode_C",
+    "saved": true,
+    "world_bounds_after": false
+  },
+  {
+    "map": "/WorldScape/Levels/FlatWorld_Levels/Demonstration_FlatWorld_Lava",
+    "is_demonstration": true,
+    "game_mode_override": null,
+    "world_bounds_before": true,
+    "kill_z": -1048575.0,
+    "planets": [
+      {
+        "label": "PlanetBp",
+        "generation_type": "<WorldScapeType.FLAT: 0>",
+        "radius_cm": 637817792.0,
+        "ocean": true,
+        "noise": "<Object '/WorldScape/Ressources/Noise/LavaWorld.LavaWorld' (0x000002594EE74D80) Class 'TerraNoiseExample'>"
+      },
+      {
+        "label": "PlanetBp2",
+        "generation_type": "<WorldScapeType.PLANET: 1>",
+        "radius_cm": 637817792.0,
+        "ocean": true,
+        "noise": "<Object '/WorldScape/Levels/FlatWorld_Levels/Demonstration_FlatWorld_Lava.Demonstration_FlatWorld_Lava:PersistentLevel.PlanetBp_C_1.WorldScapeCustomNoise_0' (0x000002594EE73000) Class 'WorldScapeCustomNoise'>"
+      }
+    ],
+    "game_mode_after": "/Game/Blueprints/BP_WorldScapeDemoGameMode.BP_WorldScapeDemoGameMode_C",
+    "saved": true,
+    "world_bounds_after": false
+  },
+  {
+    "map": "/WorldScape/Levels/FlatWorld_Levels/Demonstration_FlatWorld_legacy",
+    "is_demonstration": true,
+    "game_mode_override": "/WorldScape/Blueprints/PlayerLogic/WorldScapeGamemode.WorldScapeGamemode_C",
+    "world_bounds_before": false,
+    "kill_z": -1048575.0,
+    "planets": [
+      {
+        "label": "WorldScapeRoot1",
+        "generation_type": "<WorldScapeType.FLAT: 0>",
+        "radius_cm": 637817792.0,
+        "ocean": true,
+        "noise": "<Object '/WorldScape/Ressources/Noise/FlatWorld.FlatWorld' (0x000002594EE72DC0) Class 'WorldScapeCustomNoise'>"
+      }
+    ],
+    "game_mode_after": "/Game/Blueprints/BP_WorldScapeDemoGameMode.BP_WorldScapeDemoGameMode_C",
+    "saved": true,
+    "world_bounds_after": false
+  },
+  {
+    "map": "/WorldScape/Levels/L_NewMap",
+    "is_demonstration": false,
+    "game_mode_override": null,
+    "world_bounds_before": true,
+    "kill_z": -1048575.0,
+    "planets": [
+      {
+        "label": "WorldScapeRoot",
+        "generation_type": "<WorldScapeType.FLAT: 0>",
+        "radius_cm": 637817792.0,
+        "ocean": false,
+        "noise": "<Object '/WorldScape/Levels/L_NewMap.L_NewMap:PersistentLevel.WorldScapeRoot_UAID_E0D55E0BDE1DACB301_1800866456.Default Noise Generator' (0x0000025958B91180) Class 'WorldScapeCustomNoise'>"
+      }
+    ],
+    "world_bounds_after": true
+  },
+  {
+    "map": "/WorldScape/Levels/Planets_Levels/Demonstration_BarenLikePlanet",
+    "is_demonstration": true,
+    "game_mode_override": null,
+    "world_bounds_before": true,
+    "kill_z": -1048575.0,
+    "planets": [
+      {
+        "label": "PlanetBp",
+        "generation_type": "<WorldScapeType.PLANET: 1>",
+        "radius_cm": 637817792.0,
+        "ocean": true,
+        "noise": "<Object '/WorldScape/Ressources/Noise/Terra.Terra' (0x000002594267EB00) Class 'TerraNoiseExample'>"
+      }
+    ],
+    "game_mode_after": "/Game/Blueprints/BP_WorldScapeDemoGameMode.BP_WorldScapeDemoGameMode_C",
+    "saved": true,
+    "world_bounds_after": false
+  },
+  {
+    "map": "/WorldScape/Levels/Planets_Levels/Demonstration_EarthLikePlanet",
+    "is_demonstration": true,
+    "game_mode_override": null,
+    "world_bounds_before": true,
+    "kill_z": -1048575.0,
+    "planets": [
+      {
+        "label": "PlanetBp2",
+        "generation_type": "<WorldScapeType.PLANET: 1>",
+        "radius_cm": 318908896.0,
+        "ocean": true,
+        "noise": "<Object '/WorldScape/Ressources/Noise/Selenae.Selenae' (0x0000025958A51F40) Class 'SelenaeNoise'>"
+      },
+      {
+        "label": "Planet",
+        "generation_type": "<WorldScapeType.PLANET: 1>",
+        "radius_cm": 637817792.0,
+        "ocean": true,
+        "noise": "<Object '/WorldScape/Ressources/Noise/Tectonics1.Tectonics1' (0x0000025958A52340) Class 'RockyWorldsNoise'>"
+      }
+    ],
+    "game_mode_after": "/Game/Blueprints/BP_WorldScapeDemoGameMode.BP_WorldScapeDemoGameMode_C",
+    "fixed_exposure_brightness": 1.0,
+    "saved": true,
+    "world_bounds_after": false
+  },
+  {
+    "map": "/WorldScape/Levels/Planets_Levels/Demonstration_IceWorldPlanet",
+    "is_demonstration": true,
+    "game_mode_override": null,
+    "world_bounds_before": true,
+    "kill_z": -1048575.0,
+    "planets": [
+      {
+        "label": "PlanetBp",
+        "generation_type": "<WorldScapeType.PLANET: 1>",
+        "radius_cm": 212605936.0,
+        "ocean": true,
+        "noise": "<Object '/WorldScape/Ressources/Noise/IceWorld.IceWorld' (0x0000025958FA5000) Class 'IceWorldNoise'>"
+      }
+    ],
+    "game_mode_after": "/Game/Blueprints/BP_WorldScapeDemoGameMode.BP_WorldScapeDemoGameMode_C",
+    "saved": true,
+    "world_bounds_after": false
+  },
+  {
+    "map": "/WorldScape/Levels/Planets_Levels/Demonstration_LavaPlanet",
+    "is_demonstration": true,
+    "game_mode_override": null,
+    "world_bounds_before": true,
+    "kill_z": -1048575.0,
+    "planets": [
+      {
+        "label": "PlanetBp",
+        "generation_type": "<WorldScapeType.PLANET: 1>",
+        "radius_cm": 637817792.0,
+        "ocean": true,
+        "noise": "<Object '/WorldScape/Ressources/Noise/LavaWorld.LavaWorld' (0x000002594EE74D80) Class 'TerraNoiseExample'>"
+      },
+      {
+        "label": "PlanetBp2",
+        "generation_type": "<WorldScapeType.PLANET: 1>",
+        "radius_cm": 637817792.0,
+        "ocean": true,
+        "noise": "<Object '/WorldScape/Ressources/Noise/Selenae.Selenae' (0x0000025958A51F40) Class 'SelenaeNoise'>"
+      }
+    ],
+    "game_mode_after": "/Game/Blueprints/BP_WorldScapeDemoGameMode.BP_WorldScapeDemoGameMode_C",
+    "saved": true,
+    "world_bounds_after": false
+  },
+  {
+    "map": "/WorldScape/Levels/Planets_Levels/Demonstration_LittlePlanet",
+    "is_demonstration": true,
+    "game_mode_override": "/WorldScape/Blueprints/PlayerLogic/WorldScapeGamemode.WorldScapeGamemode_C",
+    "world_bounds_before": false,
+    "kill_z": -1048575.0,
+    "planets": [
+      {
+        "label": "WorldScapeRoot",
+        "generation_type": "<WorldScapeType.PLANET: 1>",
+        "radius_cm": 100000.0,
+        "ocean": true,
+        "noise": "<Object '/WorldScape/Ressources/Noise/LittlePlanet.LittlePlanet' (0x0000025958FA5900) Class 'WorldScapeCustomNoise'>"
+      }
+    ],
+    "game_mode_after": "/Game/Blueprints/BP_WorldScapeDemoGameMode.BP_WorldScapeDemoGameMode_C",
+    "saved": true,
+    "world_bounds_after": false
+  },
+  {
+    "map": "/WorldScape/Levels/Planets_Levels/Demonstration_MarsLikePlanet",
+    "is_demonstration": true,
+    "game_mode_override": null,
+    "world_bounds_before": true,
+    "kill_z": -1048575.0,
+    "planets": [
+      {
+        "label": "PlanetBp",
+        "generation_type": "<WorldScapeType.PLANET: 1>",
+        "radius_cm": 637817792.0,
+        "ocean": false,
+        "noise": "<Object '/WorldScape/Ressources/Noise/Mars.Mars' (0x0000025921208A40) Class 'TerraNoiseExample'>"
+      }
+    ],
+    "game_mode_after": "/Game/Blueprints/BP_WorldScapeDemoGameMode.BP_WorldScapeDemoGameMode_C",
+    "saved": true,
+    "world_bounds_after": false
+  },
+  {
+    "map": "/WorldScape/Levels/Planets_Levels/Demonstration_PlanetaryHeightmap",
+    "is_demonstration": true,
+    "game_mode_override": "/WorldScape/Blueprints/PlayerLogic/WorldScapeGamemode.WorldScapeGamemode_C",
+    "world_bounds_before": false,
+    "kill_z": -1048575.0,
+    "planets": [
+      {
+        "label": "WorldScapeRoot",
+        "generation_type": "<WorldScapeType.PLANET: 1>",
+        "radius_cm": 100000000.0,
+        "ocean": false,
+        "noise": "<Object '/WorldScape/Ressources/Noise/MoonLike.MoonLike' (0x0000025970EF9F00) Class 'WorldScapeCustomNoise'>"
+      }
+    ],
+    "game_mode_after": "/Game/Blueprints/BP_WorldScapeDemoGameMode.BP_WorldScapeDemoGameMode_C",
+    "saved": true,
+    "world_bounds_after": false
+  },
+  {
+    "map": "/WorldScape/Levels/StartUp_WorldScape",
+    "is_demonstration": false,
+    "game_mode_override": "/WorldScape/Blueprints/PlayerLogic/WorldScapeGamemode.WorldScapeGamemode_C",
+    "world_bounds_before": false,
+    "kill_z": -1048575.0,
+    "planets": [],
+    "world_bounds_after": false
+  }
+]

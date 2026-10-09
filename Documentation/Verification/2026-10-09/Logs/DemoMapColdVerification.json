@@ -1,0 +1,67 @@
+[
+  {
+    "map": "/WorldScape/Levels/Planets_Levels/Demonstration_EarthLikePlanet",
+    "mode": "/Game/Blueprints/BP_WorldScapeDemoGameMode.BP_WorldScapeDemoGameMode_C",
+    "bounds": false
+  },
+  {
+    "map": "/WorldScape/Levels/Bonus_Levels/Demonstration_Asteroid",
+    "mode": "/Game/Blueprints/BP_WorldScapeDemoGameMode.BP_WorldScapeDemoGameMode_C",
+    "bounds": false
+  },
+  {
+    "map": "/WorldScape/Levels/Bonus_Levels/Demonstration_CubeWorld",
+    "mode": "/Game/Blueprints/BP_WorldScapeDemoGameMode.BP_WorldScapeDemoGameMode_C",
+    "bounds": false
+  },
+  {
+    "map": "/WorldScape/Levels/Bonus_Levels/Demonstration_TerraFormedMoon",
+    "mode": "/Game/Blueprints/BP_WorldScapeDemoGameMode.BP_WorldScapeDemoGameMode_C",
+    "bounds": false
+  },
+  {
+    "map": "/WorldScape/Levels/FlatWorld_Levels/Demonstration_FlatEarth",
+    "mode": "/Game/Blueprints/BP_WorldScapeDemoGameMode.BP_WorldScapeDemoGameMode_C",
+    "bounds": false
+  },
+  {
+    "map": "/WorldScape/Levels/FlatWorld_Levels/Demonstration_FlatWorld_Lava",
+    "mode": "/Game/Blueprints/BP_WorldScapeDemoGameMode.BP_WorldScapeDemoGameMode_C",
+    "bounds": false
+  },
+  {
+    "map": "/WorldScape/Levels/FlatWorld_Levels/Demonstration_FlatWorld_legacy",
+    "mode": "/Game/Blueprints/BP_WorldScapeDemoGameMode.BP_WorldScapeDemoGameMode_C",
+    "bounds": false
+  },
+  {
+    "map": "/WorldScape/Levels/Planets_Levels/Demonstration_BarenLikePlanet",
+    "mode": "/Game/Blueprints/BP_WorldScapeDemoGameMode.BP_WorldScapeDemoGameMode_C",
+    "bounds": false
+  },
+  {
+    "map": "/WorldScape/Levels/Planets_Levels/Demonstration_IceWorldPlanet",
+    "mode": "/Game/Blueprints/BP_WorldScapeDemoGameMode.BP_WorldScapeDemoGameMode_C",
+    "bounds": false
+  },
+  {
+    "map": "/WorldScape/Levels/Planets_Levels/Demonstration_LavaPlanet",
+    "mode": "/Game/Blueprints/BP_WorldScapeDemoGameMode.BP_WorldScapeDemoGameMode_C",
+    "bounds": false
+  },
+  {
+    "map": "/WorldScape/Levels/Planets_Levels/Demonstration_LittlePlanet",
+    "mode": "/Game/Blueprints/BP_WorldScapeDemoGameMode.BP_WorldScapeDemoGameMode_C",
+    "bounds": false
+  },
+  {
+    "map": "/WorldScape/Levels/Planets_Levels/Demonstration_MarsLikePlanet",
+    "mode": "/Game/Blueprints/BP_WorldScapeDemoGameMode.BP_WorldScapeDemoGameMode_C",
+    "bounds": false
+  },
+  {
+    "map": "/WorldScape/Levels/Planets_Levels/Demonstration_PlanetaryHeightmap",
+    "mode": "/Game/Blueprints/BP_WorldScapeDemoGameMode.BP_WorldScapeDemoGameMode_C",
+    "bounds": false
+  }
+]

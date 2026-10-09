@@ -1,0 +1,7 @@
+{
+  "engine": "5.8.2-56702186+++UE5+Release-5.8",
+  "worldscape_class": "/Script/WorldScapeCore.WorldScapeRoot",
+  "worldscape_assets": 653,
+  "blank_map": "/Game/Maps/Blank",
+  "test_map": "/Game/Maps/WorldScape_Test"
+}

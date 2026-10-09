@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-09",
+  "engine": "5.8.2-56702186",
+  "build_succeeded": true,
+  "reports": {
+    "SolarModelValidation.json": true,
+    "SolarRuntimeValidation.json": true,
+    "SolarCameraValidation.json": true,
+    "SolarStartupValidation.json": true
+  },
+  "runtime_case_count": 15,
+  "cold_start_game_mesh_count": 23,
+  "cold_start_image": "Saved/Diagnostics/solar-cold-play.png"
+}

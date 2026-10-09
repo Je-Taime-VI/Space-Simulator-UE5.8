@@ -1,0 +1,18 @@
+{
+  "map": "/WorldScape/Levels/Planets_Levels/UEDPIE_0_Demonstration_BarenLikePlanet.Demonstration_BarenLikePlanet",
+  "pawn": "FlyWorldScape_C",
+  "max_speed_cm_s": 12000.0,
+  "generation_frozen": false,
+  "origin": "<Struct 'IntVector' (0x000002594B5183C0) {x: 0, y: 0, z: 0}>",
+  "render_settings": {
+    "r.VelocityOutputPass": 0,
+    "r.AntiAliasingMethod": 4,
+    "r.AllowOcclusionQueries": 1,
+    "r.OneFrameThreadLag": 1,
+    "r.Shadow.Virtual.Enable": 0
+  },
+  "cold_start_verified": true,
+  "build_log": "TerrainVelocityFullBuild.log",
+  "capture_folder": "Saved/Diagnostics/FlickerColdBuild",
+  "dirty_map_packages": []
+}

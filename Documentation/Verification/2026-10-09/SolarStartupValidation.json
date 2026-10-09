@@ -1,0 +1,11 @@
+{
+  "success": true,
+  "map": "/Game/SolarSystem/Maps/SolarSystem.SolarSystem",
+  "preview_meshes": 23,
+  "model": {
+    "failures": [],
+    "success": true,
+    "earth_water_fraction": 0.65625,
+    "terrain_invalid": 0
+  }
+}

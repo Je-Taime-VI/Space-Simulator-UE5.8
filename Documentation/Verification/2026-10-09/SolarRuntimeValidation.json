@@ -1,0 +1,274 @@
+{
+  "success": true,
+  "failures": [],
+  "model": {
+    "failures": [],
+    "success": true,
+    "earth_water_fraction": 0.65625,
+    "terrain_invalid": 0
+  },
+  "rows": [
+    {
+      "focus": 0,
+      "surface_mode": false,
+      "trees": 0,
+      "grass": 0,
+      "atmosphere": false,
+      "key": "Sun",
+      "mode": "orbit",
+      "camera_cm": [
+        292164168859.2943,
+        0.0,
+        64276117149.044754
+      ],
+      "camera_finite": true,
+      "world_bounds": false
+    },
+    {
+      "focus": 1,
+      "surface_mode": false,
+      "trees": 0,
+      "grass": 0,
+      "atmosphere": false,
+      "key": "Mercury",
+      "mode": "orbit",
+      "camera_cm": [
+        578857764.3459473,
+        766247058.8173797,
+        421981578.83264923
+      ],
+      "camera_finite": true,
+      "world_bounds": false
+    },
+    {
+      "focus": 2,
+      "surface_mode": false,
+      "trees": 0,
+      "grass": 0,
+      "atmosphere": false,
+      "key": "Venus",
+      "mode": "orbit",
+      "camera_cm": [
+        -2145124323.8025398,
+        931441074.6142137,
+        1141354077.8514845
+      ],
+      "camera_finite": true,
+      "world_bounds": false
+    },
+    {
+      "focus": 3,
+      "surface_mode": false,
+      "trees": 0,
+      "grass": 0,
+      "atmosphere": false,
+      "key": "Earth",
+      "mode": "orbit",
+      "camera_cm": [
+        -488822043.95122504,
+        -2442757477.479821,
+        1139751432.0418868
+      ],
+      "camera_finite": true,
+      "world_bounds": false
+    },
+    {
+      "focus": 4,
+      "surface_mode": false,
+      "trees": 0,
+      "grass": 0,
+      "atmosphere": false,
+      "key": "Moon",
+      "mode": "orbit",
+      "camera_cm": [
+        -474620381.2398776,
+        -518961817.5988121,
+        252082606.12396634
+      ],
+      "camera_finite": true,
+      "world_bounds": false
+    },
+    {
+      "focus": 5,
+      "surface_mode": false,
+      "trees": 0,
+      "grass": 0,
+      "atmosphere": false,
+      "key": "Mars",
+      "mode": "orbit",
+      "camera_cm": [
+        -1356338162.1956878,
+        533103217.1980212,
+        20255241.53751442
+      ],
+      "camera_finite": true,
+      "world_bounds": false
+    },
+    {
+      "focus": 6,
+      "surface_mode": false,
+      "trees": 0,
+      "grass": 0,
+      "atmosphere": false,
+      "key": "Jupiter",
+      "mode": "orbit",
+      "camera_cm": [
+        -27186550517.59505,
+        -7554216427.522372,
+        10369806927.484406
+      ],
+      "camera_finite": true,
+      "world_bounds": false
+    },
+    {
+      "focus": 7,
+      "surface_mode": false,
+      "trees": 0,
+      "grass": 0,
+      "atmosphere": false,
+      "key": "Saturn",
+      "mode": "orbit",
+      "camera_cm": [
+        -33384013418.78345,
+        -17111388247.590015,
+        5038958318.4151325
+      ],
+      "camera_finite": true,
+      "world_bounds": false
+    },
+    {
+      "focus": 8,
+      "surface_mode": false,
+      "trees": 0,
+      "grass": 0,
+      "atmosphere": false,
+      "key": "Uranus",
+      "mode": "orbit",
+      "camera_cm": [
+        4737771807.976635,
+        8922443975.04705,
+        -4108154311.036577
+      ],
+      "camera_finite": true,
+      "world_bounds": false
+    },
+    {
+      "focus": 9,
+      "surface_mode": false,
+      "trees": 0,
+      "grass": 0,
+      "atmosphere": false,
+      "key": "Neptune",
+      "mode": "orbit",
+      "camera_cm": [
+        -1759315490.20055,
+        10330920902.731672,
+        1507047298.2100563
+      ],
+      "camera_finite": true,
+      "world_bounds": false
+    },
+    {
+      "focus": 1,
+      "surface_mode": true,
+      "trees": 0,
+      "grass": 0,
+      "atmosphere": false,
+      "key": "Mercury",
+      "mode": "surface",
+      "camera_cm": [
+        61673538.05927873,
+        234227564.5463313,
+        29064184.934268177
+      ],
+      "camera_finite": true,
+      "world_bounds": false,
+      "lod_count": 13,
+      "invalid_bounds": 0,
+      "ground_height_cm": 5068.62841796875,
+      "surface_clearance_m": 35.00000193655491
+    },
+    {
+      "focus": 2,
+      "surface_mode": true,
+      "trees": 0,
+      "grass": 0,
+      "atmosphere": true,
+      "key": "Venus",
+      "mode": "surface",
+      "camera_cm": [
+        -594336772.0379922,
+        27320690.91825354,
+        110712832.56783164
+      ],
+      "camera_finite": true,
+      "world_bounds": false,
+      "lod_count": 13,
+      "invalid_bounds": 0,
+      "ground_height_cm": -5881.40869140625,
+      "surface_clearance_m": 34.680001127719876
+    },
+    {
+      "focus": 3,
+      "surface_mode": true,
+      "trees": 700,
+      "grass": 800,
+      "atmosphere": true,
+      "key": "Earth",
+      "mode": "surface",
+      "camera_cm": [
+        216314462.1831953,
+        -591821040.0900106,
+        94156270.03358555
+      ],
+      "camera_finite": true,
+      "world_bounds": false,
+      "lod_count": 13,
+      "invalid_bounds": 0,
+      "ground_height_cm": 5927.71630859375,
+      "surface_clearance_m": 34.75999935746193
+    },
+    {
+      "focus": 4,
+      "surface_mode": true,
+      "trees": 0,
+      "grass": 0,
+      "atmosphere": false,
+      "key": "Moon",
+      "mode": "surface",
+      "camera_cm": [
+        -69593489.90639877,
+        -158805398.98381364,
+        -10971351.55733341
+      ],
+      "camera_finite": true,
+      "world_bounds": false,
+      "lod_count": 13,
+      "invalid_bounds": 0,
+      "ground_height_cm": -11582.5556640625,
+      "surface_clearance_m": 34.99999623894691
+    },
+    {
+      "focus": 5,
+      "surface_mode": true,
+      "trees": 0,
+      "grass": 0,
+      "atmosphere": true,
+      "key": "Mars",
+      "mode": "surface",
+      "camera_cm": [
+        -306314212.0787184,
+        -45151559.81281507,
+        -137920286.15973783
+      ],
+      "camera_finite": true,
+      "world_bounds": false,
+      "lod_count": 13,
+      "invalid_bounds": 0,
+      "ground_height_cm": -604.7338256835938,
+      "surface_clearance_m": 34.839999972581865
+    }
+  ],
+  "duration_seconds": 136.92100000000028,
+  "scope": "逐天体切换、五个岩质天体地表、数值和网格包围盒检查；相机输入暂时冻结，未模拟物理按键，未测试航天器物理。"
+}

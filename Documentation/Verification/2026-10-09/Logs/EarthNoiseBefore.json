@@ -1,0 +1,5634 @@
+[
+  {
+    "position": [
+      39844142.59126847,
+      0.0,
+      636572054.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -50837591.92502266,
+      46571398.59018211,
+      634080578.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      7773883.071801135,
+      -88579388.00357814,
+      631589102.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      63951849.65202095,
+      83413863.22478926,
+      629097626.875
+    ],
+    "height": 191446.27071621496,
+    "height_normalize": 0.15953855893017913,
+    "temperature": 5.2039686124771833e-05,
+    "humidity": 0.13500213623046875
+  },
+  {
+    "position": [
+      -117244054.88906287,
+      -20738822.465109654,
+      626606151.125
+    ],
+    "height": 91840.91319075493,
+    "height_normalize": 0.0765340943256291,
+    "temperature": 0.00013222605048213154,
+    "humidity": 0.09401431679725647
+  },
+  {
+    "position": [
+      110954327.4342375,
+      -70580060.90199728,
+      624114675.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -37075397.21597606,
+      137918629.6372258,
+      621623199.625
+    ],
+    "height": 71290.91955865802,
+    "height_normalize": 0.05940909963221501,
+    "temperature": 0.000657414726447314,
+    "humidity": 0.16282980144023895
+  },
+  {
+    "position": [
+      -70636831.2592846,
+      -136006920.23927817,
+      619131723.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      153101707.23869225,
+      55912497.929277584,
+      616640248.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -159118566.58582604,
+      65681831.19940971,
+      614148772.375
+    ],
+    "height": 185054.33491876422,
+    "height_normalize": 0.15421194576563685,
+    "temperature": 0.0,
+    "humidity": 0.0
+  },
+  {
+    "position": [
+      76629301.43973434,
+      -163752366.20583642,
+      611657296.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      56570618.69554851,
+      180356046.6683763,
+      609165820.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -170334082.2108852,
+      -98712082.32168467,
+      606674345.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      199621146.3441977,
+      -43886149.042441,
+      604182869.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -121703424.59611735,
+      173110597.80076364,
+      601691393.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -28088037.397198826,
+      -216753446.0291741,
+      599199917.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      172259264.39235884,
+      145180290.39616296,
+      596708442.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -231572942.61420518,
+      9576268.210812312,
+      594216966.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      168743805.2182603,
+      -167922624.25539964,
+      591725490.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -11278170.214071391,
+      243900828.9913463,
+      589234014.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -160234592.00133783,
+      -192014593.4533829,
+      586742539.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      253570935.58618551,
+      34117610.7440652,
+      584251063.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -214631017.77929735,
+      149334671.81190088,
+      581759587.625
+    ],
+    "height": 405764.56403669884,
+    "height_normalize": 0.33813713669724904,
+    "temperature": 0.0,
+    "humidity": 0.0
+  },
+  {
+    "position": [
+      58589601.01174036,
+      -260436650.66540235,
+      579268111.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      135375923.08616307,
+      236249036.52851978,
+      576776636.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -264375404.7563916,
+      -84342964.87976862,
+      574285160.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      256542991.82690528,
+      -118529369.18427308,
+      571793684.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -111026315.03666729,
+      265291703.84914005,
+      569302208.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -98986228.42842077,
+      -275206931.57617193,
+      566810733.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      263119208.658213,
+      138288081.85291874,
+      564319257.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -291956220.32189417,
+      76958722.7118547,
+      561827781.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      165777515.03207153,
+      -257822125.1786879,
+      559336305.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      52679902.8430981,
+      306529278.8482968,
+      556844830.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -249396054.96558827,
+      -193146322.9071219,
+      554353354.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      318689342.3787685,
+      -26402760.58349028,
+      551861878.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -220050730.93889514,
+      237868392.2886213,
+      549370402.875
+    ],
+    "height": -3905.9691473957714,
+    "height_normalize": -0.003254974289496476,
+    "temperature": 0.061429597437381744,
+    "humidity": 0.3952881097793579
+  },
+  {
+    "position": [
+      1601197.2251580087,
+      -328226158.35093087,
+      546878927.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      223298322.27926818,
+      246153809.3234621,
+      544387451.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -334957565.04560184,
+      -31043791.84162371,
+      541895975.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      271127961.28065324,
+      -205776456.18037307,
+      539404499.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -61622345.225537315,
+      338730906.30411494,
+      536913024.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -185424130.10200396,
+      -294657489.9780046,
+      534421548.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      339424247.6612976,
+      93022114.19054948,
+      531930072.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -316441179.4026316,
+      162392388.70420635,
+      529438596.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      124918930.7744275,
+      -336947366.90468985,
+      526947121.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      136860672.99103695,
+      336194836.38879395,
+      524455645.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -331242498.2143181,
+      -156982001.5039208,
+      521964169.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      353653749.533225,
+      -109035230.77930719,
+      519472693.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -188876823.4874736,
+      322284814.17378044,
+      516981218.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -79147268.73061356,
+      -368575027.1452821,
+      514489742.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      310082634.4035905,
+      220268178.8322587,
+      511998266.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -380739781.46295106,
+      47450865.698726,
+      509506790.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      250823171.4173858,
+      -294677353.5590696,
+      507015315.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      14220668.28930748,
+      389955130.6079585,
+      504523839.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -276143085.08748865,
+      -280214271.9834502,
+      502032363.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      396055993.4648113,
+      20250609.210917752,
+      499540887.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -308122339.0909642,
+      254586020.53345355,
+      497049412.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      55654857.113151476,
+      -398906656.04871947,
+      494557936.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      230143507.3657323,
+      334239584.9344295,
+      492066460.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -398402091.10362613,
+      -91671390.19703342,
+      489574984.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      358272456.3908193,
+      -202982851.3001032,
+      487083509.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -127969889.48537548,
+      394469015.7240983,
+      484592033.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -173299851.9246805,
+      -379944403.1069587,
+      482100557.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      387066674.772561,
+      164213439.3260408,
+      479609081.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -398998505.9389696,
+      141317083.0995838,
+      477117606.125
+    ],
+    "height": 12073.396159442173,
+    "height_normalize": 0.010061163466201811,
+    "temperature": 0.1901293843984604,
+    "humidity": 0.4737774729728699
+  },
+  {
+    "position": [
+      200061632.46282592,
+      -376187340.7935438,
+      474626130.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      107281932.10057354,
+      415199940.677567,
+      472134654.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -361856524.0223397,
+      -235173715.2625904,
+      469643178.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      428338253.7429121,
+      -71464413.79903522,
+      467151703.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -269211744.9724295,
+      344132888.94912106,
+      464660227.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -34154778.31068431,
+      -438229428.418143,
+      462168751.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      323107876.72685236,
+      301843730.8160624,
+      459677275.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -444717722.21149987,
+      -4339067.507435011,
+      457185800.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      332746730.90804595,
+      -298905035.49275655,
+      454694324.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -43694302.58779089,
+      447677258.0872935,
+      452202848.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -271679063.3962354,
+      -361609877.3689434,
+      449711372.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      447013354.5759082,
+      83576074.5551803,
+      447219897.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -388137302.6634747,
+      241614571.77533385,
+      444728421.375
+    ],
+    "height": 18753.03549127211,
+    "height_normalize": 0.01562752957606009,
+    "temperature": 0.267918199300766,
+    "humidity": 0.3953574597835541
+  },
+  {
+    "position": [
+      123640498.0361353,
+      -442663582.1494721,
+      442236945.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      208924578.48378697,
+      412050941.0516406,
+      439745469.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -434598535.7170859,
+      -163537742.32896382,
+      437253994.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      433093180.1345166,
+      -173848743.82334253,
+      434762518.375
+    ],
+    "height": 4857.991581361015,
+    "height_normalize": 0.004048326317800846,
+    "temperature": 0.27150723338127136,
+    "humidity": 0.5365012288093567
+  },
+  {
+    "position": [
+      -202915181.54515648,
+      422822315.6340579,
+      432271042.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -136651363.86486313,
+      -451029338.7822631,
+      429779566.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      407372712.2143516,
+      241420579.73095834,
+      427288091.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -465649949.2414512,
+      97619138.12943411,
+      424796615.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      278705283.1213923,
+      -388321091.36420727,
+      422305139.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      57058730.630904645,
+      476772822.9192533,
+      419813663.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -365771981.59697944,
+      -314427391.5690811,
+      417322188.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      484244881.2188675,
+      -15294145.138914984,
+      414830712.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -348254881.32765156,
+      339862365.322686,
+      412339236.625
+    ],
+    "height": 22497.781254616682,
+    "height_normalize": 0.018748151045513903,
+    "temperature": 0.35099515318870544,
+    "humidity": 0.38359907269477844
+  },
+  {
+    "position": [
+      27336062.808974214,
+      -487943734.8379502,
+      409847760.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      310760679.9098363,
+      379868651.7506956,
+      407356285.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -487778997.1219681,
+      -70481713.14736341,
+      404864809.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      408965469.08964026,
+      -278665536.56946933,
+      402373333.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -113784042.519247,
+      483693319.3689693,
+      399881857.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -243804167.59129384,
+      -435260781.43041795,
+      397390382.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      475663138.39125323,
+      156878833.2164914,
+      394898906.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -458491379.89212465,
+      206430614.84832257,
+      392407430.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      199399602.72708124,
+      -463699129.1321932,
+      389915954.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      166823674.7599175,
+      478417882.5107555,
+      387424479.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -447846357.69177604,
+      -240980826.22206128,
+      384933003.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      494827018.73670626,
+      -125284617.043574,
+      382441527.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -281261163.98700833,
+      428184132.7099981,
+      379950051.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -82134696.57656428,
+      -507533694.1718437,
+      377458576.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      404825555.67134947,
+      319886665.7169427,
+      374967100.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -516382817.046685,
+      37712479.51144627,
+      372475624.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      356513923.7519182,
+      -377916773.3033407,
+      369984148.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -7628993.569958689,
+      521250869.97366893,
+      367492673.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -347635937.82534164,
+      -390813147.7303019,
+      365001197.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      522047212.6912745,
+      53525183.23547733,
+      362509721.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -422471133.77477753,
+      314191883.3386651,
+      360018245.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      99603140.05034196,
+      -518715103.81697255,
+      357526770.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      277822529.1131869,
+      451194102.19656545,
+      355035294.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -511232432.03483987,
+      -145484680.21342054,
+      352543818.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      476710378.79864407,
+      -238793022.89876896,
+      350052342.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -190789620.71282277,
+      499612149.6354253,
+      347560867.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -197393639.65109673,
+      -498772896.16932404,
+      345069391.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      483902403.8796379,
+      235139046.17756155,
+      342577915.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -517161492.8721653,
+      153937453.19166678,
+      340086439.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      278158579.2858412,
+      -464186364.2534942,
+      337594964.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      108757800.30340222,
+      531684990.1434371,
+      335103488.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -440581746.29344445,
+      -319481626.5175839,
+      332612012.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      542183027.5904851,
+      -62205558.57744884,
+      330120536.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -358752571.2059429,
+      413240035.27154905,
+      327629061.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -14646260.961141855,
+      -548527641.425779,
+      325137585.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      382345415.61249334,
+      395629886.2519331,
+      322646109.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -550624570.9561877,
+      -33542928.605507623,
+      320154633.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      429789139.51199496,
+      -348113414.449006,
+      317663158.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -81976352.84713048,
+      548414281.3553911,
+      315171682.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -310789270.1867086,
+      -460925865.7458004,
+      312680206.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      541872693.1600624,
+      130263085.47463843,
+      310188730.875
+    ],
+    "height": 2140.211121173974,
+    "height_normalize": 0.0017835092676449782,
+    "temperature": 0.5343835949897766,
+    "humidity": 0.22737964987754822
+  },
+  {
+    "position": [
+      -488758280.1131583,
+      270646039.3228089,
+      307697255.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      178010214.75680935,
+      -531011611.4268018,
+      305205779.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      227982457.02509668,
+      513029809.52512544,
+      302714303.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -515878850.0455225,
+      -224826158.37620553,
+      300222827.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      533511419.6741569,
+      -183120569.10909858,
+      297731352.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -270323981.2909488,
+      496558049.30424875,
+      295239876.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -136403155.0338254,
+      -550003717.2784181,
+      292748400.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      473168187.417956,
+      314124688.25208545,
+      290256924.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -562338808.9616836,
+      88190963.35338096,
+      287765449.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      355860462.7961826,
+      -445862789.34789103,
+      285273973.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      38859782.69733802,
+      570381900.2365326,
+      282782497.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -414828838.8253158,
+      -395177824.943232,
+      280291021.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      574032620.2474556,
+      11202627.207028296,
+      277799546.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -431740680.4765376,
+      380285402.03353274,
+      275308070.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      61599718.723952726,
+      -573226060.243342,
+      272816594.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      342481973.8711108,
+      465233235.5607456,
+      270325118.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -567933516.1662264,
+      -111929426.94936004,
+      267833643.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      495362751.5558703,
+      -301696560.098868,
+      265342167.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -161787500.25219473,
+      558162928.2442183,
+      262850691.625
+    ],
+    "height": 8875.86992922158,
+    "height_normalize": 0.007396558274351317,
+    "temperature": 0.568315863609314,
+    "humidity": 0.5835434794425964
+  },
+  {
+    "position": [
+      -258233510.94075248,
+      -521862116.20304716,
+      260359215.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      543959013.0404617,
+      210770862.61299878,
+      257867740.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -544492208.8784946,
+      212421123.84657782,
+      255376264.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      258480979.33908603,
+      -525403086.01468205,
+      252884788.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      164609035.11377707,
+      563044039.3238782,
+      250393312.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -502612575.2774729,
+      -304527197.66016287,
+      247901837.125
+    ],
+    "height": 24516.74244883064,
+    "height_normalize": 0.020430618707358867,
+    "temperature": 0.6630303859710693,
+    "humidity": 0.12348076701164246
+  },
+  {
+    "position": [
+      577340641.1492583,
+      -115165421.88917032,
+      245410361.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -348530033.87442213,
+      475740229.83762634,
+      242918885.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -64474037.7146752,
+      -587238703.4531363,
+      240427409.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      444973028.2373601,
+      390124379.1217007,
+      237935934.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -592629926.095497,
+      12931106.22892954,
+      235444458.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      428962596.5038738,
+      -410530796.0172128,
+      232952982.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -39057901.12238708,
+      593442086.4756504,
+      230461506.875
+    ],
+    "height": 45244.86597004355,
+    "height_normalize": 0.037704054975036295,
+    "temperature": 0.6317620277404785,
+    "humidity": 0.22615034878253937
+  },
+  {
+    "position": [
+      -372664542.93010116,
+      -464717483.147902,
+      227970031.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      589639808.0875638,
+      91081576.4917319,
+      225478555.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -497085071.90650934,
+      331654533.21154755,
+      222987079.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      142725948.4780734,
+      -581225023.6307696,
+      220495603.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      287808104.4901952,
+      525787248.70614225,
+      218004128.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -568237128.0236341,
+      -193577888.18328372,
+      215512652.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      550574163.0707134,
+      -241457253.0698537,
+      213021176.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -243228519.915784,
+      550752819.2763205,
+      210529700.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -192956005.31432736,
+      -571226411.0593386,
+      208038225.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      528885627.810547,
+      291276607.8980078,
+      205546749.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -587556971.7438624,
+      142677596.69974035,
+      203055273.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      337331890.4911008,
+      -502785137.44084704,
+      200563797.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      91011481.75410907,
+      599412880.3993846,
+      198072322.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -472635903.83450425,
+      -381018333.8496131,
+      195580846.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      606676623.7732396,
+      -38360199.56282622,
+      193089370.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -421977277.55468976,
+      438656078.8231549,
+      190597894.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      14863879.228465004,
+      -609267245.114988,
+      188106419.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      401095751.4264575,
+      459870445.6423529,
+      185614943.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -607141149.0731066,
+      -68241896.9470986,
+      183123467.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      494382797.53635913,
+      -360235018.84623665,
+      180631991.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -121351917.1875213,
+      600292599.0726414,
+      178140516.125
+    ],
+    "height": 15085.137827473754,
+    "height_normalize": 0.012570948189561462,
+    "temperature": 0.7114724516868591,
+    "humidity": 0.25677910447120667
+  },
+  {
+    "position": [
+      -316381802.97786486,
+      -525225194.7037312,
+      175649040.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      588753902.3610152,
+      173772368.51574075,
+      173157564.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -552136860.3644211,
+      269869430.1449974,
+      170666088.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      225085494.89631662,
+      -572595280.5248154,
+      168174613.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      221053993.77588975,
+      574887611.2920343,
+      165683137.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -551924425.91665,
+      -274880784.0581132,
+      163191661.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      593279842.6257954,
+      -170311521.587376,
+      160700185.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -322758345.16105753,
+      526885747.0659408,
+      158208710.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -118034970.51058638,
+      -607150248.6591944,
+      155717234.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      497659308.75840634,
+      368332207.5133449,
+      153225758.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -616371264.76091,
+      64631074.066201724,
+      150734282.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      411233512.7126492,
+      -464459475.0346587,
+      148242807.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      10517068.165241413,
+      620852217.9000231,
+      145751331.375
+    ],
+    "height": 17032.735442269608,
+    "height_normalize": 0.014193946201891341,
+    "temperature": 0.7258285880088806,
+    "humidity": 0.14990785717964172
+  },
+  {
+    "position": [
+      -427533265.8557141,
+      -451113573.44332564,
+      143259855.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      620540175.6714103,
+      43882677.63956829,
+      140768379.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -487646773.24333924,
+      387158440.593409,
+      138276904.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      98140095.60150379,
+      -615420486.2271817,
+      135785428.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      343641323.8043082,
+      520533282.8545953,
+      133293952.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -605517004.09608,
+      -151826893.48606277,
+      130802476.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      549501570.2750146,
+      -297314390.91868514,
+      128311001.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -204518037.74216127,
+      590891999.4925138,
+      125819525.375
+    ],
+    "height": 16949.53993241955,
+    "height_normalize": 0.014124616610349625,
+    "temperature": 0.69346022605896,
+    "humidity": 0.41457414627075195
+  },
+  {
+    "position": [
+      -248533633.50264516,
+      -574310683.3286507,
+      123328049.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      571645751.3586963,
+      255795217.23335344,
+      120836573.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -594752285.4469002,
+      197675725.61452326,
+      118345098.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      305250258.7549448,
+      -547915827.0249047,
+      115853622.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      145135014.4605778,
+      610652427.3937304,
+      113362146.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -519876053.9919999,
+      -352488465.9349719,
+      110870670.875
+    ],
+    "height": 37598.307127229455,
+    "height_normalize": 0.03133192260602455,
+    "temperature": 0.7245040535926819,
+    "humidity": 0.0570337139070034
+  },
+  {
+    "position": [
+      621873039.8537695,
+      -91320360.04552564,
+      108379195.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -397131853.7273476,
+      487735191.915036,
+      105887719.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -36651849.798038185,
+      -628313134.1157663,
+      103396243.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      451735315.3754211,
+      438822251.5489802,
+      100904767.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -629909700.5059325,
+      -18442584.780914076,
+      98413292.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      477224249.18236095,
+      -412149920.45056605,
+      95921816.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -73530621.5570405,
+      626638296.7357541,
+      93430340.625
+    ],
+    "height": 68037.61734649577,
+    "height_normalize": 0.05669801445541314,
+    "temperature": 0.75169837474823,
+    "humidity": 0.19358813762664795
+  },
+  {
+    "position": [
+      -369281770.40395427,
+      -512027960.85206425,
+      90938864.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      618513320.9059484,
+      128179042.79023667,
+      88447389.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -542951584.3770889,
+      323460498.0056043,
+      85955913.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      181957242.8809955,
+      -605587966.5307461,
+      83464437.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      275039984.0346175,
+      569743733.9885209,
+      80972961.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -587953859.5926249,
+      -234440719.83659902,
+      78481486.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      592185527.2695038,
+      -224395533.394723,
+      75990010.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -285214521.57093924,
+      565740380.2848027,
+      73498534.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -171920871.9746651,
+      -610092408.7063766,
+      71007058.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      539113674.7250439,
+      333876618.5063818,
+      68515583.125
+    ],
+    "height": 761.3144672422023,
+    "height_normalize": 0.0006344287227018353,
+    "temperature": 0.6748307347297668,
+    "humidity": 0.4992872178554535
+  },
+  {
+    "position": [
+      -623315694.519042,
+      118024988.89359841,
+      66024107.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      380041174.5393279,
+      -508275364.50759184,
+      63532631.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      63128850.074763946,
+      631743825.7469852,
+      61041155.875
+    ],
+    "height": -808.1659773683635,
+    "height_normalize": -0.0006734716478069697,
+    "temperature": 0.6801141500473022,
+    "humidity": 0.5784268975257874
+  },
+  {
+    "position": [
+      -473460964.4787298,
+      -423341689.258082,
+      58549680.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      635303318.9855486,
+      -7662010.176984519,
+      56058204.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -463433985.3559049,
+      434938021.5540068,
+      53566728.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      47940849.223622926,
+      -633959406.6746135,
+      51075252.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      393003989.72286546,
+      499999016.4529661,
+      48583777.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -627716361.418461,
+      -103243426.6831527,
+      46092301.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      532745472.0223314,
+      -347983858.5858214,
+      43600825.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -157811324.25888813,
+      616617501.4385062,
+      41109349.875
+    ],
+    "height": 55011.443098272786,
+    "height_normalize": 0.04584286924856065,
+    "temperature": 0.7795270681381226,
+    "humidity": 0.5515122413635254
+  },
+  {
+    "position": [
+      -300227554.82783306,
+      -561412157.7877713,
+      38617874.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      600744876.9091628,
+      211215558.13812804,
+      36126398.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -585770131.8181063,
+      250107137.9260573,
+      33634922.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      263036027.55996704,
+      -580218639.5781952,
+      31143446.875
+    ],
+    "height": 13353.22258826705,
+    "height_normalize": 0.011127685490222541,
+    "temperature": 0.7233704328536987,
+    "humidity": 0.303041934967041
+  },
+  {
+    "position": [
+      198013813.10869944,
+      605624578.5637836,
+      28651971.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -555196100.7047648,
+      -312864913.3982819,
+      26160495.375
+    ],
+    "height": 16143.15436495371,
+    "height_normalize": 0.013452628637461425,
+    "temperature": 0.7284191846847534,
+    "humidity": 0.2997226119041443
+  },
+  {
+    "position": [
+      620816405.2515247,
+      -144354786.10812068,
+      23669019.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -360309978.3483367,
+      525870484.93882877,
+      21177543.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -89549985.57334407,
+      -631223547.353548,
+      18686068.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      492469390.292917,
+      404997741.4678821,
+      16194592.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -636761972.2598484,
+      34028680.11347159,
+      13703116.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      446576500.8596435,
+      -455252966.8004395,
+      11211640.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -21773982.174996316,
+      637386372.7851348,
+      8720165.125
+    ],
+    "height": 25062.838962277816,
+    "height_normalize": 0.020885699135231514,
+    "temperature": 0.7576318383216858,
+    "humidity": 0.2649920880794525
+  },
+  {
+    "position": [
+      -414511828.79307646,
+      -484719179.5370226,
+      6228689.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      633090544.7153401,
+      77420483.19476062,
+      3737213.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -519125970.97818255,
+      370564717.94392574,
+      1245737.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      132474464.43462132,
+      -623907445.220573,
+      -1245737.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      323755936.29435724,
+      549526762.5332186,
+      -3737213.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -609908931.6100612,
+      -186504247.5728067,
+      -6228689.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      575683316.6909416,
+      -274452570.3936201,
+      -8720165.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -239086317.08525956,
+      591205182.5578426,
+      -11211640.875
+    ],
+    "height": 14317.396254778942,
+    "height_normalize": 0.011931163545649118,
+    "temperature": 0.739812970161438,
+    "humidity": 0.7258190512657166
+  },
+  {
+    "position": [
+      -223041529.415161,
+      -597391192.2205272,
+      -13703116.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      567943806.5635053,
+      289808736.1618324,
+      -16194592.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -614481389.36208,
+      169926421.65781903,
+      -18686068.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      338274467.78717715,
+      -540308645.0080914,
+      -21177543.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      115524295.18063089,
+      626821705.5309788,
+      -23669019.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -508518279.69964504,
+      -384104573.6317175,
+      -26160495.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      634317790.404511,
+      -60262269.44570144,
+      -28651971.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -426941264.4148624,
+      472824257.25457215,
+      -31143446.875
+    ],
+    "height": 19462.3157171609,
+    "height_normalize": 0.016218596430967416,
+    "temperature": 0.7207159996032715,
+    "humidity": 0.22144275903701782
+  },
+  {
+    "position": [
+      -4574085.74504406,
+      -636913891.7556772,
+      -33634922.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      433509045.0095002,
+      466450776.6390332,
+      -36126398.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -634593285.9672197,
+      -51103395.143057026,
+      -38617874.125
+    ],
+    "height": 7211.299909858243,
+    "height_normalize": 0.006009416591548536,
+    "temperature": 0.6633237600326538,
+    "humidity": 0.7776450514793396
+  },
+  {
+    "position": [
+      502326052.0387799,
+      -390883735.38399255,
+      -41109349.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -106333719.1903615,
+      627378389.7774284,
+      -43600825.625
+    ],
+    "height": 18191.06666060444,
+    "height_normalize": 0.015159222217170365,
+    "temperature": 0.7434245347976685,
+    "humidity": 0.39679640531539917
+  },
+  {
+    "position": [
+      -345285517.6986969,
+      -534289197.7321404,
+      -46092301.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      615330552.456169,
+      160684360.1786105,
+      -48583777.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -562093706.8876741,
+      297074938.3788266,
+      -51075252.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      213730206.5653593,
+      -598549530.2627007,
+      -53566728.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      246632972.2232027,
+      585526421.7149854,
+      -56058204.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -577172647.6740044,
+      -265056985.4314256,
+      -58549680.125
+    ],
+    "height": 22937.198620106432,
+    "height_normalize": 0.019114332183422025,
+    "temperature": 0.7310331463813782,
+    "humidity": 0.7080800533294678
+  },
+  {
+    "position": [
+      604409222.7323202,
+      -194357928.9797867,
+      -61041155.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -314264595.318764,
+      551373652.4714351,
+      -63532631.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -140662220.82672495,
+      -618600430.5439687,
+      -66024107.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      521361274.31284547,
+      360970320.5357503,
+      -68515583.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -627995908.7538017,
+      85969017.50144874,
+      -71007058.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      404811900.50419146,
+      -487377498.87527394,
+      -73498534.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      30708816.742287904,
+      632529859.1286036,
+      -75990010.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -449695572.0107108,
+      -445450428.93831223,
+      -78481486.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      632175302.686628,
+      24684041.606171962,
+      -80972961.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -482573059.075376,
+      408617750.59134597,
+      -83464437.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      79774889.01807812,
+      -626944242.9991506,
+      -85955913.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      364472818.8172177,
+      515895492.8007781,
+      -88447389.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -616887510.6362995,
+      -134132240.2256492,
+      -90938864.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      545164233.3215102,
+      -317613390.6960186,
+      -93430340.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -187331274.68727645,
+      602094290.3392426,
+      -95921816.375
+    ],
+    "height": 2352.162661908513,
+    "height_normalize": 0.001960135551590428,
+    "temperature": 0.720067024230957,
+    "humidity": 0.6663307547569275
+  },
+  {
+    "position": [
+      -268413021.16891018,
+      -570158583.0204197,
+      -98413292.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      582691335.1374682,
+      238957258.8718793,
+      -100904767.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -590692370.2553148,
+      217263149.9314895,
+      -103396243.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      288608881.15979046,
+      -558841874.2300996,
+      -105887719.375
+    ],
+    "height": 16922.001965827847,
+    "height_normalize": 0.01410166830485654,
+    "temperature": 0.6495464444160461,
+    "humidity": 0.7659115791320801
+  },
+  {
+    "position": [
+      164569903.37270543,
+      606615391.133221,
+      -108379195.125
+    ],
+    "height": 1123.4860686710924,
+    "height_normalize": 0.0009362383905592436,
+    "temperature": 0.646239697933197,
+    "humidity": 0.5686903595924377
+  },
+  {
+    "position": [
+      -530744223.9921998,
+      -335901471.90865415,
+      -110870670.875
+    ],
+    "height": 43128.41929815796,
+    "height_normalize": 0.035940349415131634,
+    "temperature": 0.767366886138916,
+    "humidity": 0.705959141254425
+  },
+  {
+    "position": [
+      617814554.6720184,
+      -110750781.21504526,
+      -113362146.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -380470082.2101087,
+      498630113.9295332,
+      -115853622.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -56231255.37702432,
+      -624214722.2392814,
+      -118345098.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      462762741.7676511,
+      421972396.0611561,
+      -120836573.875
+    ],
+    "height": 1137.6773471408974,
+    "height_normalize": 0.0009480644559507478,
+    "temperature": 0.6330311298370361,
+    "humidity": 0.9414506554603577
+  },
+  {
+    "position": [
+      -625779234.710605,
+      1441309.286116478,
+      -123328049.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      460091452.0829659,
+      -423434574.1036658,
+      -125819525.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -53188053.659105346,
+      622510123.3956052,
+      -128311001.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -380964911.15290517,
+      -494538152.5275674,
+      -130802476.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      614448003.4172585,
+      107228303.54857002,
+      -133293952.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -525053539.10588086,
+      335697236.0701861,
+      -135785428.375
+    ],
+    "height": 24668.560194231402,
+    "height_normalize": 0.020557133495192836,
+    "temperature": 0.7465580105781555,
+    "humidity": 0.4139431416988373
+  },
+  {
+    "position": [
+      160256850.4249317,
+      -601671650.8771557,
+      -138276904.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      287996371.100427,
+      551410817.1337484,
+      -140768379.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -584297267.7733744,
+      -211860455.0892614,
+      -143259855.625
+    ],
+    "height": 34897.81306934801,
+    "height_normalize": 0.029081510891123347,
+    "temperature": 0.7299016118049622,
+    "humidity": 0.4268780052661896
+  },
+  {
+    "position": [
+      573417111.6094974,
+      -238245464.40088063,
+      -145751331.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -261638556.07884037,
+      562477441.2369218,
+      -148242807.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -186842832.76416686,
+      -590914941.0893046,
+      -150734282.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      536399806.19525295,
+      309206485.3770754,
+      -153225758.625
+    ],
+    "height": 1861.1984712600283,
+    "height_normalize": 0.0015509987260500235,
+    "temperature": 0.7347728610038757,
+    "humidity": 0.38843807578086853
+  },
+  {
+    "position": [
+      -603783397.5962468,
+      134198686.64591743,
+      -155717234.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      354198546.37433726,
+      -506285423.0359052,
+      -158208710.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      80731764.85344626,
+      611939023.2655078,
+      -160700185.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -472386884.20911825,
+      -396270928.7785668,
+      -163191661.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      615336376.9709789,
+      -26865906.974483628,
+      -165683137.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -435104436.56580096,
+      434986165.9556183,
+      -168174613.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      26973407.888312675,
+      -613968286.7760814,
+      -170666088.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      394392243.4556611,
+      470407006.65158546,
+      -173157564.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -607865786.6821722,
+      -80362527.26464497,
+      -175649040.375
+    ],
+    "height": 20863.466317991973,
+    "height_normalize": 0.01738622193165998,
+    "temperature": 0.7201102375984192,
+    "humidity": 0.4772183299064636
+  },
+  {
+    "position": [
+      501915997.74110323,
+      -350938489.65028995,
+      -178140516.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -132883067.52846864,
+      597097738.7892618,
+      -180631991.875
+    ],
+    "height": 30333.764204515363,
+    "height_normalize": 0.025278136837096135,
+    "temperature": 0.7270756363868713,
+    "humidity": 0.522839367389679
+  },
+  {
+    "position": [
+      -304979879.7691884,
+      -529400230.76375985,
+      -183123467.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      581770144.6137573,
+      184125303.59442386,
+      -185614943.375
+    ],
+    "height": 8024.469135981871,
+    "height_normalize": 0.006687057613318226,
+    "temperature": 0.6221923232078552,
+    "humidity": 0.6521610617637634
+  },
+  {
+    "position": [
+      -552661764.4004734,
+      256890025.19654372,
+      -188106419.125
+    ],
+    "height": 49863.72628740226,
+    "height_normalize": 0.041553105239501884,
+    "temperature": 0.699309229850769,
+    "humidity": 0.3412882387638092
+  },
+  {
+    "position": [
+      233691477.99566984,
+      -562025151.9044081,
+      -190597894.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      207058061.70371515,
+      571537391.451248,
+      -193089370.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -538039765.8388077,
+      -281199001.9525582,
+      -195580846.375
+    ],
+    "height": 228244.4416635329,
+    "height_normalize": 0.1902037013862774,
+    "temperature": 0.513236403465271,
+    "humidity": 0.30112919211387634
+  },
+  {
+    "position": [
+      585899844.1480919,
+      -155885418.26292506,
+      -198072322.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -326283521.9842541,
+      510024275.9470007,
+      -200563797.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -103782493.622111,
+      -595658698.9731688,
+      -203055273.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      478220412.47639257,
+      368601826.77794087,
+      -205546749.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -600760974.0757037,
+      51165268.55403712,
+      -208038225.125
+    ],
+    "height": 2368.332284515762,
+    "height_normalize": 0.001973610237096468,
+    "temperature": 0.6164883971214294,
+    "humidity": 0.5878010988235474
+  },
+  {
+    "position": [
+      407834570.4079579,
+      -442899248.1607918,
+      -210529700.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -1548117.8052556943,
+      601191414.9689074,
+      -213021176.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -404358863.47086823,
+      -443688789.57056767,
+      -215512652.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      596972466.8115995,
+      53940798.85474111,
+      -218004128.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -475900194.2635942,
+      362921795.3821838,
+      -220495603.875
+    ],
+    "height": 51090.840582659424,
+    "height_normalize": 0.04257570048554952,
+    "temperature": 0.7059666514396667,
+    "humidity": 0.1213943213224411
+  },
+  {
+    "position": [
+      105600589.97058153,
+      -588163934.2138672,
+      -222987079.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      318932291.48614615,
+      504235213.2736807,
+      -225478555.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -574862332.1307707,
+      -156123348.02262333,
+      -227970031.125
+    ],
+    "height": 50458.49378513838,
+    "height_normalize": 0.04204874482094865,
+    "temperature": 0.696658730506897,
+    "humidity": 0.08804570883512497
+  },
+  {
+    "position": [
+      528492777.9232767,
+      -272753392.87275183,
+      -230461506.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -205116252.958641,
+      557199934.0004255,
+      -232952982.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -224763870.6186033,
+      -548505829.756441,
+      -235444458.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      535343525.82089496,
+      252200984.14849964,
+      -237935934.125
+    ],
+    "height": 3267.659557318231,
+    "height_normalize": 0.002723049631098526,
+    "temperature": 0.6123979091644287,
+    "humidity": 0.3679921329021454
+  },
+  {
+    "position": [
+      -564142540.1883264,
+      175355041.90760124,
+      -240427409.875
+    ],
+    "height": 10088.483332429787,
+    "height_normalize": 0.00840706944369149,
+    "temperature": 0.6589697003364563,
+    "humidity": 0.42403215169906616
+  },
+  {
+    "position": [
+      297016765.1089061,
+      -509492877.3228379,
+      -242918885.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      124927492.78493166,
+      575307232.5879608,
+      -245410361.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -479878943.76098,
+      -339223251.3797535,
+      -247901837.125
+    ],
+    "height": 23374.873089074295,
+    "height_normalize": 0.019479060907561914,
+    "temperature": 0.6686645150184631,
+    "humidity": 0.07068759202957153
+  },
+  {
+    "position": [
+      581940999.7869612,
+      -73887735.28935342,
+      -250393312.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -378503237.6854193,
+      446761814.09728754,
+      -252884788.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -22644827.21814263,
+      -584022012.5867567,
+      -255376264.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      410428423.46323174,
+      414565162.0771659,
+      -257867740.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -581565517.451937,
+      -28393016.95085071,
+      -260359215.875
+    ],
+    "height": 18105.140527685755,
+    "height_normalize": 0.015087617106404796,
+    "temperature": 0.6435070037841797,
+    "humidity": 0.06163601577281952
+  },
+  {
+    "position": [
+      447145386.50272185,
+      -371190049.7499171,
+      -262850691.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -78821795.42692593,
+      574623524.2053431,
+      -265342167.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -329379615.96657395,
+      -476010235.1713224,
+      -267833643.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      563284187.1592447,
+      128245040.4238755,
+      -270325118.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -500957774.1606237,
+      285348821.6148917,
+      -272816594.625
+    ],
+    "height": 133301.17474351136,
+    "height_normalize": 0.11108431228625948,
+    "temperature": 0.5824646353721619,
+    "humidity": 0.07654298841953278
+  },
+  {
+    "position": [
+      176277063.53944927,
+      -547670885.7042322,
+      -275308070.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      239465127.73533276,
+      521819317.9283419,
+      -277799546.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -527941012.9114194,
+      -222546097.99789357,
+      -280291021.875
+    ],
+    "height": 354796.8481084444,
+    "height_normalize": 0.29566404009037034,
+    "temperature": 0.275440514087677,
+    "humidity": 0.04252247512340546
+  },
+  {
+    "position": [
+      538460650.7273694,
+      -192108621.4800888,
+      -282782497.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -266697311.47485492,
+      504284483.16270775,
+      -285273973.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -143668787.04559883,
+      -550782953.3586608,
+      -287765449.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      476921972.18745023,
+      308395664.3642981,
+      -290256924.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -558723428.210685,
+      94541210.54735443,
+      -292748400.625
+    ],
+    "height": 293377.4751322659,
+    "height_normalize": 0.24448122927688826,
+    "temperature": 0.3745284080505371,
+    "humidity": 0.04775109514594078
+  },
+  {
+    "position": [
+      347328589.69972897,
+      -446102905.1317949,
+      -295239876.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      45124246.93475417,
+      562255618.106343,
+      -297731352.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -412103210.40030515,
+      -383208472.4953967,
+      -300222827.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      561389417.0861205,
+      4184322.6802432626,
+      -302714303.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -415774908.0140347,
+      375222858.9702061,
+      -305205779.375
+    ],
+    "height": 2506.9392719543475,
+    "height_normalize": 0.002089116059961956,
+    "temperature": 0.5725069046020508,
+    "humidity": 0.09055960923433304
+  },
+  {
+    "position": [
+      52990614.87226696,
+      -556170773.8777317,
+      -307697255.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      335783210.67021346,
+      444796720.3812491,
+      -310188730.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -546681091.4153289,
+      -100907920.72799535,
+      -312680206.625
+    ],
+    "height": 82623.03504807019,
+    "height_normalize": 0.06885252920672516,
+    "temperature": 0.6125224828720093,
+    "humidity": 0.06716335564851761
+  },
+  {
+    "position": [
+      470073725.0365749,
+      -294124190.52316314,
+      -315171682.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -147559907.8931023,
+      533036328.35331744,
+      -317663158.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -250601319.66102374,
+      -491438220.719831,
+      -320154633.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      515385811.04898953,
+      192583720.76835325,
+      -322646109.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -508756199.02016973,
+      205582626.51989654,
+      -325137585.375
+    ],
+    "height": 20907.9542174287,
+    "height_normalize": 0.017423295181190585,
+    "temperature": 0.5480949282646179,
+    "humidity": 0.012780778110027313
+  },
+  {
+    "position": [
+      235632952.6955227,
+      -493910766.9428718,
+      -327629061.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      159445465.0031009,
+      521928261.94321185,
+      -330120536.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -468822592.6257491,
+      -276380465.1073823,
+      -332612012.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      530890240.46074325,
+      -112573267.04948962,
+      -335103488.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -314521029.9654503,
+      440360872.12497383,
+      -337594964.125
+    ],
+    "height": 456653.0617766023,
+    "height_normalize": 0.3805442181471686,
+    "temperature": 0.08992579579353333,
+    "humidity": 0.0
+  },
+  {
+    "position": [
+      -65352257.562271096,
+      -535613509.5723574,
+      -340086439.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      408791163.0532854,
+      349773773.35547584,
+      -342577915.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -536104998.01122487,
+      18168159.929584026,
+      -345069391.375
+    ],
+    "height": 36826.5088432478,
+    "height_normalize": 0.030688757369373165,
+    "temperature": 0.49923577904701233,
+    "humidity": 0.06552212685346603
+  },
+  {
+    "position": [
+      381884399.8480793,
+      -374402570.22053903,
+      -347560867.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -28597079.595916003,
+      532406893.34198475,
+      -350052342.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -337505128.0973428,
+      -410627179.14070743,
+      -352543818.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      524596045.8064187,
+      74568520.59738138,
+      -355035294.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -435806678.5629721,
+      298427015.12371665,
+      -357526770.125
+    ],
+    "height": 19969.13484988191,
+    "height_normalize": 0.016640945708234926,
+    "temperature": 0.4869210124015808,
+    "humidity": 0.0525105819106102
+  },
+  {
+    "position": [
+      119381382.65907584,
+      -512783076.84951013,
+      -360018245.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      257511624.26193935,
+      457259227.2323196,
+      -362509721.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -497111200.78272825,
+      -162684098.06408736,
+      -365001197.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      474854099.97206676,
+      -215114515.38870078,
+      -367492673.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -204141237.00466508,
+      477754770.49130785,
+      -369984148.875
+    ],
+    "height": 30456.54517388313,
+    "height_normalize": 0.025380454311569274,
+    "temperature": 0.4546830356121063,
+    "humidity": 0.02349046990275383
+  },
+  {
+    "position": [
+      -171600276.0972425,
+      -488494411.52926356,
+      -372475624.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      454917560.44693285,
+      243436280.42083442,
+      -374967100.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -498117714.1348598,
+      127339318.22695205,
+      -377458576.125
+    ],
+    "height": 79702.98688493916,
+    "height_normalize": 0.0664191557374493,
+    "temperature": 0.456091046333313,
+    "humidity": 0.0022339883726090193
+  },
+  {
+    "position": [
+      280274216.9313848,
+      -428830802.52640337,
+      -379950051.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      82704637.94940045,
+      503696294.01184815,
+      -382441527.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -399750992.2413263,
+      -314383941.87129307,
+      -384933003.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      505237165.0364739,
+      -38068567.51159203,
+      -387424479.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -345520438.1879543,
+      367957484.93552375,
+      -389915954.875
+    ],
+    "height": 112269.81833529536,
+    "height_normalize": 0.09355818194607947,
+    "temperature": 0.4240311086177826,
+    "humidity": 0.08097918331623077
+  },
+  {
+    "position": [
+      6200453.2332300525,
+      -502781760.37098205,
+      -392407430.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      333749903.2888674,
+      373466720.8604481,
+      -394898906.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -496405325.49131435,
+      -49741057.58992296,
+      -397390382.125
+    ],
+    "height": 37390.907356011034,
+    "height_normalize": 0.03115908946334253,
+    "temperature": 0.39492082595825195,
+    "humidity": 0.04347848892211914
+  },
+  {
+    "position": [
+      398035528.5751957,
+      -297445379.06321245,
+      -399881857.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -92202057.6176664,
+      486216018.6072937,
+      -402373333.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -259375653.42414558,
+      -419070748.60015905,
+      -404864809.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      472353726.9940583,
+      133245447.78617257,
+      -407356285.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -436448563.12937605,
+      219884061.35917884,
+      -409847760.875
+    ],
+    "height": 520179.44885000645,
+    "height_normalize": 0.433482874041672,
+    "temperature": 0.0,
+    "humidity": 0.0
+  },
+  {
+    "position": [
+      172549280.84303397,
+      -454988610.2001009,
+      -412339236.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      179322426.67835292,
+      450078307.80031157,
+      -414830712.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -434319383.44818497,
+      -209810391.19048867,
+      -417322188.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      459903035.5975283,
+      -138047894.81836516,
+      -419813663.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -244746942.43163428,
+      410571356.78031754,
+      -422305139.625
+    ],
+    "height": 62562.49524076857,
+    "height_normalize": 0.052135412700640475,
+    "temperature": 0.3330100178718567,
+    "humidity": 0.04573790729045868
+  },
+  {
+    "position": [
+      -96419731.16959666,
+      -465899781.9262017,
+      -424796615.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      383994247.5975505,
+      277100777.311252,
+      -427288091.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -468079529.24617326,
+      54796112.90204336,
+      -429779566.875
+    ],
+    "height": 69017.18441534454,
+    "height_normalize": 0.057514320346120446,
+    "temperature": 0.3152724802494049,
+    "humidity": 0.03029944933950901
+  },
+  {
+    "position": [
+      306639550.0320127,
+      -354859786.19141316,
+      -432271042.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      13530942.27839406,
+      466486872.27942634,
+      -434762518.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -323459135.63932765,
+      -333158622.8584648,
+      -437253994.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      461199387.41886604,
+      27029290.79042708,
+      -439745469.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -356482711.0130206,
+      290100149.0258723,
+      -442236945.625
+    ],
+    "height": 81558.59686272801,
+    "height_normalize": 0.06796549738560667,
+    "temperature": 0.2775261402130127,
+    "humidity": 0.08641698956489563
+  },
+  {
+    "position": [
+      66548569.66881816,
+      -452326712.55198956,
+      -444728421.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      255104488.3412744,
+      376467262.1030895,
+      -447219897.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -440009346.04767966,
+      -104704308.83842015,
+      -449711372.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      392999558.6784434,
+      -218804630.58568788,
+      -452202848.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -141190183.0511625,
+      424417176.1167269,
+      -454694324.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -181540787.5620897,
+      -405999534.98391473,
+      -457185800.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      405747754.12633675,
+      175718803.36870083,
+      -459677275.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -415420301.52508515,
+      143657766.56328616,
+      -462168751.625
+    ],
+    "height": 196906.13200461154,
+    "height_normalize": 0.1640884433371763,
+    "temperature": 0.08289532363414764,
+    "humidity": 0.03213939070701599
+  },
+  {
+    "position": [
+      208024217.06657234,
+      -384224327.7063649,
+      -464660227.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      105501799.6427443,
+      421248373.6838748,
+      -467151703.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -360093651.6121412,
+      -237864209.99505976,
+      -469643178.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      423503603.2870123,
+      -67417369.3999117,
+      -472134654.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -265022391.80177745,
+      333623596.28880256,
+      -474626130.375
+    ],
+    "height": 51379.60358109897,
+    "height_normalize": 0.04281633631758248,
+    "temperature": 0.19775880873203278,
+    "humidity": 0.10654111206531525
+  },
+  {
+    "position": [
+      -29744059.205496833,
+      -422238814.7237112,
+      -477117606.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      305100575.90014184,
+      289310046.4210957,
+      -479609081.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -417539149.9106925,
+      -7186544.459995811,
+      -482100557.625
+    ],
+    "height": 4167.099291901338,
+    "height_normalize": 0.0034725827432511153,
+    "temperature": 0.1683967113494873,
+    "humidity": 0.48711469769477844
+  },
+  {
+    "position": [
+      310567732.4096869,
+      -274826819.22829735,
+      -484592033.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -43053870.37920348,
+      409521129.0954375,
+      -487083509.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -243117508.30886024,
+      -328666620.04239196,
+      -489574984.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      398331437.1565249,
+      77551275.24778719,
+      -492066460.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -343509554.56513965,
+      210297810.9318212,
+      -494557936.375
+    ],
+    "height": 70204.73309331667,
+    "height_normalize": 0.058503944244430554,
+    "temperature": 0.13454827666282654,
+    "humidity": 0.13447007536888123
+  },
+  {
+    "position": [
+      110388825.14514296,
+      -384145447.6900933,
+      -497049412.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      176699834.20845193,
+      355031837.6195543,
+      -499540887.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -367165499.7545375,
+      -141295921.57897452,
+      -502032363.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      363201721.59666955,
+      -142659527.2783413,
+      -504523839.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -170023749.28788313,
+      347618944.67727625,
+      -507015315.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -108513561.9155067,
+      -368020614.537316,
+      -509506790.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      325755982.8106919,
+      196347524.62863094,
+      -511998266.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -369522996.17135155,
+      74596220.30108976,
+      -514489742.375
+    ],
+    "height": 611278.0033288975,
+    "height_normalize": 0.5093983361074146,
+    "temperature": 0.0,
+    "humidity": 0.0
+  },
+  {
+    "position": [
+      220068525.21700937,
+      -301847312.5713677,
+      -516981218.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      41236319.5845606,
+      367776048.7812193,
+      -519472693.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -276181616.5355319,
+      -241015883.5165432,
+      -521964169.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      362879009.80110735,
+      -8754203.094246047,
+      -524455645.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -259048129.26795554,
+      249062911.8367535,
+      -526947121.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      22541171.77176926,
+      -354962256.4526292,
+      -529438596.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      220807794.69960672,
+      274054467.9964438,
+      -531930072.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -344186136.32138145,
+      -52355018.750662394,
+      -534421548.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      285955785.31151795,
+      -191742611.75746894,
+      -536913024.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -80409350.46744134,
+      330739561.685264,
+      -539404499.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -162200594.02904722,
+      -294705369.2924662,
+      -541895975.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      314838389.75178725,
+      106445417.54199179,
+      -544387451.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -300289345.899655,
+      132518993.34631842,
+      -546878927.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      130225926.619279,
+      -296723615.96756274,
+      -549370402.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      103036266.07454282,
+      302726825.01829445,
+      -551861878.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -276659413.5744653,
+      -151537002.62831485,
+      -554353354.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      302069757.3523892,
+      -74089355.83391096,
+      -556844830.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -170189856.60266885,
+      254931060.15436158,
+      -559336305.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -46011136.73271599,
+      -298402504.8196645,
+      -561827781.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      231842801.9174767,
+      186022113.5955009,
+      -564319257.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -291841129.13951886,
+      19128093.177992847,
+      -566810733.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      198898743.7229309,
+      -207715720.41432247,
+      -569302208.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -6241665.282840015,
+      282532404.5648894,
+      -571793684.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -182885686.66384384,
+      -208712519.9366586,
+      -574285160.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      270652560.44261104,
+      29789920.072792597,
+      -576776636.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -215383892.9819115,
+      157701518.7006271,
+      -579268111.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      51219198.28408486,
+      -256405756.0299316,
+      -581759587.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      132523508.02017047,
+      218860116.41906068,
+      -584251063.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -240022280.74359062,
+      -70242674.49028455,
+      -586742539.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      219113351.8084935,
+      -107722562.9350272,
+      -589234014.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -86582653.11882062,
+      221756451.3498182,
+      -591725490.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -83680361.20902082,
+      -216137293.89389324,
+      -594216966.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      201884129.09215727,
+      99966841.04847948,
+      -596708442.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -209941486.59675008,
+      60791170.542235225,
+      -599199917.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      110120987.49053927,
+      -180699670.01483172,
+      -601691393.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      39466517.71772102,
+      200541741.6020509,
+      -604182869.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -158511862.6291082,
+      -116755146.20246243,
+      -606674345.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      187943389.82705298,
+      -20144991.679300323,
+      -609165820.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -119537809.04435582,
+      135637750.96199122,
+      -611657296.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -3312033.6648139437,
+      -172109998.5911302,
+      -614148772.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      112391404.62294208,
+      118044535.45580082,
+      -616640248.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -152898857.14056545,
+      -10458669.53464845,
+      -619131723.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      111645280.21476567,
+      -89058772.08618541,
+      -621623199.625
+    ],
+    "height": 12256.60161072508,
+    "height_normalize": 0.010213834675604234,
+    "temperature": 0.0009814589284360409,
+    "humidity": 0.34659895300865173
+  },
+  {
+    "position": [
+      -20409377.269020263,
+      129907140.26874901,
+      -624114675.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -65826113.09154711,
+      -99212851.98666438,
+      -626606151.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      102010678.87236652,
+      25328502.67973727,
+      -629097626.875
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      -78108647.673895,
+      42494474.883893065,
+      -631589102.625
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      22400265.384822913,
+      -65204171.87627069,
+      -634080578.375
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  },
+  {
+    "position": [
+      15908583.466493882,
+      36530434.858114295,
+      -636572054.125
+    ],
+    "height": NaN,
+    "height_normalize": NaN,
+    "temperature": NaN,
+    "humidity": NaN
+  }
+]

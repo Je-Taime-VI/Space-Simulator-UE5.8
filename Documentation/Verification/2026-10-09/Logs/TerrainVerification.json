@@ -1,0 +1,18 @@
+{
+  "lod_components": 5,
+  "vertices_per_lod": [
+    0,
+    900,
+    736,
+    736,
+    736
+  ],
+  "triangles_indices_per_lod": [
+    0,
+    5046,
+    3696,
+    3696,
+    3696
+  ],
+  "success": true
+}

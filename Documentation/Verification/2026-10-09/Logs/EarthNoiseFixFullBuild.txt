@@ -1,0 +1,194 @@
+Log started at 10/08/2026 17:47:09 (2026-10-08T09:47:09Z)
+Resolved project argument D:\BIG WORLD UE5.8\BigWorld.uproject to D:\BIG WORLD UE5.8\BigWorld.uproject
+No config file at C:\ProgramData\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+No config file at C:\Users\GrayRaveN\AppData\Local\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+No config file at C:\Users\GrayRaveN\Documents\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Configuration will be read from:
+  C:\Users\GrayRaveN\AppData\Roaming\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Reading configuration file from cache (D:\BIG WORLD UE5.8\Intermediate\Build\XmlConfigCache.bin): C:\Users\GrayRaveN\AppData\Roaming\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Reading configuration file from cache (D:\BIG WORLD UE5.8\Intermediate\Build\XmlConfigCache.bin): D:\BIG WORLD UE5.8\Saved\UnrealBuildTool\BuildConfiguration.xml
+Reading configuration file from cache (D:\BIG WORLD UE5.8\Intermediate\Build\XmlConfigCache.bin): C:\Users\GrayRaveN\AppData\Local\UnrealEngine\Intermediate\Build\UnrealBuildTool.Env.BuildConfiguration.xml
+Log file: D:\BIG WORLD UE5.8\Saved\Logs\BuildEditor.log
+
+Setting temp directory to 'C:\Users\GrayRaveN\AppData\Local\Temp\UnrealBuildTool\0c9699e1'
+    Registering build platform: UnrealBuildTool.AndroidPlatformFactory
+    Registering build platform: UnrealBuildTool.IOSPlatformFactory
+    Registering build platform: UnrealBuildTool.LinuxPlatformFactory
+    Registering build platform: UnrealBuildTool.MacPlatformFactory
+    Registering build platform: UnrealBuildTool.TVOSPlatformFactory
+    Registering build platform: UnrealBuildTool.WindowsPlatformFactory
+Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (1)
+Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (2)
+Found Windows 10 SDK version 10.0.19041.0 at C:\Program Files (x86)\Windows Kits\10
+Found Universal CRT version 10.0.19041.0 at C:\Program Files (x86)\Windows Kits\10
+Found Windows 10 SDK version 10.0.26100.0 at C:\Program Files (x86)\Windows Kits\10
+Found Universal CRT version 10.0.26100.0 at C:\Program Files (x86)\Windows Kits\10
+Win64 Installed SDK(s): MinVersion_Sdk=10.0.19041.0, MaxVersion_Sdk=10.9.99999.0, CurrentVersion_Sdk=10.0.26100.0, Version_AutoSdk=10.0.22621.0, CurrentVersion_AutoSdk=
+        Registering build platform: Win64 - buildable: True
+    Registering build platform: UnrealBuildTool.VisionOSPlatformFactory
+Command line: "E:\Epic Games\UE_5.8\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" BigWorldEditor Win64 Development "-Project=D:\BIG WORLD UE5.8\BigWorld.uproject" -WaitMutex "-Log=D:\BIG WORLD UE5.8\Saved\Logs\BuildEditor.log"
+Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+  Executing up to 8 processes, one per physical core
+  Requested 1.5 GB memory per action, 7.17 GB available: limiting max parallel actions to 4
+UbaStorageServer - Database loaded from C:\ProgramData\Epic\UnrealBuildAccelerator\cas\casdb (v32) in <1ms (contained 0 entries estimated to 0b)
+UbaServer - Listening on 0.0.0.0:1345
+Skipping E:\Epic Games\UE_5.8\Engine\Intermediate\Build\BuildRules\UE5Rules.dll: File is installed
+Skipping E:\Epic Games\UE_5.8\Engine\Intermediate\Build\BuildRules\UE5ProgramRules.dll: File is installed
+Building UnrealEditor - BigWorldEditor - Win64 - Development
+Generated code is up to date.
+Checking for live coding mutex: Global\LiveCoding_E++Epic Games+UE_5.8+Engine+Binaries+Win64+UnrealEditor.exe
+Deleting outdated item: D:\BIG WORLD UE5.8\Plugins\WorldScape\Binaries\Win64\UnrealEditor-WorldScapeNoise.pdb
+Deleting outdated item: D:\BIG WORLD UE5.8\Plugins\WorldScape\Intermediate\Build\Win64\x64\UnrealEditor\Development\WorldScapeNoise\UnrealEditor-WorldScapeNoise.lib
+Building BigWorldEditor...
+===== Toolchain Information =====
+Using ISPC compiler (E:\Epic Games\UE_5.8\Engine\Source\ThirdParty\Intel\ISPC\bin\Windows\ispc.exe)
+  Intel(r) Implicit SPMD Program Compiler (Intel(r) ISPC), 1.24.0 (build commit  @ 20250404, LLVM 18.1.2) 
+Using Visual Studio 14.44.35228 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207) and Windows 10.0.26100.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+=================================
+Using Unreal Build Accelerator local executor to run 4 action(s)
+  CPU 8 physical cores, 16 logical cores
+  Memory 15.25 GB physical, 14.25 GB/28.25 GB committed
+  UBA Storage capacity 40 GB
+  UBA RootDir C:\ProgramData\Epic\UnrealBuildAccelerator
+Cache bucket 2611342960 used. Action: Compile [x64] RockyWorlds.cpp ()
+Cache bucket 416513229 used. Action: Link [x64] UnrealEditor-WorldScapeNoise.dll ()
+All processes queued
+[1/4] Compile [x64] RockyWorlds.cpp
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeNoise\Public\WorldScapeNoiseClass.h(87,43): warning C4305: “初始化”: 从“double”到“float”截断
+		float TemperatureHeightReductionPower = 1.2;
+		                                        ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeNoise\Public\WorldScapeNoiseClass.h(110,23): warning C4305: “初始化”: 从“double”到“float”截断
+		float BeachHeight = 0.001;
+		                    ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeNoise\Public\WorldScapeNoiseClass.h(116,28): warning C4305: “初始化”: 从“double”到“float”截断
+		float OceanFloorHeight = 0.015;
+		                         ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeNoise\Public\WorldScapeNoiseClass.h(118,32): warning C4305: “初始化”: 从“double”到“float”截断
+		float OceanFloorBaseHeight = -0.1;
+		                             ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeNoise\Public\WorldScapeNoiseClass.h(126,33): warning C4305: “初始化”: 从“double”到“float”截断
+		float OceanFloorPersistence = 0.4;
+		                              ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeNoise\Public\WorldScapeNoiseClass.h(140,31): warning C4305: “初始化”: 从“double”到“float”截断
+		float MountainHeightPower = 1.2;
+		                            ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeNoise\Public\WorldScapeNoiseClass.h(142,25): warning C4305: “初始化”: 从“double”到“float”截断
+		float MountainScale = 0.15;
+		                      ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeNoise\Public\WorldScapeNoiseClass.h(148,31): warning C4305: “初始化”: 从“double”到“float”截断
+		float MountainPersistence = 0.7;
+		                            ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeNoise\Public\WorldScapeNoiseClass.h(152,31): warning C4305: “初始化”: 从“double”到“float”截断
+		float MountainWeightScale = 0.0025;
+		                            ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeNoise\Public\WorldScapeNoiseClass.h(159,22): warning C4305: “初始化”: 从“double”到“float”截断
+		float HillHeight = .1;
+		                   ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeNoise\Public\WorldScapeNoiseClass.h(165,26): warning C4305: “初始化”: 从“double”到“float”截断
+		float HillLacunarity = 2.3;
+		                       ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeNoise\Public\WorldScapeNoiseClass.h(167,27): warning C4305: “初始化”: 从“double”到“float”截断
+		float HillPersistence = 0.4;
+		                        ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeNoise\Public\RockyWorlds.h(25,32): warning C4305: “初始化”: 从“double”到“float”截断
+	float continentalwarp2Scale = 0.003;
+	                              ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeNoise\Public\RockyWorlds.h(29,30): warning C4305: “初始化”: 从“double”到“float”截断
+	float continentLacunarity = 2.3;
+	                            ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeNoise\Public\RockyWorlds.h(37,20): warning C4305: “初始化”: 从“double”到“float”截断
+	float IslandArc = 14.2;
+	                  ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeNoise\Public\RockyWorlds.h(43,16): warning C4305: “初始化”: 从“double”到“float”截断
+	float Mask2 = 0.78;
+	              ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeNoise\Public\RockyWorlds.h(45,27): warning C4305: “初始化”: 从“double”到“float”截断
+	float OragneyVeinScale = 0.004;
+	                         ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeNoise\Public\RockyWorlds.h(48,36): warning C4305: “初始化”: 从“double”到“float”截断
+	float ConentialWeightPercentage = 0.55;
+	                                  ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeNoise\Public\RockyWorlds.h(50,33): warning C4305: “初始化”: 从“double”到“float”截断
+	float ConentialMaskSharpness = 0.05;
+	                               ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeNoise\Public\RockyWorlds.h(52,31): warning C4305: “初始化”: 从“double”到“float”截断
+	float ContentialNoiseScale = 0.0015;
+	                             ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeNoise\Public\RockyWorlds.h(69,29): warning C4305: “初始化”: 从“double”到“float”截断
+	float OrogenyWeightStart = 1.46;
+	                           ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeNoise\Public\RockyWorlds.h(71,29): warning C4305: “初始化”: 从“double”到“float”截断
+	float OrogenyWeightRange = 0.17;
+	                           ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeNoise\Public\RockyWorlds.h(80,28): warning C4305: “初始化”: 从“double”到“float”截断
+	float HotSpotNoiseScale = 0.03;
+	                          ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeNoise\Public\RockyWorlds.h(83,27): warning C4305: “初始化”: 从“double”到“float”截断
+	float OceanFloorHeight = -0.6;
+	                         ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeNoise\Public\RockyWorlds.h(100,30): warning C4305: “初始化”: 从“double”到“float”截断
+	float TurbulantCellsScale = 0.0045;
+	                            ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeNoise\Public\RockyWorlds.h(102,29): warning C4305: “初始化”: 从“double”到“float”截断
+	float humidityMultiplier = 1.4;
+	                           ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeNoise\Public\RockyWorlds.h(114,26): warning C4305: “初始化”: 从“double”到“float”截断
+	float CraterFrequency = 1.2;
+	                        ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeNoise\Public\RockyWorlds.h(120,28): warning C4305: “初始化”: 从“double”到“float”截断
+	float CraterPersistence = 0.2;
+	                          ^
+[2/4] Link [x64] UnrealEditor-WorldScapeNoise.lib
+  正在创建库 D:/BIG WORLD UE5.8/Plugins/WorldScape/Intermediate/Build/Win64/x64/UnrealEditor/Development/WorldScapeNoise/UnrealEditor-WorldScapeNoise.lib 和对象 D:/BIG WORLD UE5.8/Plugins/WorldScape/Intermediate/Build/Win64/x64/UnrealEditor/Development/WorldScapeNoise/UnrealEditor-WorldScapeNoise.exp
+[3/4] Link [x64] UnrealEditor-WorldScapeNoise.dll
+[4/4] WriteMetadata BigWorldEditor.target [NoUba]
+
+Total time in Unreal Build Accelerator local executor: 6.15 seconds
+Output binary: E:\Epic Games\UE_5.8\Engine\Binaries\Win64\UnrealEditor.exe
+UbaStorageServer - Database saved in 1ms (0 file entries, 0 cas entries. deleted 0 dropped cas files)
+WriteFileIfChanged() wrote 0 changed files of 1 requested writes.
+
+Timeline:
+[  0.000]  +0.461 Main
+   0.020          [  0.019]  +0.126 Apply XmlConfig
+   0.157          [  0.157]  +0.060 AddTelemetry
+   0.246          [  0.246]  +0.215 RegisterPlatforms
+[  0.603]  +0.043 ParseCommandLine
+[  0.701]  +0.166 LoadMakefile
+   0.728          [  0.026]  +0.045 EngineRulesPlugins
+   0.778          [  0.076]  +0.004 EngineRulesFetchDirs
+   0.793          [  0.091]  +0.013 EngineRulesAssembly
+   0.806          [  0.105]  +0.002 ProgramRulesAssembly
+   0.814          [  0.113]  +0.004 ProjectRulesAssembly
+   0.819          [  0.117]  +0.270 CreateTargetRules
+   0.874             0.172          [  0.055]  +0.000 FindPlugins
+   0.890             0.188          [  0.071]  +0.054 MakefileValid
+[  0.867]  +0.288 <unknown>
+[  1.156]  +0.013 CppDependencyCache
+[  1.175]  +0.090 BigWorldEditor Win64 Development
+[  1.267]  +0.024 UHTWait
+   1.268          [  0.001]  +0.020 UHTManifest
+   1.289          [  0.022]  +0.019 UHTTimestamps
+[  1.317]  +0.004 CppDependencyCache
+[  1.321]  +0.129 Preparing ActionGraph
+   1.342          [  0.021]  +0.006 LinkActions
+   1.348             0.026          [  0.005]  +0.000 DetectActionGraphCycles
+   1.349          [  0.028]  +0.000 GatherPrerequisiteActions
+   1.351          [  0.029]  +0.000 CppDependencyCacheWait
+   1.352          [  0.030]  +0.082 GatherOutdatedActions
+   1.437          [  0.116]  +0.008 LinkActions
+   1.437             0.116          [  0.000]  +0.000 DetectActionGraphCycles
+   1.448          [  0.126]  +0.001 DeleteOutdatedProducedItems
+   1.449          [  0.127]  +0.000 SaveActionHistory
+   1.451          [  0.129]  +0.000 CreateDirectoriesForProducedItems
+[  1.464]  +0.119 GarbageCollect
+[  1.584]  +6.031 <unknown>
+[  7.615]  +0.000 Deploying targets
+[  7.616]  +0.000 DisconnectCache
+[  7.620]  +0.006 SaveCasTable
+[  7.629]  +0.069 Saving caches
+[  7.700]  +0.002 TelemetryService.FlushEvents
+[  7.703]
+
+Result: Succeeded
+Total execution time: 7.70 seconds

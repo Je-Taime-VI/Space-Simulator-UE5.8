@@ -1,0 +1,122 @@
+Log started at 10/08/2026 16:35:37 (2026-10-08T08:35:37Z)
+Resolved project argument D:\BIG WORLD UE5.8\BigWorld.uproject to D:\BIG WORLD UE5.8\BigWorld.uproject
+No config file at C:\ProgramData\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+No config file at C:\Users\GrayRaveN\AppData\Local\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+No config file at C:\Users\GrayRaveN\Documents\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Configuration will be read from:
+  C:\Users\GrayRaveN\AppData\Roaming\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Reading configuration file from cache (D:\BIG WORLD UE5.8\Intermediate\Build\XmlConfigCache.bin): C:\Users\GrayRaveN\AppData\Roaming\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Reading configuration file from cache (D:\BIG WORLD UE5.8\Intermediate\Build\XmlConfigCache.bin): D:\BIG WORLD UE5.8\Saved\UnrealBuildTool\BuildConfiguration.xml
+Reading configuration file from cache (D:\BIG WORLD UE5.8\Intermediate\Build\XmlConfigCache.bin): C:\Users\GrayRaveN\AppData\Local\UnrealEngine\Intermediate\Build\UnrealBuildTool.Env.BuildConfiguration.xml
+Log file: D:\BIG WORLD UE5.8\Saved\Logs\BuildEditor.log
+
+Setting temp directory to 'C:\Users\GrayRaveN\AppData\Local\Temp\UnrealBuildTool\0c9699e1'
+    Registering build platform: UnrealBuildTool.AndroidPlatformFactory
+    Registering build platform: UnrealBuildTool.IOSPlatformFactory
+    Registering build platform: UnrealBuildTool.LinuxPlatformFactory
+    Registering build platform: UnrealBuildTool.MacPlatformFactory
+    Registering build platform: UnrealBuildTool.TVOSPlatformFactory
+    Registering build platform: UnrealBuildTool.WindowsPlatformFactory
+Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (1)
+Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (2)
+Found Windows 10 SDK version 10.0.19041.0 at C:\Program Files (x86)\Windows Kits\10
+Found Universal CRT version 10.0.19041.0 at C:\Program Files (x86)\Windows Kits\10
+Found Windows 10 SDK version 10.0.26100.0 at C:\Program Files (x86)\Windows Kits\10
+Found Universal CRT version 10.0.26100.0 at C:\Program Files (x86)\Windows Kits\10
+Win64 Installed SDK(s): MinVersion_Sdk=10.0.19041.0, MaxVersion_Sdk=10.9.99999.0, CurrentVersion_Sdk=10.0.26100.0, Version_AutoSdk=10.0.22621.0, CurrentVersion_AutoSdk=
+        Registering build platform: Win64 - buildable: True
+    Registering build platform: UnrealBuildTool.VisionOSPlatformFactory
+Command line: "E:\Epic Games\UE_5.8\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" BigWorldEditor Win64 Development "-Project=D:\BIG WORLD UE5.8\BigWorld.uproject" -WaitMutex "-Log=D:\BIG WORLD UE5.8\Saved\Logs\BuildEditor.log"
+Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+  Executing up to 8 processes, one per physical core
+  Requested 1.5 GB memory per action, 6.71 GB available: limiting max parallel actions to 4
+UbaStorageServer - Database loaded from C:\ProgramData\Epic\UnrealBuildAccelerator\cas\casdb (v32) in 3ms (contained 0 entries estimated to 0b)
+UbaServer - Listening on 0.0.0.0:1345
+Skipping E:\Epic Games\UE_5.8\Engine\Intermediate\Build\BuildRules\UE5Rules.dll: File is installed
+Skipping E:\Epic Games\UE_5.8\Engine\Intermediate\Build\BuildRules\UE5ProgramRules.dll: File is installed
+Building UnrealEditor - BigWorldEditor - Win64 - Development
+Generated code is up to date.
+Checking for live coding mutex: Global\LiveCoding_E++Epic Games+UE_5.8+Engine+Binaries+Win64+UnrealEditor.exe
+Deleting outdated item: D:\BIG WORLD UE5.8\Plugins\WorldScape\Binaries\Win64\UnrealEditor-WorldScapeCore.pdb
+Deleting outdated item: D:\BIG WORLD UE5.8\Plugins\WorldScape\Intermediate\Build\Win64\x64\UnrealEditor\Development\WorldScapeCore\UnrealEditor-WorldScapeCore.lib
+Building BigWorldEditor...
+===== Toolchain Information =====
+Using ISPC compiler (E:\Epic Games\UE_5.8\Engine\Source\ThirdParty\Intel\ISPC\bin\Windows\ispc.exe)
+  Intel(r) Implicit SPMD Program Compiler (Intel(r) ISPC), 1.24.0 (build commit  @ 20250404, LLVM 18.1.2) 
+Using Visual Studio 14.44.35228 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207) and Windows 10.0.26100.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+=================================
+Using Unreal Build Accelerator local executor to run 4 action(s)
+  CPU 8 physical cores, 16 logical cores
+  Memory 15.25 GB physical, 14.32 GB/28.25 GB committed
+  UBA Storage capacity 40 GB
+  UBA RootDir C:\ProgramData\Epic\UnrealBuildAccelerator
+Cache bucket 2611342960 used. Action: Compile [x64] WorldScapeMeshComponent.cpp ()
+Cache bucket 416513229 used. Action: Link [x64] UnrealEditor-WorldScapeCore.dll ()
+All processes queued
+[1/4] Compile [x64] WorldScapeMeshComponent.cpp
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeCore\Private\WorldScapeMeshComponent.cpp(104,34): warning C4996: 'UMeshComponent::GetMaterialRelevance': Please use GetMaterialRelevance with EShaderPlatform argument and not ERHIFeatureLevel::Type - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+		, MaterialRelevance(Component->GetMaterialRelevance(GetScene().GetFeatureLevel()))
+		                               ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeCore\Private\WorldScapeMeshComponent.cpp(445,6): warning C4996: 'FRayTracingGeometry::Initializer': Use SetInitializer(...) / GetInitializer() instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+					check(Section->RayTracingGeometry.Initializer.IndexBuffer.IsValid());
+					^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeCore\Private\WorldScapeMeshComponent.cpp(461,61): warning C4996: 'FRayTracingInstanceCollector::GetReferenceView': Use Views array passed directly to GetDynamicRayTracingInstances. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+					MeshBatch.CastRayTracedShadow = IsShadowCast(Collector.GetReferenceView());
+					                                                       ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeCore\Private\WorldScapeMeshComponent.cpp(480,16): warning C4996: 'FRayTracingInstanceCollector::AddRayTracingInstance': Please specify ViewIndex. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+					Collector.AddRayTracingInstance(MoveTemp(RayTracingInstance));
+					          ^
+[2/4] Link [x64] UnrealEditor-WorldScapeCore.lib
+  正在创建库 D:/BIG WORLD UE5.8/Plugins/WorldScape/Intermediate/Build/Win64/x64/UnrealEditor/Development/WorldScapeCore/UnrealEditor-WorldScapeCore.lib 和对象 D:/BIG WORLD UE5.8/Plugins/WorldScape/Intermediate/Build/Win64/x64/UnrealEditor/Development/WorldScapeCore/UnrealEditor-WorldScapeCore.exp
+[3/4] Link [x64] UnrealEditor-WorldScapeCore.dll
+[4/4] WriteMetadata BigWorldEditor.target [NoUba]
+
+Total time in Unreal Build Accelerator local executor: 20.23 seconds
+Output binary: E:\Epic Games\UE_5.8\Engine\Binaries\Win64\UnrealEditor.exe
+UbaStorageServer - Database saved in 1ms (0 file entries, 0 cas entries. deleted 0 dropped cas files)
+WriteFileIfChanged() wrote 0 changed files of 1 requested writes.
+
+Timeline:
+[  0.000]  +0.517 Main
+   0.016          [  0.016]  +0.094 Apply XmlConfig
+   0.120          [  0.120]  +0.185 AddTelemetry
+   0.361          [  0.361]  +0.155 RegisterPlatforms
+[  0.529]  +0.021 ParseCommandLine
+[  0.602]  +0.170 LoadMakefile
+   0.621          [  0.018]  +0.040 EngineRulesPlugins
+   0.667          [  0.064]  +0.006 EngineRulesFetchDirs
+   0.683          [  0.081]  +0.010 EngineRulesAssembly
+   0.694          [  0.092]  +0.001 ProgramRulesAssembly
+   0.701          [  0.098]  +0.002 ProjectRulesAssembly
+   0.703          [  0.101]  +0.292 CreateTargetRules
+   0.775             0.173          [  0.072]  +0.000 FindPlugins
+   0.796             0.193          [  0.092]  +0.032 MakefileValid
+[  0.772]  +0.288 <unknown>
+[  1.061]  +0.012 CppDependencyCache
+[  1.078]  +0.054 BigWorldEditor Win64 Development
+[  1.134]  +0.022 UHTWait
+   1.135          [  0.001]  +0.019 UHTManifest
+   1.155          [  0.020]  +0.019 UHTTimestamps
+[  1.181]  +0.004 CppDependencyCache
+[  1.185]  +0.096 Preparing ActionGraph
+   1.205          [  0.020]  +0.005 LinkActions
+   1.211             0.025          [  0.005]  +0.000 DetectActionGraphCycles
+   1.212          [  0.026]  +0.000 GatherPrerequisiteActions
+   1.213          [  0.028]  +0.000 CppDependencyCacheWait
+   1.214          [  0.029]  +0.045 GatherOutdatedActions
+   1.262          [  0.077]  +0.008 LinkActions
+   1.262             0.077          [  0.000]  +0.000 DetectActionGraphCycles
+   1.273          [  0.088]  +0.002 DeleteOutdatedProducedItems
+   1.276          [  0.091]  +0.005 SaveActionHistory
+   1.282          [  0.096]  +0.000 CreateDirectoriesForProducedItems
+[  1.296]  +0.110 GarbageCollect
+[  1.407] +20.124 <unknown>
+[ 21.531]  +0.000 Deploying targets
+[ 21.532]  +0.000 DisconnectCache
+[ 21.536]  +0.007 SaveCasTable
+[ 21.546]  +0.006 Saving caches
+[ 21.554]  +0.002 TelemetryService.FlushEvents
+[ 21.558]
+
+Result: Succeeded
+Total execution time: 21.56 seconds

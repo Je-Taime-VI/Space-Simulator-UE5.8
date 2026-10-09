@@ -1,0 +1,254 @@
+Using bundled DotNet SDK version: 10.0 win-x64
+Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" BigWorldEditor Win64 Development "-Project=D:\BIG WORLD UE5.8\BigWorld.uproject" -WaitMutex "-Log=D:\BIG WORLD UE5.8\Saved\Logs\BuildEditor.log"
+Log file: D:\BIG WORLD UE5.8\Saved\Logs\BuildEditor.log
+Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+  Executing up to 8 processes, one per physical core
+  Requested 1.5 GB memory per action, 3.96 GB available: limiting max parallel actions to 2
+UbaServer - Listening on 0.0.0.0:1345
+UHT compiled-in object format Default
+Building BigWorldEditor...
+===== Toolchain Information =====
+Using ISPC compiler (E:\Epic Games\UE_5.8\Engine\Source\ThirdParty\Intel\ISPC\bin\Windows\ispc.exe)
+  Intel(r) Implicit SPMD Program Compiler (Intel(r) ISPC), 1.24.0 (build commit  @ 20250404, LLVM 18.1.2) 
+Using Visual Studio 14.44.35228 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207) and Windows 10.0.26100.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+=================================
+Using Unreal Build Accelerator local executor to run 6 action(s)
+  CPU 8 physical cores, 16 logical cores
+  Memory 15.25 GB physical, 14.64 GB/27.75 GB committed
+  UBA Storage capacity 40 GB
+[1/6] Compile [x64] Module.BigWorld.gen.cpp
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeNoise\Public\WorldScapeNoiseClass.h(87,43): warning C4305: “初始化”: 从“double”到“float”截断
+		float TemperatureHeightReductionPower = 1.2;
+		                                        ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeNoise\Public\WorldScapeNoiseClass.h(110,23): warning C4305: “初始化”: 从“double”到“float”截断
+		float BeachHeight = 0.001;
+		                    ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeNoise\Public\WorldScapeNoiseClass.h(116,28): warning C4305: “初始化”: 从“double”到“float”截断
+		float OceanFloorHeight = 0.015;
+		                         ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeNoise\Public\WorldScapeNoiseClass.h(118,32): warning C4305: “初始化”: 从“double”到“float”截断
+		float OceanFloorBaseHeight = -0.1;
+		                             ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeNoise\Public\WorldScapeNoiseClass.h(126,33): warning C4305: “初始化”: 从“double”到“float”截断
+		float OceanFloorPersistence = 0.4;
+		                              ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeNoise\Public\WorldScapeNoiseClass.h(140,31): warning C4305: “初始化”: 从“double”到“float”截断
+		float MountainHeightPower = 1.2;
+		                            ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeNoise\Public\WorldScapeNoiseClass.h(142,25): warning C4305: “初始化”: 从“double”到“float”截断
+		float MountainScale = 0.15;
+		                      ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeNoise\Public\WorldScapeNoiseClass.h(148,31): warning C4305: “初始化”: 从“double”到“float”截断
+		float MountainPersistence = 0.7;
+		                            ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeNoise\Public\WorldScapeNoiseClass.h(152,31): warning C4305: “初始化”: 从“double”到“float”截断
+		float MountainWeightScale = 0.0025;
+		                            ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeNoise\Public\WorldScapeNoiseClass.h(159,22): warning C4305: “初始化”: 从“double”到“float”截断
+		float HillHeight = .1;
+		                   ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeNoise\Public\WorldScapeNoiseClass.h(165,26): warning C4305: “初始化”: 从“double”到“float”截断
+		float HillLacunarity = 2.3;
+		                       ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeNoise\Public\WorldScapeNoiseClass.h(167,27): warning C4305: “初始化”: 从“double”到“float”截断
+		float HillPersistence = 0.4;
+		                        ^
+[2/6] Compile [x64] SolarExplorer.cpp
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarExplorer.cpp(65,42): warning C4305: “参数”: 从“double”到“float”截断
+    DrawRect(FLinearColor(.009,.017,.029,.88),X-12,Y-10,W,146);
+                                         ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarExplorer.cpp(65,37): warning C4305: “参数”: 从“double”到“float”截断
+    DrawRect(FLinearColor(.009,.017,.029,.88),X-12,Y-10,W,146);
+                                    ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarExplorer.cpp(65,32): warning C4305: “参数”: 从“double”到“float”截断
+    DrawRect(FLinearColor(.009,.017,.029,.88),X-12,Y-10,W,146);
+                               ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarExplorer.cpp(65,27): warning C4305: “参数”: 从“double”到“float”截断
+    DrawRect(FLinearColor(.009,.017,.029,.88),X-12,Y-10,W,146);
+                          ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarExplorer.cpp(66,113): warning C4305: “参数”: 从“double”到“float”截断
+    DrawText(TEXT("SOLAR SYSTEM  /  真实尺度探索"),FLinearColor(.39,.81,.95),X,Y,GEngine->GetMediumFont(),.95);
+                                                                                                          ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarExplorer.cpp(66,79): warning C4305: “参数”: 从“double”到“float”截断
+    DrawText(TEXT("SOLAR SYSTEM  /  真实尺度探索"),FLinearColor(.39,.81,.95),X,Y,GEngine->GetMediumFont(),.95);
+                                                                        ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarExplorer.cpp(66,75): warning C4305: “参数”: 从“double”到“float”截断
+    DrawText(TEXT("SOLAR SYSTEM  /  真实尺度探索"),FLinearColor(.39,.81,.95),X,Y,GEngine->GetMediumFont(),.95);
+                                                                    ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarExplorer.cpp(66,71): warning C4305: “参数”: 从“double”到“float”截断
+    DrawText(TEXT("SOLAR SYSTEM  /  真实尺度探索"),FLinearColor(.39,.81,.95),X,Y,GEngine->GetMediumFont(),.95);
+                                                                ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarExplorer.cpp(67,175): warning C4305: “参数”: 从“double”到“float”截断
+    DrawText(FString::Printf(TEXT("%s  ·  %s"),*B.DisplayName,S->bSurfaceMode?TEXT("地表巡视"):TEXT("轨道巡视")),FLinearColor::White,X,Y+27,GEngine->GetMediumFont(),1.05);
+                                                                                                                                                                     ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarExplorer.cpp(69,108): warning C4305: “参数”: 从“double”到“float”截断
+    DrawText(FString::Printf(TEXT("半径 %.1f km    海拔 %.3f km"),B.RadiusKm,Alt),FLinearColor(.73,.79,.84),X,Y+59,GEngine->GetSmallFont());
+                                                                                                       ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarExplorer.cpp(69,104): warning C4305: “参数”: 从“double”到“float”截断
+    DrawText(FString::Printf(TEXT("半径 %.1f km    海拔 %.3f km"),B.RadiusKm,Alt),FLinearColor(.73,.79,.84),X,Y+59,GEngine->GetSmallFont());
+                                                                                                   ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarExplorer.cpp(69,100): warning C4305: “参数”: 从“double”到“float”截断
+    DrawText(FString::Printf(TEXT("半径 %.1f km    海拔 %.3f km"),B.RadiusKm,Alt),FLinearColor(.73,.79,.84),X,Y+59,GEngine->GetSmallFont());
+                                                                                               ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarExplorer.cpp(70,174): warning C4305: “参数”: 从“double”到“float”截断
+    DrawText(FString::Printf(TEXT("速度 %.3g km/s    时间 ×%.0f    J2000 + %.2f 日"),P->SpeedKmPerSecond,S->TimeScale,S->SimulationSeconds/86400),FLinearColor(.73,.79,.84),X,Y+81,GEngine->GetSmallFont());
+                                                                                                                                                                       ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarExplorer.cpp(70,170): warning C4305: “参数”: 从“double”到“float”截断
+    DrawText(FString::Printf(TEXT("速度 %.3g km/s    时间 ×%.0f    J2000 + %.2f 日"),P->SpeedKmPerSecond,S->TimeScale,S->SimulationSeconds/86400),FLinearColor(.73,.79,.84),X,Y+81,GEngine->GetSmallFont());
+                                                                                                                                                                   ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarExplorer.cpp(70,166): warning C4305: “参数”: 从“double”到“float”截断
+    DrawText(FString::Printf(TEXT("速度 %.3g km/s    时间 ×%.0f    J2000 + %.2f 日"),P->SpeedKmPerSecond,S->TimeScale,S->SimulationSeconds/86400),FLinearColor(.73,.79,.84),X,Y+81,GEngine->GetSmallFont());
+                                                                                                                                                               ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarExplorer.cpp(72,259): warning C4305: “参数”: 从“double”到“float”截断
+    DrawText(FString::Printf(TEXT("当地引力 %.3f m/s²    %s"),Gravity,B.bTidalLock?TEXT("潮汐锁定 · 无大气"):B.bSolid?TEXT("岩质天体"):S->FocusIndex==0?TEXT("恒星光球"):TEXT("气体 / 冰巨星 · 无固体地表")),FLinearColor(.57,.68,.76),X,Y+105,GEngine->GetSmallFont());
+                                                                                                                                                                                                                                  ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarExplorer.cpp(72,255): warning C4305: “参数”: 从“double”到“float”截断
+    DrawText(FString::Printf(TEXT("当地引力 %.3f m/s²    %s"),Gravity,B.bTidalLock?TEXT("潮汐锁定 · 无大气"):B.bSolid?TEXT("岩质天体"):S->FocusIndex==0?TEXT("恒星光球"):TEXT("气体 / 冰巨星 · 无固体地表")),FLinearColor(.57,.68,.76),X,Y+105,GEngine->GetSmallFont());
+                                                                                                                                                                                                                              ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarExplorer.cpp(72,251): warning C4305: “参数”: 从“double”到“float”截断
+    DrawText(FString::Printf(TEXT("当地引力 %.3f m/s²    %s"),Gravity,B.bTidalLock?TEXT("潮汐锁定 · 无大气"):B.bSolid?TEXT("岩质天体"):S->FocusIndex==0?TEXT("恒星光球"):TEXT("气体 / 冰巨星 · 无固体地表")),FLinearColor(.57,.68,.76),X,Y+105,GEngine->GetSmallFont());
+                                                                                                                                                                                                                          ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarExplorer.cpp(73,42): warning C4305: “参数”: 从“double”到“float”截断
+    DrawRect(FLinearColor(.009,.017,.029,.84),14,Canvas->SizeY-67,Canvas->SizeX-28,53);
+                                         ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarExplorer.cpp(73,37): warning C4305: “参数”: 从“double”到“float”截断
+    DrawRect(FLinearColor(.009,.017,.029,.84),14,Canvas->SizeY-67,Canvas->SizeX-28,53);
+                                    ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarExplorer.cpp(73,32): warning C4305: “参数”: 从“double”到“float”截断
+    DrawRect(FLinearColor(.009,.017,.029,.84),14,Canvas->SizeY-67,Canvas->SizeX-28,53);
+                               ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarExplorer.cpp(73,27): warning C4305: “参数”: 从“double”到“float”截断
+    DrawRect(FLinearColor(.009,.017,.029,.84),14,Canvas->SizeY-67,Canvas->SizeX-28,53);
+                          ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarExplorer.cpp(74,157): warning C4305: “参数”: 从“double”到“float”截断
+    DrawText(TEXT("0 太阳   1 水星   2 金星   3 地球   4 月球   5 火星   6 木星   7 土星   8 天王星   9 海王星"),FLinearColor(.78,.84,.9),26,Canvas->SizeY-61,GEngine->GetSmallFont());
+                                                                                                                                      ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarExplorer.cpp(74,153): warning C4305: “参数”: 从“double”到“float”截断
+    DrawText(TEXT("0 太阳   1 水星   2 金星   3 地球   4 月球   5 火星   6 木星   7 土星   8 天王星   9 海王星"),FLinearColor(.78,.84,.9),26,Canvas->SizeY-61,GEngine->GetSmallFont());
+                                                                                                                                  ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarExplorer.cpp(74,149): warning C4305: “参数”: 从“double”到“float”截断
+    DrawText(TEXT("0 太阳   1 水星   2 金星   3 地球   4 月球   5 火星   6 木星   7 土星   8 天王星   9 海王星"),FLinearColor(.78,.84,.9),26,Canvas->SizeY-61,GEngine->GetSmallFont());
+                                                                                                                              ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarExplorer.cpp(75,188): warning C4305: “参数”: 从“double”到“float”截断
+    DrawText(TEXT("WASD 移动 · 鼠标转向 · Q/E 升降 · 滚轮速度 · Shift 加速 · G 地表 · O 轨道 · ,/. 时间倍率 · P 暂停 · Home 纪元"),FLinearColor(.50,.66,.74),26,Canvas->SizeY-38,GEngine->GetSmallFont());
+                                                                                                                                                        ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarExplorer.cpp(75,184): warning C4305: “参数”: 从“double”到“float”截断
+    DrawText(TEXT("WASD 移动 · 鼠标转向 · Q/E 升降 · 滚轮速度 · Shift 加速 · G 地表 · O 轨道 · ,/. 时间倍率 · P 暂停 · Home 纪元"),FLinearColor(.50,.66,.74),26,Canvas->SizeY-38,GEngine->GetSmallFont());
+                                                                                                                                                    ^
+[3/6] Compile [x64] SolarSystemActor.cpp
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeNoise\Public\WorldScapeNoiseClass.h(87,43): warning C4305: “初始化”: 从“double”到“float”截断
+		float TemperatureHeightReductionPower = 1.2;
+		                                        ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeNoise\Public\WorldScapeNoiseClass.h(110,23): warning C4305: “初始化”: 从“double”到“float”截断
+		float BeachHeight = 0.001;
+		                    ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeNoise\Public\WorldScapeNoiseClass.h(116,28): warning C4305: “初始化”: 从“double”到“float”截断
+		float OceanFloorHeight = 0.015;
+		                         ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeNoise\Public\WorldScapeNoiseClass.h(118,32): warning C4305: “初始化”: 从“double”到“float”截断
+		float OceanFloorBaseHeight = -0.1;
+		                             ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeNoise\Public\WorldScapeNoiseClass.h(126,33): warning C4305: “初始化”: 从“double”到“float”截断
+		float OceanFloorPersistence = 0.4;
+		                              ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeNoise\Public\WorldScapeNoiseClass.h(140,31): warning C4305: “初始化”: 从“double”到“float”截断
+		float MountainHeightPower = 1.2;
+		                            ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeNoise\Public\WorldScapeNoiseClass.h(142,25): warning C4305: “初始化”: 从“double”到“float”截断
+		float MountainScale = 0.15;
+		                      ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeNoise\Public\WorldScapeNoiseClass.h(148,31): warning C4305: “初始化”: 从“double”到“float”截断
+		float MountainPersistence = 0.7;
+		                            ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeNoise\Public\WorldScapeNoiseClass.h(152,31): warning C4305: “初始化”: 从“double”到“float”截断
+		float MountainWeightScale = 0.0025;
+		                            ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeNoise\Public\WorldScapeNoiseClass.h(159,22): warning C4305: “初始化”: 从“double”到“float”截断
+		float HillHeight = .1;
+		                   ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeNoise\Public\WorldScapeNoiseClass.h(165,26): warning C4305: “初始化”: 从“double”到“float”截断
+		float HillLacunarity = 2.3;
+		                       ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeNoise\Public\WorldScapeNoiseClass.h(167,27): warning C4305: “初始化”: 从“double”到“float”截断
+		float HillPersistence = 0.4;
+		                        ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeFoliages\Public\WorldScapeFoliageFCP_Struct.h(25,23): warning C4305: “初始化”: 从“double”到“float”截断
+	float MinimalScale = 0.1;
+	                     ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeFoliages\Public\WorldScapeFoliagesCollectionData.h(22,105): warning C4305: “参数”: 从“double”到“float”截断
+	FWorldScapeFoliagesContraintNormalized Temperature = FWorldScapeFoliagesContraintNormalized(0.35, 0.5, 0.85, 1);
+	                                                                                                       ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeFoliages\Public\WorldScapeFoliagesCollectionData.h(22,94): warning C4305: “参数”: 从“double”到“float”截断
+	FWorldScapeFoliagesContraintNormalized Temperature = FWorldScapeFoliagesContraintNormalized(0.35, 0.5, 0.85, 1);
+	                                                                                            ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeFoliages\Public\WorldScapeFoliagesCollectionData.h(23,102): warning C4305: “参数”: 从“double”到“float”截断
+	FWorldScapeFoliagesContraintNormalized Humidity = FWorldScapeFoliagesContraintNormalized(0.35, 0.5, 0.95, 1);
+	                                                                                                    ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeFoliages\Public\WorldScapeFoliagesCollectionData.h(23,91): warning C4305: “参数”: 从“double”到“float”截断
+	FWorldScapeFoliagesContraintNormalized Humidity = FWorldScapeFoliagesContraintNormalized(0.35, 0.5, 0.95, 1);
+	                                                                                         ^
+D:\BIG WORLD UE5.8\Plugins\WorldScape\Source\WorldScapeFoliages\Public\WorldScapeFoliagesCollectionData.h(24,94): warning C4305: “参数”: 从“double”到“float”截断
+	FWorldScapeFoliagesContraintNormalized Slope = FWorldScapeFoliagesContraintNormalized(0, 0, 0.35, 0.5);
+	                                                                                            ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarSystemActor.cpp(87,81): warning C4305: “参数”: 从“double”到“float”截断
+        if(A) A->SetVectorParameterValue(TEXT("Tint"),I==2?FLinearColor(.65,.37,.09):I==5?FLinearColor(.4,.13,.045):FLinearColor(.07,.28,.75));
+                                                                                ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarSystemActor.cpp(87,77): warning C4305: “参数”: 从“double”到“float”截断
+        if(A) A->SetVectorParameterValue(TEXT("Tint"),I==2?FLinearColor(.65,.37,.09):I==5?FLinearColor(.4,.13,.045):FLinearColor(.07,.28,.75));
+                                                                            ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarSystemActor.cpp(87,73): warning C4305: “参数”: 从“double”到“float”截断
+        if(A) A->SetVectorParameterValue(TEXT("Tint"),I==2?FLinearColor(.65,.37,.09):I==5?FLinearColor(.4,.13,.045):FLinearColor(.07,.28,.75));
+                                                                        ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarSystemActor.cpp(87,111): warning C4305: “参数”: 从“double”到“float”截断
+        if(A) A->SetVectorParameterValue(TEXT("Tint"),I==2?FLinearColor(.65,.37,.09):I==5?FLinearColor(.4,.13,.045):FLinearColor(.07,.28,.75));
+                                                                                                              ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarSystemActor.cpp(87,107): warning C4305: “参数”: 从“double”到“float”截断
+        if(A) A->SetVectorParameterValue(TEXT("Tint"),I==2?FLinearColor(.65,.37,.09):I==5?FLinearColor(.4,.13,.045):FLinearColor(.07,.28,.75));
+                                                                                                          ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarSystemActor.cpp(87,104): warning C4305: “参数”: 从“double”到“float”截断
+        if(A) A->SetVectorParameterValue(TEXT("Tint"),I==2?FLinearColor(.65,.37,.09):I==5?FLinearColor(.4,.13,.045):FLinearColor(.07,.28,.75));
+                                                                                                       ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarSystemActor.cpp(87,134): warning C4305: “参数”: 从“double”到“float”截断
+        if(A) A->SetVectorParameterValue(TEXT("Tint"),I==2?FLinearColor(.65,.37,.09):I==5?FLinearColor(.4,.13,.045):FLinearColor(.07,.28,.75));
+                                                                                                                                     ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarSystemActor.cpp(87,130): warning C4305: “参数”: 从“double”到“float”截断
+        if(A) A->SetVectorParameterValue(TEXT("Tint"),I==2?FLinearColor(.65,.37,.09):I==5?FLinearColor(.4,.13,.045):FLinearColor(.07,.28,.75));
+                                                                                                                                 ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarSystemActor.cpp(191,81): warning C4305: “参数”: 从“double”到“float”截断
+    LocalAtmosphere->SetRayleighScattering(FocusIndex==5?FLinearColor(.016,.006,.003):FocusIndex==2?FLinearColor(.025,.017,.006):FLinearColor(.005802,.013558,.0331));
+                                                                                ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarSystemActor.cpp(191,76): warning C4305: “参数”: 从“double”到“float”截断
+    LocalAtmosphere->SetRayleighScattering(FocusIndex==5?FLinearColor(.016,.006,.003):FocusIndex==2?FLinearColor(.025,.017,.006):FLinearColor(.005802,.013558,.0331));
+                                                                           ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarSystemActor.cpp(191,71): warning C4305: “参数”: 从“double”到“float”截断
+    LocalAtmosphere->SetRayleighScattering(FocusIndex==5?FLinearColor(.016,.006,.003):FocusIndex==2?FLinearColor(.025,.017,.006):FLinearColor(.005802,.013558,.0331));
+                                                                      ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarSystemActor.cpp(191,124): warning C4305: “参数”: 从“double”到“float”截断
+    LocalAtmosphere->SetRayleighScattering(FocusIndex==5?FLinearColor(.016,.006,.003):FocusIndex==2?FLinearColor(.025,.017,.006):FLinearColor(.005802,.013558,.0331));
+                                                                                                                           ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarSystemActor.cpp(191,119): warning C4305: “参数”: 从“double”到“float”截断
+    LocalAtmosphere->SetRayleighScattering(FocusIndex==5?FLinearColor(.016,.006,.003):FocusIndex==2?FLinearColor(.025,.017,.006):FLinearColor(.005802,.013558,.0331));
+                                                                                                                      ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarSystemActor.cpp(191,114): warning C4305: “参数”: 从“double”到“float”截断
+    LocalAtmosphere->SetRayleighScattering(FocusIndex==5?FLinearColor(.016,.006,.003):FocusIndex==2?FLinearColor(.025,.017,.006):FLinearColor(.005802,.013558,.0331));
+                                                                                                                 ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarSystemActor.cpp(191,159): warning C4305: “参数”: 从“double”到“float”截断
+    LocalAtmosphere->SetRayleighScattering(FocusIndex==5?FLinearColor(.016,.006,.003):FocusIndex==2?FLinearColor(.025,.017,.006):FLinearColor(.005802,.013558,.0331));
+                                                                                                                                                              ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarSystemActor.cpp(191,151): warning C4305: “参数”: 从“double”到“float”截断
+    LocalAtmosphere->SetRayleighScattering(FocusIndex==5?FLinearColor(.016,.006,.003):FocusIndex==2?FLinearColor(.025,.017,.006):FLinearColor(.005802,.013558,.0331));
+                                                                                                                                                      ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarSystemActor.cpp(191,143): warning C4305: “参数”: 从“double”到“float”截断
+    LocalAtmosphere->SetRayleighScattering(FocusIndex==5?FLinearColor(.016,.006,.003):FocusIndex==2?FLinearColor(.025,.017,.006):FLinearColor(.005802,.013558,.0331));
+                                                                                                                                              ^
+[4/6] Link [x64] UnrealEditor-BigWorld.lib
+  正在创建库 D:/BIG WORLD UE5.8/Intermediate/Build/Win64/x64/UnrealEditor/Development/BigWorld/UnrealEditor-BigWorld.lib 和对象 D:/BIG WORLD UE5.8/Intermediate/Build/Win64/x64/UnrealEditor/Development/BigWorld/UnrealEditor-BigWorld.exp
+[5/6] Link [x64] UnrealEditor-BigWorld.dll
+[6/6] WriteMetadata BigWorldEditor.target [NoUba]
+
+Total time in Unreal Build Accelerator local executor: 14.98 seconds
+Output binary: E:\Epic Games\UE_5.8\Engine\Binaries\Win64\UnrealEditor.exe
+
+Result: Succeeded
+Total execution time: 20.39 seconds
+Trace written to file C:\Users\GrayRaveN\AppData\Local\UnrealBuildTool\Trace.uba with size 7.9kb

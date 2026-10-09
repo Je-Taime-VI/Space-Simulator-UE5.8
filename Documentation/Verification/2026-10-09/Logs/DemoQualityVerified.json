@@ -1,0 +1,560 @@
+[
+  {
+    "map": "/WorldScape/Levels/Bonus_Levels/Demonstration_Asteroid",
+    "world_bounds": false,
+    "planets": [
+      {
+        "label": "Asteroid",
+        "noise_class": "WorldScapeCustomNoise",
+        "flat": false,
+        "radius_cm": 5000.0,
+        "max_lod_before": 8,
+        "max_lod_target": 8,
+        "max_lod_readback": 8,
+        "lod_resolution": 128,
+        "triangle_size": 5.0,
+        "height_anchor": 10000.0,
+        "noise_sample_count": 0,
+        "invalid_noise_samples": 0,
+        "height_range_cm": [
+          null,
+          null
+        ]
+      },
+      {
+        "label": "EarthScape",
+        "noise_class": "WorldScapeCustomNoise",
+        "flat": false,
+        "radius_cm": 636000000.0,
+        "max_lod_before": 12,
+        "max_lod_target": 12,
+        "max_lod_readback": 12,
+        "lod_resolution": 128,
+        "triangle_size": 100.0,
+        "height_anchor": 12000.0,
+        "noise_sample_count": 0,
+        "invalid_noise_samples": 0,
+        "height_range_cm": [
+          null,
+          null
+        ]
+      }
+    ],
+    "exposure": [],
+    "changed": false
+  },
+  {
+    "map": "/WorldScape/Levels/Bonus_Levels/Demonstration_CubeWorld",
+    "world_bounds": false,
+    "planets": [
+      {
+        "label": "WorldScapeRoot1",
+        "noise_class": "CubeNoise",
+        "flat": true,
+        "radius_cm": 637817792.0,
+        "max_lod_before": 12,
+        "max_lod_target": 12,
+        "max_lod_readback": 12,
+        "lod_resolution": 100,
+        "triangle_size": 0.5,
+        "height_anchor": 10000.0,
+        "noise_sample_count": 0,
+        "invalid_noise_samples": 0,
+        "height_range_cm": [
+          null,
+          null
+        ]
+      }
+    ],
+    "exposure": [],
+    "changed": false
+  },
+  {
+    "map": "/WorldScape/Levels/Bonus_Levels/Demonstration_TerraFormedMoon",
+    "world_bounds": false,
+    "planets": [
+      {
+        "label": "PlanetBp2",
+        "noise_class": "SelenaeNoise",
+        "flat": false,
+        "radius_cm": 318908896.0,
+        "max_lod_before": 12,
+        "max_lod_target": 12,
+        "max_lod_readback": 12,
+        "lod_resolution": 128,
+        "triangle_size": 100.0,
+        "height_anchor": 10000.0,
+        "noise_sample_count": 0,
+        "invalid_noise_samples": 0,
+        "height_range_cm": [
+          null,
+          null
+        ]
+      },
+      {
+        "label": "Planet",
+        "noise_class": "HeightMapBased",
+        "flat": false,
+        "radius_cm": 637817792.0,
+        "max_lod_before": 12,
+        "max_lod_target": 12,
+        "max_lod_readback": 12,
+        "lod_resolution": 128,
+        "triangle_size": 300.0,
+        "height_anchor": 10000.0,
+        "noise_sample_count": 0,
+        "invalid_noise_samples": 0,
+        "height_range_cm": [
+          null,
+          null
+        ]
+      }
+    ],
+    "exposure": [
+      {
+        "label": "PostProcessVolume",
+        "before": {
+          "override_auto_exposure_min_brightness": true,
+          "override_auto_exposure_max_brightness": true,
+          "auto_exposure_min_brightness": 1.0,
+          "auto_exposure_max_brightness": 1.0
+        },
+        "after": {
+          "override_auto_exposure_min_brightness": true,
+          "override_auto_exposure_max_brightness": true,
+          "auto_exposure_min_brightness": 1.0,
+          "auto_exposure_max_brightness": 1.0
+        }
+      }
+    ],
+    "changed": false
+  },
+  {
+    "map": "/WorldScape/Levels/FlatWorld_Levels/Demonstration_FlatEarth",
+    "world_bounds": false,
+    "planets": [
+      {
+        "label": "FlatEarth",
+        "noise_class": "SelenaeNoise",
+        "flat": false,
+        "radius_cm": 318908896.0,
+        "max_lod_before": 12,
+        "max_lod_target": 12,
+        "max_lod_readback": 12,
+        "lod_resolution": 128,
+        "triangle_size": 100.0,
+        "height_anchor": 10000.0,
+        "noise_sample_count": 0,
+        "invalid_noise_samples": 0,
+        "height_range_cm": [
+          null,
+          null
+        ]
+      },
+      {
+        "label": "WorldScapeManager",
+        "noise_class": "TerraNoiseExample",
+        "flat": true,
+        "radius_cm": 637817792.0,
+        "max_lod_before": 12,
+        "max_lod_target": 12,
+        "max_lod_readback": 12,
+        "lod_resolution": 172,
+        "triangle_size": 300.0,
+        "height_anchor": 10000.0,
+        "noise_sample_count": 0,
+        "invalid_noise_samples": 0,
+        "height_range_cm": [
+          null,
+          null
+        ]
+      }
+    ],
+    "exposure": [
+      {
+        "label": "PostProcessVolume",
+        "before": {
+          "override_auto_exposure_min_brightness": true,
+          "override_auto_exposure_max_brightness": true,
+          "auto_exposure_min_brightness": 1.0,
+          "auto_exposure_max_brightness": 1.0
+        },
+        "after": {
+          "override_auto_exposure_min_brightness": true,
+          "override_auto_exposure_max_brightness": true,
+          "auto_exposure_min_brightness": 1.0,
+          "auto_exposure_max_brightness": 1.0
+        }
+      }
+    ],
+    "changed": false
+  },
+  {
+    "map": "/WorldScape/Levels/FlatWorld_Levels/Demonstration_FlatWorld_Lava",
+    "world_bounds": false,
+    "planets": [
+      {
+        "label": "PlanetBp",
+        "noise_class": "TerraNoiseExample",
+        "flat": true,
+        "radius_cm": 637817792.0,
+        "max_lod_before": 12,
+        "max_lod_target": 12,
+        "max_lod_readback": 12,
+        "lod_resolution": 200,
+        "triangle_size": 100.0,
+        "height_anchor": 15000.0,
+        "noise_sample_count": 0,
+        "invalid_noise_samples": 0,
+        "height_range_cm": [
+          null,
+          null
+        ]
+      },
+      {
+        "label": "PlanetBp2",
+        "noise_class": "WorldScapeCustomNoise",
+        "flat": false,
+        "radius_cm": 637817792.0,
+        "max_lod_before": 12,
+        "max_lod_target": 12,
+        "max_lod_readback": 12,
+        "lod_resolution": 128,
+        "triangle_size": 100.0,
+        "height_anchor": 10000.0,
+        "noise_sample_count": 0,
+        "invalid_noise_samples": 0,
+        "height_range_cm": [
+          null,
+          null
+        ]
+      }
+    ],
+    "exposure": [
+      {
+        "label": "PostProcessVolume",
+        "before": {
+          "override_auto_exposure_min_brightness": true,
+          "override_auto_exposure_max_brightness": true,
+          "auto_exposure_min_brightness": 1.0,
+          "auto_exposure_max_brightness": 1.0
+        },
+        "after": {
+          "override_auto_exposure_min_brightness": true,
+          "override_auto_exposure_max_brightness": true,
+          "auto_exposure_min_brightness": 1.0,
+          "auto_exposure_max_brightness": 1.0
+        }
+      }
+    ],
+    "changed": false
+  },
+  {
+    "map": "/WorldScape/Levels/FlatWorld_Levels/Demonstration_FlatWorld_legacy",
+    "world_bounds": false,
+    "planets": [
+      {
+        "label": "WorldScapeRoot1",
+        "noise_class": "WorldScapeCustomNoise",
+        "flat": true,
+        "radius_cm": 637817792.0,
+        "max_lod_before": 12,
+        "max_lod_target": 12,
+        "max_lod_readback": 12,
+        "lod_resolution": 256,
+        "triangle_size": 100.0,
+        "height_anchor": 10000.0,
+        "noise_sample_count": 0,
+        "invalid_noise_samples": 0,
+        "height_range_cm": [
+          null,
+          null
+        ]
+      }
+    ],
+    "exposure": [],
+    "changed": false
+  },
+  {
+    "map": "/WorldScape/Levels/Planets_Levels/Demonstration_BarenLikePlanet",
+    "world_bounds": false,
+    "planets": [
+      {
+        "label": "PlanetBp",
+        "noise_class": "TerraNoiseExample",
+        "flat": false,
+        "radius_cm": 637817792.0,
+        "max_lod_before": 12,
+        "max_lod_target": 12,
+        "max_lod_readback": 12,
+        "lod_resolution": 128,
+        "triangle_size": 100.0,
+        "height_anchor": 10000.0,
+        "noise_sample_count": 0,
+        "invalid_noise_samples": 0,
+        "height_range_cm": [
+          null,
+          null
+        ]
+      }
+    ],
+    "exposure": [
+      {
+        "label": "PostProcessVolume",
+        "before": {
+          "override_auto_exposure_min_brightness": true,
+          "override_auto_exposure_max_brightness": true,
+          "auto_exposure_min_brightness": 1.0,
+          "auto_exposure_max_brightness": 1.0
+        },
+        "after": {
+          "override_auto_exposure_min_brightness": true,
+          "override_auto_exposure_max_brightness": true,
+          "auto_exposure_min_brightness": 1.0,
+          "auto_exposure_max_brightness": 1.0
+        }
+      }
+    ],
+    "changed": false
+  },
+  {
+    "map": "/WorldScape/Levels/Planets_Levels/Demonstration_EarthLikePlanet",
+    "world_bounds": false,
+    "planets": [
+      {
+        "label": "PlanetBp2",
+        "noise_class": "SelenaeNoise",
+        "flat": false,
+        "radius_cm": 318908896.0,
+        "max_lod_before": 12,
+        "max_lod_target": 12,
+        "max_lod_readback": 12,
+        "lod_resolution": 128,
+        "triangle_size": 100.0,
+        "height_anchor": 10000.0,
+        "noise_sample_count": 0,
+        "invalid_noise_samples": 0,
+        "height_range_cm": [
+          null,
+          null
+        ]
+      },
+      {
+        "label": "Planet",
+        "noise_class": "RockyWorldsNoise",
+        "flat": false,
+        "radius_cm": 637817792.0,
+        "max_lod_before": 12,
+        "max_lod_target": 12,
+        "max_lod_readback": 12,
+        "lod_resolution": 128,
+        "triangle_size": 300.0,
+        "height_anchor": 10000.0,
+        "noise_sample_count": 0,
+        "invalid_noise_samples": 0,
+        "height_range_cm": [
+          null,
+          null
+        ]
+      }
+    ],
+    "exposure": [
+      {
+        "label": "PostProcessVolume",
+        "before": {
+          "override_auto_exposure_min_brightness": true,
+          "override_auto_exposure_max_brightness": true,
+          "auto_exposure_min_brightness": 1.0,
+          "auto_exposure_max_brightness": 1.0
+        },
+        "after": {
+          "override_auto_exposure_min_brightness": true,
+          "override_auto_exposure_max_brightness": true,
+          "auto_exposure_min_brightness": 1.0,
+          "auto_exposure_max_brightness": 1.0
+        }
+      }
+    ],
+    "changed": false
+  },
+  {
+    "map": "/WorldScape/Levels/Planets_Levels/Demonstration_IceWorldPlanet",
+    "world_bounds": false,
+    "planets": [
+      {
+        "label": "PlanetBp",
+        "noise_class": "IceWorldNoise",
+        "flat": false,
+        "radius_cm": 212605936.0,
+        "max_lod_before": 12,
+        "max_lod_target": 12,
+        "max_lod_readback": 12,
+        "lod_resolution": 200,
+        "triangle_size": 200.0,
+        "height_anchor": 10000.0,
+        "noise_sample_count": 0,
+        "invalid_noise_samples": 0,
+        "height_range_cm": [
+          null,
+          null
+        ]
+      }
+    ],
+    "exposure": [],
+    "changed": false
+  },
+  {
+    "map": "/WorldScape/Levels/Planets_Levels/Demonstration_LavaPlanet",
+    "world_bounds": false,
+    "planets": [
+      {
+        "label": "PlanetBp",
+        "noise_class": "TerraNoiseExample",
+        "flat": false,
+        "radius_cm": 637817792.0,
+        "max_lod_before": 12,
+        "max_lod_target": 12,
+        "max_lod_readback": 12,
+        "lod_resolution": 180,
+        "triangle_size": 100.0,
+        "height_anchor": 10000.0,
+        "noise_sample_count": 0,
+        "invalid_noise_samples": 0,
+        "height_range_cm": [
+          null,
+          null
+        ]
+      },
+      {
+        "label": "PlanetBp2",
+        "noise_class": "SelenaeNoise",
+        "flat": false,
+        "radius_cm": 637817792.0,
+        "max_lod_before": 12,
+        "max_lod_target": 12,
+        "max_lod_readback": 12,
+        "lod_resolution": 128,
+        "triangle_size": 100.0,
+        "height_anchor": 10000.0,
+        "noise_sample_count": 0,
+        "invalid_noise_samples": 0,
+        "height_range_cm": [
+          null,
+          null
+        ]
+      }
+    ],
+    "exposure": [
+      {
+        "label": "PostProcessVolume",
+        "before": {
+          "override_auto_exposure_min_brightness": true,
+          "override_auto_exposure_max_brightness": true,
+          "auto_exposure_min_brightness": 1.0,
+          "auto_exposure_max_brightness": 1.0
+        },
+        "after": {
+          "override_auto_exposure_min_brightness": true,
+          "override_auto_exposure_max_brightness": true,
+          "auto_exposure_min_brightness": 1.0,
+          "auto_exposure_max_brightness": 1.0
+        }
+      }
+    ],
+    "changed": false
+  },
+  {
+    "map": "/WorldScape/Levels/Planets_Levels/Demonstration_LittlePlanet",
+    "world_bounds": false,
+    "planets": [
+      {
+        "label": "WorldScapeRoot",
+        "noise_class": "WorldScapeCustomNoise",
+        "flat": false,
+        "radius_cm": 100000.0,
+        "max_lod_before": 6,
+        "max_lod_target": 6,
+        "max_lod_readback": 6,
+        "lod_resolution": 128,
+        "triangle_size": 50.0,
+        "height_anchor": 10000.0,
+        "noise_sample_count": 0,
+        "invalid_noise_samples": 0,
+        "height_range_cm": [
+          null,
+          null
+        ]
+      }
+    ],
+    "exposure": [],
+    "changed": false
+  },
+  {
+    "map": "/WorldScape/Levels/Planets_Levels/Demonstration_MarsLikePlanet",
+    "world_bounds": false,
+    "planets": [
+      {
+        "label": "PlanetBp",
+        "noise_class": "TerraNoiseExample",
+        "flat": false,
+        "radius_cm": 637817792.0,
+        "max_lod_before": 12,
+        "max_lod_target": 12,
+        "max_lod_readback": 12,
+        "lod_resolution": 128,
+        "triangle_size": 100.0,
+        "height_anchor": 10000.0,
+        "noise_sample_count": 0,
+        "invalid_noise_samples": 0,
+        "height_range_cm": [
+          null,
+          null
+        ]
+      }
+    ],
+    "exposure": [
+      {
+        "label": "PostProcessVolume",
+        "before": {
+          "override_auto_exposure_min_brightness": true,
+          "override_auto_exposure_max_brightness": true,
+          "auto_exposure_min_brightness": 1.0,
+          "auto_exposure_max_brightness": 1.0
+        },
+        "after": {
+          "override_auto_exposure_min_brightness": true,
+          "override_auto_exposure_max_brightness": true,
+          "auto_exposure_min_brightness": 1.0,
+          "auto_exposure_max_brightness": 1.0
+        }
+      }
+    ],
+    "changed": false
+  },
+  {
+    "map": "/WorldScape/Levels/Planets_Levels/Demonstration_PlanetaryHeightmap",
+    "world_bounds": false,
+    "planets": [
+      {
+        "label": "WorldScapeRoot",
+        "noise_class": "WorldScapeCustomNoise",
+        "flat": false,
+        "radius_cm": 100000000.0,
+        "max_lod_before": 12,
+        "max_lod_target": 12,
+        "max_lod_readback": 12,
+        "lod_resolution": 128,
+        "triangle_size": 123.0,
+        "height_anchor": 18000.0,
+        "noise_sample_count": 0,
+        "invalid_noise_samples": 0,
+        "height_range_cm": [
+          null,
+          null
+        ]
+      }
+    ],
+    "exposure": [],
+    "changed": false
+  }
+]

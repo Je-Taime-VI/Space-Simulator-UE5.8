@@ -1,0 +1,63 @@
+{
+  "server": {
+    "name": "BigWorld UE 5.8.2",
+    "title": null,
+    "version": "1.30.0",
+    "websiteUrl": null,
+    "icons": null
+  },
+  "tools": [
+    "editor_status",
+    "list_level_actors",
+    "list_assets",
+    "execute_python"
+  ],
+  "editor_status": {
+    "success": true,
+    "command": "import unreal, json\nprint(json.dumps({'engine': unreal.SystemLibrary.get_engine_version(),'project': unreal.Paths.get_project_file_path(),'map': unreal.get_editor_subsystem(unreal.UnrealEditorSubsystem).get_editor_world().get_path_name(),'worldscape': unreal.load_class(None, '/Script/WorldScapeCore.WorldScapeRoot') is not None}))",
+    "result": "None",
+    "output": [
+      {
+        "type": "Info",
+        "output": "{\"engine\": \"5.8.2-56702186+++UE5+Release-5.8\", \"project\": \"D:/BIG WORLD UE5.8/BigWorld.uproject\", \"map\": \"/WorldScape/Levels/Planets_Levels/Demonstration_EarthLikePlanet.Demonstration_EarthLikePlanet\", \"worldscape\": true}\r\n"
+      }
+    ],
+    "project_name": "BigWorld"
+  },
+  "list_level_actors": {
+    "success": true,
+    "command": "import unreal, json\nactors = unreal.get_editor_subsystem(unreal.EditorActorSubsystem).get_all_level_actors()\nprint(json.dumps([{'label': a.get_actor_label(), 'path': a.get_path_name(), 'class': a.get_class().get_name()} for a in actors[:100]]))",
+    "result": "None",
+    "output": [
+      {
+        "type": "Info",
+        "output": "[{\"label\": \"DirectionalLight\", \"path\": \"/WorldScape/Levels/Planets_Levels/Demonstration_EarthLikePlanet.Demonstration_EarthLikePlanet:PersistentLevel.DirectionalLight_1\", \"class\": \"DirectionalLight\"}, {\"label\": \"SkyLight\", \"path\": \"/WorldScape/Levels/Planets_Levels/Demonstration_EarthLikePlanet.Demonstration_EarthLikePlanet:PersistentLevel.SkyLight_1\", \"class\": \"SkyLight\"}, {\"label\": \"PostProcessVolume\", \"path\": \"/WorldScape/Levels/Planets_Levels/Demonstration_EarthLikePlanet.Demonstration_EarthLikePlanet:PersistentLevel.PostProcessVolume_1\", \"class\": \"PostProcessVolume\"}, {\"label\": \"SM_SpawnStructure\", \"path\": \"/WorldScape/Levels/Planets_Levels/Demonstration_EarthLikePlanet.Demonstration_EarthLikePlanet:PersistentLevel.StaticMeshActor_1\", \"class\": \"StaticMeshActor\"}, {\"label\": \"PlanetBp2\", \"path\": \"/WorldScape/Levels/Planets_Levels/Demonstration_EarthLikePlanet.Demonstration_EarthLikePlanet:PersistentLevel.PlanetBp_C_0\", \"class\": \"BP_WorldScapeManager_C\"}, {\"label\": \"Planet\", \"path\": \"/WorldScape/Levels/Planets_Levels/Demonstration_EarthLikePlanet.Demonstration_EarthLikePlanet:PersistentLevel.PlanetBp_C_1\", \"class\": \"BP_WorldScapeManager_C\"}, {\"label\": \"SkyAtmosphere\", \"path\": \"/WorldScape/Levels/Planets_Levels/Demonstration_EarthLikePlanet.Demonstration_EarthLikePlanet:PersistentLevel.SkyAtmosphere_1\", \"class\": \"SkyAtmosphere\"}, {\"label\": \"VolumetricCloud\", \"path\": \"/WorldScape/Levels/Planets_Levels/Demonstration_EarthLikePlanet.Demonstration_EarthLikePlanet:PersistentLevel.VolumetricCloud_1\", \"class\": \"VolumetricCloud\"}, {\"label\": \"WindVolume\", \"path\": \"/WorldScape/Levels/Planets_Levels/Demonstration_EarthLikePlanet.Demonstration_EarthLikePlanet:PersistentLevel.WindVolume_C_1\", \"class\": \"BP_ProceduralWind_WorldScape_C\"}]\r\n"
+      }
+    ],
+    "project_name": "BigWorld"
+  },
+  "list_assets": {
+    "success": true,
+    "command": "import unreal, json\nassets = unreal.AssetRegistryHelpers.get_asset_registry().get_assets_by_path('/WorldScape', recursive=True)\nprint(json.dumps({'total': len(assets), 'assets': [str(a.package_name) for a in assets[:3]]}))",
+    "result": "None",
+    "output": [
+      {
+        "type": "Info",
+        "output": "{\"total\": 653, \"assets\": [\"/WorldScape/Ressources/Materials/WorldScapeMaterials/Functions/GeneralFuntionsForPlanetaryTerrian/MF_Noise\", \"/WorldScape/Ressources/Textures/3DVolume/NoiseSet5_Volume\", \"/WorldScape/Ressources/Textures/3DVolume/Textures/NoiseSet5\"]}\r\n"
+      }
+    ],
+    "project_name": "BigWorld"
+  },
+  "execute_python": {
+    "success": true,
+    "command": "print('BIGWORLD_MCP_EXECUTION_OK')",
+    "result": "None",
+    "output": [
+      {
+        "type": "Info",
+        "output": "BIGWORLD_MCP_EXECUTION_OK\r\n"
+      }
+    ],
+    "project_name": "BigWorld"
+  }
+}

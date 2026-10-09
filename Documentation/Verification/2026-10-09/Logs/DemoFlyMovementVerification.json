@@ -1,0 +1,49 @@
+{
+  "map": "/WorldScape/Levels/Planets_Levels/UEDPIE_0_Demonstration_BarenLikePlanet.Demonstration_BarenLikePlanet",
+  "game_mode": "BP_WorldScapeDemoGameMode_C",
+  "pawn": "FlyWorldScape_C",
+  "possessed": true,
+  "view_target_is_pawn": true,
+  "vsm": 0,
+  "samples": [
+    {
+      "phase": "start",
+      "location_cm": [
+        7651029.456355042,
+        85844525.92390373,
+        632105122.0825348
+      ]
+    },
+    {
+      "phase": "baseline_end",
+      "location_cm": [
+        7651029.456355042,
+        85844525.92390373,
+        632105122.0825348
+      ]
+    },
+    {
+      "phase": "forward_end",
+      "location_cm": [
+        7657398.564533714,
+        85851348.36685963,
+        632105122.0825348
+      ]
+    },
+    {
+      "phase": "right_end",
+      "location_cm": [
+        7640829.77972632,
+        85866816.19612694,
+        632105122.0825348
+      ]
+    }
+  ],
+  "baseline_forward_right_cm": [
+    0.0,
+    9333.34167798918,
+    22666.679779719223
+  ],
+  "success": true,
+  "verification": "Pawn movement input over frames; physical keyboard not automated."
+}
