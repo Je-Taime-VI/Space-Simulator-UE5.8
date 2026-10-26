@@ -1,0 +1,79 @@
+// WorldScape example textures projected in body-fixed metres, with LWC UV anchors.
+// Inputs marked Origin are computed with native LWC divide/frac material nodes.
+struct GroundSampling
+{
+    float4 tri(Texture2D tex, SamplerState samp, float3 p, float3 n, float3 w)
+    {
+        float3 s=step(0,n)*2-1;
+        return Texture2DSample(tex,samp,float2(p.y*s.x,p.z))*w.x
+             + Texture2DSample(tex,samp,float2(-p.x*s.y,p.z))*w.y
+             + Texture2DSample(tex,samp,float2(p.x*s.z,p.y))*w.z;
+    }
+    float3 gradient(Texture2D tex, SamplerState samp, float3 p, float3 n, float3 w)
+    {
+        float3 s=step(0,n)*2-1;
+        float3 a=UnpackNormalMap(Texture2DSample(tex,samp,float2(p.y*s.x,p.z))).xyz;
+        float3 b=UnpackNormalMap(Texture2DSample(tex,samp,float2(-p.x*s.y,p.z))).xyz;
+        float3 c=UnpackNormalMap(Texture2DSample(tex,samp,float2(p.x*s.z,p.y))).xyz;
+        // Blend surface gradients, not three differently oriented tangent normals.
+        return float3(0,a.x*s.x,a.y)/max(.35,a.z)*w.x
+             + float3(-b.x*s.y,0,b.y)/max(.35,b.z)*w.y
+             + float3(c.x*s.z,c.y,0)/max(.35,c.z)*w.z;
+    }
+};
+GroundSampling detail;
+float3 n=normalize(GeomNormal), radial=normalize(WorldPosition);
+float3 projection=pow(abs(n),4); projection/=max(dot(projection,1),.0001);
+float height=length(WorldPosition)*.00001-RadiusKm;
+float slope=1-saturate(dot(n,radial));
+FSolarSurfaceRegion region=field.biome((int)BodyIndex,radial,height,slope);
+// The terrain is sediment/rock below sea level as well. Orbital ocean colour
+// belongs to the water/proxy, not the seabed; a hard h<0 colour test exposes
+// interpolation/precision differences as turquoise triangles along the shore.
+if(BodyIndex==3 && height<0)
+{
+    region=field.biome(3,radial,0,slope);
+    region.Vegetation=0;
+}
+float4 layers=float4(region.Sand,region.Rock,region.Soil,region.Snow);
+float distanceFade=1-smoothstep(DetailFadeStartCm,DetailFadeEndCm,length(RelativePosition));
+float strength=saturate(DetailStrength)*distanceFade;
+float3 pSand=RelativePosition/SandTileCm+SandOrigin;
+float3 pRock=RelativePosition/RockTileCm+RockOrigin;
+float3 pSoil=RelativePosition/SoilTileCm+SoilOrigin;
+float3 pSnow=RelativePosition/SnowTileCm+SnowOrigin;
+float3 sand=detail.tri(SandColor,SandColorSampler,pSand,n,projection).rgb;
+float3 rock=detail.tri(RockColor,RockColorSampler,pRock,n,projection).rgb;
+float3 soil=detail.tri(SoilColor,SoilColorSampler,pSoil,n,projection).rgb;
+float3 snow=detail.tri(SnowColor,SnowColorSampler,pSnow,n,projection).rgb;
+if(BodyIndex!=3)
+{
+    // Terrestrial colour variations must not introduce moss-green or blue grains
+    // into grey regolith and rusty rocky worlds.
+    const float3 lum=float3(.2126,.7152,.0722);
+    sand=dot(sand,lum)/max(dot(SandMean,lum),.015)*SandMean;
+    rock=dot(rock,lum)/max(dot(RockMean,lum),.015)*RockMean;
+    soil=dot(soil,lum)/max(dot(SoilMean,lum),.015)*SoilMean;
+    snow=dot(snow,lum)/max(dot(SnowMean,lum),.015)*SnowMean;
+}
+// Preserve body-scale albedo/hue; normalized texture variation supplies local detail.
+float3 variation=layers.x*clamp(sand/max(SandMean,.015),.25,2.5)
+                +layers.y*clamp(rock/max(RockMean,.015),.25,2.5)
+                +layers.z*clamp(soil/max(SoilMean,.015),.25,2.5)
+                +layers.w*clamp(snow/max(SnowMean,.015),.25,2.5);
+float3 base=lerp(BodyIndex==3 ? region.Color : MacroAlbedo,region.Color,strength);
+// Vegetated macro colour represents unresolved canopy at distance; close ground is soil.
+if(BodyIndex==3)base=lerp(base,float3(.16,.12,.065),region.Vegetation*.6*strength);
+float3 gradient=layers.x*detail.gradient(SandNormal,SandNormalSampler,pSand,n,projection)*.65
+               +layers.y*detail.gradient(RockNormal,RockNormalSampler,pRock,n,projection)*.85
+               +layers.z*detail.gradient(SoilNormal,SoilNormalSampler,pSoil,n,projection)*.65
+               +layers.w*detail.gradient(SnowNormal,SnowNormalSampler,pSnow,n,projection)*.55;
+DetailNormal=normalize(n+(gradient-n*dot(gradient,n))*strength*NormalStrength);
+float4 sandMask=detail.tri(SandORMH,SandORMHSampler,pSand,n,projection);
+float4 snowMask=detail.tri(SnowORMH,SnowORMHSampler,pSnow,n,projection);
+float rough=layers.x*clamp(sandMask.g,.55,.98)+layers.y*.83+layers.z*.9+layers.w*clamp(snowMask.g,.55,.98);
+SurfaceRoughness=lerp(.85,rough,strength);
+SurfaceAO=lerp(1,layers.x*lerp(.6,1,sandMask.r)+layers.y+layers.z+layers.w*lerp(.6,1,snowMask.r),strength);
+LayerWeights=layers;
+if(DebugLayerWeights>.5)return layers.xyz+layers.w;
+return saturate(base*lerp(float3(1,1,1),variation,strength));

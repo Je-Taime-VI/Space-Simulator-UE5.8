@@ -1,0 +1,167 @@
+{
+  "completed": true,
+  "errors": [],
+  "frames": [
+    {
+      "job": {
+        "name": "shore",
+        "lat": 23.261616396234317,
+        "lon": 89.83508866409365,
+        "alt": 0.011,
+        "east": -1,
+        "tilt": -0.15
+      },
+      "ground_km": 0.002960997086557526,
+      "blend": 1.0,
+      "ocean_hidden": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "system_tick": false,
+      "position": [
+        1684671.3759563002,
+        585310237.3590598,
+        251610750.71784922
+      ],
+      "rotation": [
+        66.9687728881836,
+        -3.3585455417633057,
+        -8.011232376098633
+      ]
+    },
+    {
+      "job": {
+        "name": "handoff",
+        "lat": 23.261616396234317,
+        "lon": 89.81408866409365,
+        "alt": 9.398,
+        "tilt": -0.4
+      },
+      "ground_km": -0.015457865467471521,
+      "blend": 1.0,
+      "ocean_hidden": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "system_tick": false,
+      "position": [
+        1901996.925966458,
+        586171970.2058278,
+        251981471.6290096
+      ],
+      "rotation": [
+        -68.24166870117188,
+        -8.434192657470703,
+        -160.00831604003906
+      ]
+    },
+    {
+      "job": {
+        "name": "deep",
+        "lat": 23.261616396234317,
+        "lon": 85.0,
+        "alt": -0.993,
+        "tilt": -0.08
+      },
+      "ground_km": -1.787561620976776,
+      "blend": 1.0,
+      "ocean_hidden": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "system_tick": false,
+      "position": [
+        51005320.65592247,
+        582993482.8163075,
+        251571099.73299724
+      ],
+      "rotation": [
+        -66.80461883544922,
+        -1.8047597408294678,
+        179.20350646972656
+      ]
+    },
+    {
+      "job": {
+        "name": "below-bottom",
+        "lat": 23.261616396234317,
+        "lon": 85.0,
+        "alt": -1.126,
+        "tilt": -0.08
+      },
+      "ground_km": -1.787561620976776,
+      "blend": 1.0,
+      "ocean_hidden": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "system_tick": false,
+      "position": [
+        51004255.71224162,
+        582981310.4543359,
+        251565847.1622948
+      ],
+      "rotation": [
+        -66.80461883544922,
+        -1.8047597408294678,
+        179.20350646972656
+      ]
+    }
+  ]
+}

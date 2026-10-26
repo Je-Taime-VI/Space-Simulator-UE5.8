@@ -92,10 +92,9 @@ def instance(name, parent, texture):
     return mi
 
 
-def build_sphere(source):
+def build_sphere(source, nx=128, ny=64, name='SM_PlanetSphere'):
     """规则经纬网格，半径 50 cm；避免近景使用低面数预览球。"""
     lines = []
-    nx, ny = 128, 64
     for y in range(ny + 1):
         lat = math.pi * y / ny
         for x in range(nx + 1):
@@ -109,7 +108,7 @@ def build_sphere(source):
             a=y*(nx+1)+x+1; b=a+nx+1
             for tri in ((a,b,a+1),(a+1,b,b+1)):
                 lines.append('f '+' '.join('%d/%d/%d'%(v,v,v) for v in tri))
-    obj = source / 'SM_PlanetSphere.obj'
+    obj = source / (name+'.obj')
     obj.write_text('\n'.join(lines), encoding='ascii')
     t = u.AssetImportTask()
     for k,v in {'filename': str(obj), 'destination_path': DEST+'/Meshes', 'automated':True, 'replace_existing':True, 'save':True}.items():
@@ -123,7 +122,7 @@ def build_sphere(source):
     options.static_mesh_import_data.set_editor_property('auto_generate_collision',False)
     t.set_editor_property('options',options)
     u.AssetToolsHelpers.get_asset_tools().import_asset_tasks([t])
-    mesh=u.load_asset(DEST+'/Meshes/SM_PlanetSphere')
+    mesh=u.load_asset(DEST+'/Meshes/'+name)
     assert mesh
     return mesh
 
@@ -214,20 +213,16 @@ def build_assets(manager):
     output(opacity, u.MaterialProperty.MP_OPACITY)
     finish(cloud)
 
-    ring = material('M_Rings', blend=u.BlendMode.BLEND_MASKED)
-    ring.set_editor_property('two_sided', True)
-    uv = node(ring, u.MaterialExpressionTextureCoordinate)
-    sun = vector(ring, 'SunDirection', (1, 0, 0, 1))
-    code = 'float r=lerp(74658,140220,UV.x); float bands=0.58+0.16*sin(r*.004)+0.09*sin(r*.026)+0.06*sin(r*.101); float3 p=float3(cos(UV.y*6.2831853),sin(UV.y*6.2831853),0)*(r/58232); float3 s=normalize(SunDirection); float shadow=dot(p,s)<0 && length(p-s*dot(p,s))<1 ? 0.03:1; return float3(0.66,0.55,0.37)*bands*(0.14+0.95*abs(s.z))*shadow;'
-    output(custom(ring, code, {'UV': uv, 'SunDirection': sun}), u.MaterialProperty.MP_EMISSIVE_COLOR)
-    mask = custom(ring, 'float r=lerp(74658,140220,UV.x); return (r>117580 && r<122170)||(r>136775 && r<139800) ? 0:1;', {'UV': uv}, True)
-    output(mask, u.MaterialProperty.MP_OPACITY_MASK)
-    finish(ring)
+    import importlib.util
+    ring_spec=importlib.util.spec_from_file_location('solar_ring_assets',ROOT/'Tools/refine_solar_rings.py')
+    ring_helpers=importlib.util.module_from_spec(ring_spec)
+    ring_spec.loader.exec_module(ring_helpers)
+    ring=ring_helpers.build()
 
-    ocean = material('M_Ocean', lit=True)
-    output(vector(ocean, 'WaterColor', (.012, .085, .14, 1)), u.MaterialProperty.MP_BASE_COLOR)
-    output(scalar(ocean, .18), u.MaterialProperty.MP_ROUGHNESS)
-    finish(ocean)
+    ocean_spec=importlib.util.spec_from_file_location('solar_ocean_assets',ROOT/'Tools/refine_solar_ocean.py')
+    ocean_helpers=importlib.util.module_from_spec(ocean_spec)
+    ocean_spec.loader.exec_module(ocean_helpers)
+    ocean=ocean_helpers.build()
 
     manager.set_editor_property('body_materials', [instance('MI_' + k, star if k == 'Sun' else proxy, textures[k]) for k in KEYS])
     manager.set_editor_property('terrain_materials', [instance('MI_Terrain_' + k, terrain, textures[k]) for k in KEYS])
@@ -254,6 +249,12 @@ def main():
     manager.set_actor_label('SolarSystem')
     manager.set_actor_location(u.Vector(0, 0, 0), False, True)
     build_assets(manager)
+    # Keep a full rebuild consistent with the continuous-flight material pipeline.
+    import importlib.util
+    refinement_spec=importlib.util.spec_from_file_location('solar_refinement',ROOT/'Tools/refine_solar_materials.py')
+    refinement=importlib.util.module_from_spec(refinement_spec)
+    refinement_spec.loader.exec_module(refinement)
+    refinement.refine(manager)
     world = u.get_editor_subsystem(u.UnrealEditorSubsystem).get_editor_world()
     ws = world.get_world_settings()
     ws.set_editor_property('default_game_mode', u.load_class(None, '/Script/BigWorld.SolarExplorerGameMode'))

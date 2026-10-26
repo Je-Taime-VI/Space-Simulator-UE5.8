@@ -1,0 +1,218 @@
+{
+  "success": true,
+  "failures": [],
+  "config": {
+    "r.VolumetricRenderTarget": 1,
+    "r.VolumetricRenderTarget.Mode": 1,
+    "reprojection_distance_km": 4.0
+  },
+  "movement": [
+    {
+      "case": "normal",
+      "speed_km_s": 0.01225000000026739,
+      "distance_m": 1.2249999999180445,
+      "clearance_m": 36.225
+    },
+    {
+      "case": "boost",
+      "speed_km_s": 0.8,
+      "distance_m": 79.99999999972303,
+      "clearance_m": 115.0
+    },
+    {
+      "case": "precision",
+      "speed_km_s": 0.0012250000000267392,
+      "distance_m": 0.12250000033965543,
+      "clearance_m": 35.122500001192094
+    },
+    {
+      "case": "both_precision_priority",
+      "speed_km_s": 0.0012250000000267392,
+      "distance_m": 0.12250000033965543,
+      "clearance_m": 35.122500001192094
+    },
+    {
+      "case": "release",
+      "speed_km_s": 0.01225000000026739,
+      "distance_m": 1.2249999999180445,
+      "clearance_m": 36.225
+    },
+    {
+      "case": "precision_no_direction",
+      "speed_km_s": 0.0012250000000267392,
+      "distance_m": 0.0,
+      "clearance_m": 35.0
+    },
+    {
+      "case": "boost_stall_clamp",
+      "speed_km_s": 0.8,
+      "distance_m": 79.99999999972303,
+      "clearance_m": 115.0
+    },
+    {
+      "case": "boost_ground_clearance",
+      "speed_km_s": 0.8,
+      "distance_m": 32.00000000109293,
+      "clearance_m": 2.999999998807907
+    }
+  ],
+  "views": [
+    {
+      "body": 3,
+      "view": "orbit",
+      "camera_cm": [
+        455094379.3788408,
+        2700545146.3390846,
+        70635895.40708795
+      ],
+      "cloud_visible": true,
+      "view_sample_scale": 0.5,
+      "material_usage": true
+    },
+    {
+      "body": 2,
+      "view": "orbit",
+      "camera_cm": [
+        283417054.32262117,
+        -2378098464.0584803,
+        1017915733.0731202
+      ],
+      "cloud_visible": true,
+      "view_sample_scale": 0.5,
+      "material_usage": true
+    },
+    {
+      "body": 3,
+      "view": "orbit-repeat",
+      "camera_cm": [
+        455094379.3788408,
+        2700545146.3390846,
+        70635895.40708792
+      ],
+      "cloud_visible": true,
+      "view_sample_scale": 0.5,
+      "material_usage": true
+    },
+    {
+      "body": 2,
+      "view": "orbit-repeat",
+      "camera_cm": [
+        283417054.32262117,
+        -2378098464.0584803,
+        1017915733.0731202
+      ],
+      "cloud_visible": true,
+      "view_sample_scale": 0.5,
+      "material_usage": true
+    },
+    {
+      "body": 3,
+      "view": "low-orbit",
+      "camera_cm": [
+        -226608140.36733595,
+        624440628.2154741,
+        -171041875.4687499
+      ],
+      "cloud_visible": true,
+      "view_sample_scale": 0.5,
+      "material_usage": true
+    },
+    {
+      "body": 3,
+      "view": "inside",
+      "camera_cm": [
+        115484999.90351188,
+        626608493.8201047,
+        -23660968.671874993
+      ],
+      "cloud_visible": true,
+      "view_sample_scale": 0.5,
+      "material_usage": true
+    },
+    {
+      "body": 3,
+      "view": "surface",
+      "camera_cm": [
+        -210480596.73452616,
+        579999623.3101807,
+        -158868944.23517495
+      ],
+      "cloud_visible": true,
+      "view_sample_scale": 0.5,
+      "material_usage": true
+    },
+    {
+      "body": 2,
+      "view": "inside",
+      "camera_cm": [
+        267178752.88252577,
+        -549458207.1881963,
+        2784414.062500028
+      ],
+      "cloud_visible": true,
+      "view_sample_scale": 0.5,
+      "material_usage": true
+    },
+    {
+      "body": 2,
+      "view": "surface",
+      "camera_cm": [
+        264646074.3367306,
+        -544249705.3962574,
+        2758019.6517071724
+      ],
+      "cloud_visible": true,
+      "view_sample_scale": 0.5,
+      "material_usage": true
+    }
+  ],
+  "switch_calls": [
+    {
+      "body": 3,
+      "view": "orbit",
+      "focus_call_ms": 0.6387999892467633
+    },
+    {
+      "body": 2,
+      "view": "orbit",
+      "focus_call_ms": 0.1320000010309741
+    },
+    {
+      "body": 3,
+      "view": "orbit-repeat",
+      "focus_call_ms": 0.12269998842384666
+    },
+    {
+      "body": 2,
+      "view": "orbit-repeat",
+      "focus_call_ms": 0.1024999946821481
+    },
+    {
+      "body": 3,
+      "view": "low-orbit",
+      "focus_call_ms": 0.11700000322889537
+    },
+    {
+      "body": 3,
+      "view": "inside",
+      "focus_call_ms": 4.580200009513646
+    },
+    {
+      "body": 3,
+      "view": "surface",
+      "focus_call_ms": 2.9189999913796782
+    },
+    {
+      "body": 2,
+      "view": "inside",
+      "focus_call_ms": 2.8962000069441274
+    },
+    {
+      "body": 2,
+      "view": "surface",
+      "focus_call_ms": 1.8010999920079485
+    }
+  ],
+  "scope": "冻结输入后调用与键盘共用的 C++ 飞行函数；未模拟物理按键。GPU 事件另存日志，截图需人工检查；切换调用耗时不是首帧显示延迟。",
+  "movement_test_note": "修正 Python 向量原地取反后重跑全部8项；采用独立反向向量，C++实现没有因此修改。"
+}

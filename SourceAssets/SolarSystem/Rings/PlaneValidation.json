@@ -1,0 +1,17 @@
+{
+  "vertices": 100,
+  "triangles": 162,
+  "area": 4.0000000000000115,
+  "uv_range": [
+    0,
+    1
+  ],
+  "local_extent": [
+    -1,
+    1
+  ],
+  "winding": "+Z",
+  "units": "单位半径；接入后按外环半径厘米数缩放",
+  "runtime_integrated": false,
+  "shader_required": true
+}

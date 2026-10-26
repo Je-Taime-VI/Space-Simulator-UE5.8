@@ -1,0 +1,29 @@
+{
+  "stage": "restart-final",
+  "roi_xyxy": [
+    390,
+    170,
+    985,
+    725
+  ],
+  "intensity_scale": 255,
+  "interpretation": "固定位置亮度波动；不等同于所有相机运动或云地遮挡的验收。",
+  "results": {
+    "rt0": {
+      "frames": 32,
+      "mean_temporal_std": 0.4778051972389221,
+      "p99_peak_to_peak": 8.666671752929688,
+      "fraction_peak_to_peak_gt20": 2.7254144901203724e-05,
+      "brightest": {
+        "file": "rt0-returned-04800000.png",
+        "mean": 97.96574401855469,
+        "lower_left": 128.94725036621094
+      },
+      "darkest": {
+        "file": "rt0-still-00500000.png",
+        "mean": 97.94479370117188,
+        "lower_left": 128.88185119628906
+      }
+    }
+  }
+}

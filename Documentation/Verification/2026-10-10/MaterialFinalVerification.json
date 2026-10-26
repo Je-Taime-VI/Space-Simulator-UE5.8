@@ -1,0 +1,275 @@
+{
+  "success": true,
+  "failures": [],
+  "model": {
+    "catalogue_audit": [
+      {
+        "key": "Sun",
+        "obliquity_deg": 7.25,
+        "inclination_deg": 0,
+        "eccentricity": 0,
+        "radius_km": 695700,
+        "semi_major_axis_au": 0,
+        "spin_axis_ecliptic": [
+          0.12232446809011328,
+          -0.031030699595996466,
+          0.992004949679715
+        ]
+      },
+      {
+        "key": "Mercury",
+        "obliquity_deg": 0.034,
+        "inclination_deg": 7.00497902,
+        "eccentricity": 0.20563593,
+        "radius_km": 2439.4,
+        "semi_major_axis_au": 0.38709927,
+        "spin_axis_ecliptic": [
+          0.09137763896995474,
+          -0.0815998060756092,
+          0.9924674295636606
+        ]
+      },
+      {
+        "key": "Venus",
+        "obliquity_deg": 177.36,
+        "inclination_deg": 3.39467605,
+        "eccentricity": 0.00677672,
+        "radius_km": 6051.8,
+        "semi_major_axis_au": 0.72333566,
+        "spin_axis_ecliptic": [
+          -0.01865522425159768,
+          -0.010894718529933109,
+          -0.9997666166242382
+        ]
+      },
+      {
+        "key": "Earth",
+        "obliquity_deg": 23.43928,
+        "inclination_deg": -1.531e-05,
+        "eccentricity": 0.01671123,
+        "radius_km": 6371.0084,
+        "semi_major_axis_au": 1.00000261,
+        "spin_axis_ecliptic": [
+          2.4356815144646118e-17,
+          0.3977772231690681,
+          0.9174820329183049
+        ]
+      },
+      {
+        "key": "Moon",
+        "obliquity_deg": 6.68,
+        "inclination_deg": 5.145,
+        "eccentricity": 0.0549,
+        "radius_km": 1737.4,
+        "semi_major_axis_au": 0.0025695552897999907,
+        "spin_axis_ecliptic": [
+          -0.021707782299875442,
+          -0.015698849998203392,
+          0.9996410947416855
+        ]
+      },
+      {
+        "key": "Mars",
+        "obliquity_deg": 25.19,
+        "inclination_deg": 1.84969142,
+        "eccentricity": 0.0933941,
+        "radius_km": 3389.5,
+        "semi_major_axis_au": 1.52371034,
+        "spin_axis_ecliptic": [
+          0.44722352267447235,
+          -0.03933109106589415,
+          0.893557041291826
+        ]
+      },
+      {
+        "key": "Jupiter",
+        "obliquity_deg": 3.13,
+        "inclination_deg": 1.30439695,
+        "eccentricity": 0.04838624,
+        "radius_km": 69911,
+        "semi_major_axis_au": 5.202887,
+        "spin_axis_ecliptic": [
+          -0.014721562591522061,
+          -0.03594219259792758,
+          0.9992454325070081
+        ]
+      },
+      {
+        "key": "Saturn",
+        "obliquity_deg": 26.73,
+        "inclination_deg": 2.48599187,
+        "eccentricity": 0.05386179,
+        "radius_km": 58232,
+        "semi_major_axis_au": 9.53667594,
+        "spin_axis_ecliptic": [
+          0.0854787554675008,
+          0.46244068105502856,
+          0.8825202540843404
+        ]
+      },
+      {
+        "key": "Uranus",
+        "obliquity_deg": 97.77,
+        "inclination_deg": 0.77263783,
+        "eccentricity": 0.04725744,
+        "radius_km": 25362,
+        "semi_major_axis_au": 19.18916464,
+        "spin_axis_ecliptic": [
+          0.21199957957073878,
+          0.9679890219274186,
+          -0.13436305924557412
+        ]
+      },
+      {
+        "key": "Neptune",
+        "obliquity_deg": 28.32,
+        "inclination_deg": 1.77004347,
+        "eccentricity": 0.00859048,
+        "radius_km": 24622,
+        "semi_major_axis_au": 30.06992276,
+        "spin_axis_ecliptic": [
+          0.3610171600153565,
+          -0.3119499971395333,
+          0.8788366227343349
+        ]
+      }
+    ],
+    "failures": [],
+    "success": true,
+    "earth_water_fraction": 0.65625,
+    "terrain_invalid": 0
+  },
+  "views": [
+    {
+      "body": "mercury",
+      "view": "orbit",
+      "atmosphere": false,
+      "clouds": false,
+      "terrain_blend": 0,
+      "camera_cm": [
+        974076126.7014842,
+        82825949.80080271,
+        380256335.6393018
+      ],
+      "cloud_column": 0.16142860054969788
+    },
+    {
+      "body": "moon",
+      "view": "orbit",
+      "atmosphere": false,
+      "clouds": false,
+      "terrain_blend": 0,
+      "camera_cm": [
+        -468701388.0161488,
+        -511371691.72178173,
+        277397758.6451244
+      ],
+      "cloud_column": 0.3261226713657379
+    },
+    {
+      "body": "jupiter",
+      "view": "orbit",
+      "atmosphere": true,
+      "clouds": false,
+      "terrain_blend": 0,
+      "camera_cm": [
+        -21753723942.29532,
+        -16847501218.335629,
+        12109698920.018091
+      ],
+      "cloud_column": 0
+    },
+    {
+      "body": "saturn",
+      "view": "orbit",
+      "atmosphere": true,
+      "clouds": false,
+      "terrain_blend": 0,
+      "camera_cm": [
+        31857120109.519806,
+        20304172259.485607,
+        2355323295.168667
+      ],
+      "cloud_column": 0
+    },
+    {
+      "body": "mercury",
+      "view": "surface",
+      "atmosphere": false,
+      "clouds": false,
+      "terrain_blend": 1,
+      "camera_cm": [
+        207093257.4555186,
+        126938106.07805051,
+        -22392098.505389214
+      ],
+      "cloud_column": 0.2642759680747986,
+      "lod_count": 16,
+      "invalid_bounds": 0,
+      "ground_cm": -12554.5791015625,
+      "clearance_m": 34.99999511808157
+    },
+    {
+      "body": "moon",
+      "view": "surface",
+      "atmosphere": false,
+      "clouds": false,
+      "terrain_blend": 1,
+      "camera_cm": [
+        -69593489.90639877,
+        -158805398.98381364,
+        -10971351.55733341
+      ],
+      "cloud_column": 0,
+      "lod_count": 16,
+      "invalid_bounds": 0,
+      "ground_cm": -11582.5556640625,
+      "clearance_m": 34.99999623894691
+    }
+  ],
+  "descent_frames": [],
+  "frame_conversions": [
+    {
+      "body": 0,
+      "position_error_km": 2.2386748870722467e-08
+    },
+    {
+      "body": 1,
+      "position_error_km": 6.366263839097756e-08
+    },
+    {
+      "body": 2,
+      "position_error_km": 1.1186946463375819e-07
+    },
+    {
+      "body": 3,
+      "position_error_km": 1.0748449284261616e-07
+    },
+    {
+      "body": 4,
+      "position_error_km": 1.0748449284261616e-07
+    },
+    {
+      "body": 5,
+      "position_error_km": 9.73354320626189e-08
+    },
+    {
+      "body": 6,
+      "position_error_km": 2.529939199537407e-07
+    },
+    {
+      "body": 7,
+      "position_error_km": 1.990572061672284e-06
+    },
+    {
+      "body": 8,
+      "position_error_km": 4.122737860557689e-06
+    },
+    {
+      "body": 9,
+      "position_error_km": 4.5438185037488935e-06
+    }
+  ],
+  "duration_seconds": 65.73500000000058,
+  "scope": "最终材质补充回归，不重复下降。画面仍需逐张检查，未模拟物理键盘和航天器动力学。"
+}

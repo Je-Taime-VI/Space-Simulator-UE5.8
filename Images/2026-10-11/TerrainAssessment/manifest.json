@@ -1,0 +1,58 @@
+[
+  {
+    "source": "C:\\Users\\GrayRaveN\\Pictures\\Screenshots\\屏幕截图 2026-10-10 210032.png",
+    "archive": "demo-baren-beach-reference.png",
+    "sha256": "D1F5F3B6A5949E2F9AD3E9075A1E263F81D2D55E00DEDD7499817615F8BF1100",
+    "captured": "2026-10-10",
+    "archived": "2026-10-11",
+    "role": "原始对照或现状截图；尚无修复后图"
+  },
+  {
+    "source": "C:\\Users\\GrayRaveN\\Pictures\\Screenshots\\屏幕截图 2026-10-10 210326.png",
+    "archive": "demo-baren-hills-reference.png",
+    "sha256": "F9F07D77E8E476E56DD60179688544E9B5207CC8BC95833C06261A745948A514",
+    "captured": "2026-10-10",
+    "archived": "2026-10-11",
+    "role": "原始对照或现状截图；尚无修复后图"
+  },
+  {
+    "source": "C:\\Users\\GrayRaveN\\Pictures\\Screenshots\\屏幕截图 2026-10-10 210427.png",
+    "archive": "demo-earth-vegetation-reference.png",
+    "sha256": "CDD016443146070AE79F876D6B84E9D1A79FE5D6ED66A1690D6507A9255BB39F",
+    "captured": "2026-10-10",
+    "archived": "2026-10-11",
+    "role": "原始对照或现状截图；尚无修复后图"
+  },
+  {
+    "source": "C:\\Users\\GrayRaveN\\Pictures\\Screenshots\\屏幕截图 2026-10-10 210523.png",
+    "archive": "demo-earth-ocean-reference.png",
+    "sha256": "8A6759A0717E655DD8179F780CDAD521240D18FF106E8C2E0E9CB4348902627D",
+    "captured": "2026-10-10",
+    "archived": "2026-10-11",
+    "role": "原始对照或现状截图；尚无修复后图"
+  },
+  {
+    "source": "C:\\Users\\GrayRaveN\\Pictures\\Screenshots\\屏幕截图 2026-10-10 210642.png",
+    "archive": "demo-moon-reference.png",
+    "sha256": "6C3AE5D0E516418A70D6B35929697CE97ADAB0457EF9E249D691F258744E1D6D",
+    "captured": "2026-10-10",
+    "archived": "2026-10-11",
+    "role": "原始对照或现状截图；尚无修复后图"
+  },
+  {
+    "source": "C:\\Users\\GrayRaveN\\Pictures\\Screenshots\\屏幕截图 2026-10-10 210732.png",
+    "archive": "demo-mars-reference.png",
+    "sha256": "DF0B55DB298EB7D5B8757197C126DC8B800C001D7CBFFAC9AECFFBE3BB30159F",
+    "captured": "2026-10-10",
+    "archived": "2026-10-11",
+    "role": "原始对照或现状截图；尚无修复后图"
+  },
+  {
+    "source": "C:\\Users\\GrayRaveN\\Pictures\\Screenshots\\屏幕截图 2026-10-10 211100.png",
+    "archive": "solar-earth-beach-before.png",
+    "sha256": "FB9AB2371FF3BDD57E47D29B86C3085BFEA36D86D12336810ED0810FF1D36002",
+    "captured": "2026-10-10",
+    "archived": "2026-10-11",
+    "role": "原始对照或现状截图；尚无修复后图"
+  }
+]

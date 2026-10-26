@@ -1,0 +1,521 @@
+[
+  {
+    "name": "MaterialExpressionLinearInterpolate_0",
+    "class": "MaterialExpressionLinearInterpolate",
+    "inputs": [
+      "MaterialExpressionScalarParameter_7",
+      "MaterialExpressionVectorParameter_0",
+      "MaterialExpressionSphereMask_0"
+    ]
+  },
+  {
+    "name": "MaterialExpressionLinearInterpolate_1",
+    "class": "MaterialExpressionLinearInterpolate",
+    "inputs": [
+      null,
+      "MaterialExpressionScalarParameter_34",
+      "MaterialExpressionSphereMask_0"
+    ]
+  },
+  {
+    "name": "MaterialExpressionMaterialFunctionCall_4",
+    "class": "MaterialExpressionMaterialFunctionCall",
+    "inputs": [
+      "MaterialExpressionMaterialFunctionCall_5",
+      "MaterialExpressionMaterialFunctionCall_5",
+      "MaterialExpressionMaterialFunctionCall_5",
+      null
+    ],
+    "material_function": "<Object '/Engine/Functions/Engine_MaterialFunctions03/Procedurals/PerturbNormalHQ.PerturbNormalHQ' (0x00000194FF5C17C0) Class 'MaterialFunction'>"
+  },
+  {
+    "name": "MaterialExpressionLinearInterpolate_2",
+    "class": "MaterialExpressionLinearInterpolate",
+    "inputs": [
+      null,
+      "MaterialExpressionScalarParameter_18",
+      "MaterialExpressionSphereMask_1"
+    ]
+  },
+  {
+    "name": "MaterialExpressionMultiply_23",
+    "class": "MaterialExpressionMultiply",
+    "inputs": [
+      "MaterialExpressionAdd_1",
+      "MaterialExpressionVertexNormalWS_5"
+    ]
+  },
+  {
+    "name": "MaterialExpressionScalarParameter_34",
+    "class": "MaterialExpressionScalarParameter",
+    "inputs": [],
+    "parameter_name": "Roughness",
+    "default_value": "0.0"
+  },
+  {
+    "name": "MaterialExpressionVectorParameter_0",
+    "class": "MaterialExpressionVectorParameter",
+    "inputs": [],
+    "parameter_name": "Param",
+    "default_value": "<Struct 'LinearColor' (0x00000194FE7FE678) {r: 0.161458, g: 0.161458, b: 0.161458, a: 1.000000}>"
+  },
+  {
+    "name": "MaterialExpressionPower_2",
+    "class": "MaterialExpressionPower",
+    "inputs": [
+      "MaterialExpressionNoise_1",
+      "MaterialExpressionScalarParameter_31"
+    ]
+  },
+  {
+    "name": "MaterialExpressionSingleLayerWaterMaterialOutput_0",
+    "class": "MaterialExpressionSingleLayerWaterMaterialOutput",
+    "inputs": [
+      "MaterialExpressionDivide_5",
+      "MaterialExpressionDivide_4",
+      "MaterialExpressionScalarParameter_16",
+      "MaterialExpressionScalarParameter_17"
+    ]
+  },
+  {
+    "name": "MaterialExpressionScalarParameter_16",
+    "class": "MaterialExpressionScalarParameter",
+    "inputs": [],
+    "parameter_name": "PhaseG",
+    "default_value": "0.0"
+  },
+  {
+    "name": "MaterialExpressionScalarParameter_17",
+    "class": "MaterialExpressionScalarParameter",
+    "inputs": [],
+    "parameter_name": "ColorScaleBehindWater",
+    "default_value": "0.0"
+  },
+  {
+    "name": "MaterialExpressionVectorParameter_4",
+    "class": "MaterialExpressionVectorParameter",
+    "inputs": [],
+    "parameter_name": "Param_1",
+    "default_value": "<Struct 'LinearColor' (0x00000194FE7F9878) {r: 0.000000, g: 0.000000, b: 0.000000, a: 1.000000}>"
+  },
+  {
+    "name": "MaterialExpressionVectorParameter_5",
+    "class": "MaterialExpressionVectorParameter",
+    "inputs": [],
+    "parameter_name": "Param_2",
+    "default_value": "<Struct 'LinearColor' (0x00000194FE7FAA78) {r: 0.000000, g: 0.000000, b: 0.000000, a: 1.000000}>"
+  },
+  {
+    "name": "MaterialExpressionScalarParameter_18",
+    "class": "MaterialExpressionScalarParameter",
+    "inputs": [],
+    "parameter_name": "Opacity",
+    "default_value": "0.0"
+  },
+  {
+    "name": "MaterialExpressionDivide_4",
+    "class": "MaterialExpressionDivide",
+    "inputs": [
+      "MaterialExpressionVectorParameter_4",
+      "MaterialExpressionScalarParameter_19"
+    ]
+  },
+  {
+    "name": "MaterialExpressionDivide_5",
+    "class": "MaterialExpressionDivide",
+    "inputs": [
+      "MaterialExpressionVectorParameter_5",
+      "MaterialExpressionScalarParameter_19"
+    ]
+  },
+  {
+    "name": "MaterialExpressionScalarParameter_19",
+    "class": "MaterialExpressionScalarParameter",
+    "inputs": [],
+    "parameter_name": "Coeffcint",
+    "default_value": "0.0"
+  },
+  {
+    "name": "MaterialExpressionSphereMask_1",
+    "class": "MaterialExpressionSphereMask",
+    "inputs": [
+      "MaterialExpressionWorldPosition_5",
+      "MaterialExpressionCameraPositionWS_1",
+      "MaterialExpressionScalarParameter_20",
+      "MaterialExpressionScalarParameter_21"
+    ]
+  },
+  {
+    "name": "MaterialExpressionWorldPosition_5",
+    "class": "MaterialExpressionWorldPosition",
+    "inputs": []
+  },
+  {
+    "name": "MaterialExpressionCameraPositionWS_1",
+    "class": "MaterialExpressionCameraPositionWS",
+    "inputs": []
+  },
+  {
+    "name": "MaterialExpressionScalarParameter_20",
+    "class": "MaterialExpressionScalarParameter",
+    "inputs": [],
+    "parameter_name": "Radius_1",
+    "default_value": "0.0"
+  },
+  {
+    "name": "MaterialExpressionScalarParameter_21",
+    "class": "MaterialExpressionScalarParameter",
+    "inputs": [],
+    "parameter_name": "Hardness_1",
+    "default_value": "0.0"
+  },
+  {
+    "name": "MaterialExpressionVectorParameter_7",
+    "class": "MaterialExpressionVectorParameter",
+    "inputs": [],
+    "parameter_name": "WaveDir",
+    "default_value": "<Struct 'LinearColor' (0x00000194FE7FF3F8) {r: 0.000000, g: 0.000000, b: 0.000000, a: 1.000000}>"
+  },
+  {
+    "name": "MaterialExpressionNoise_1",
+    "class": "MaterialExpressionNoise",
+    "inputs": [
+      "MaterialExpressionDivide_12",
+      null
+    ]
+  },
+  {
+    "name": "MaterialExpressionAdd_5",
+    "class": "MaterialExpressionAdd",
+    "inputs": [
+      "MaterialExpressionDivide_13",
+      "MaterialExpressionMultiply_25"
+    ]
+  },
+  {
+    "name": "MaterialExpressionTime_4",
+    "class": "MaterialExpressionTime",
+    "inputs": []
+  },
+  {
+    "name": "MaterialExpressionDivide_12",
+    "class": "MaterialExpressionDivide",
+    "inputs": [
+      "MaterialExpressionAdd_5",
+      "MaterialExpressionScalarParameter_28"
+    ]
+  },
+  {
+    "name": "MaterialExpressionScalarParameter_28",
+    "class": "MaterialExpressionScalarParameter",
+    "inputs": [],
+    "parameter_name": "scale",
+    "default_value": "10.0"
+  },
+  {
+    "name": "MaterialExpressionVertexNormalWS_5",
+    "class": "MaterialExpressionVertexNormalWS",
+    "inputs": []
+  },
+  {
+    "name": "MaterialExpressionMultiply_24",
+    "class": "MaterialExpressionMultiply",
+    "inputs": [
+      "MaterialExpressionPower_2",
+      "MaterialExpressionScalarParameter_29"
+    ]
+  },
+  {
+    "name": "MaterialExpressionScalarParameter_29",
+    "class": "MaterialExpressionScalarParameter",
+    "inputs": [],
+    "parameter_name": "B",
+    "default_value": "0.5904759764671326"
+  },
+  {
+    "name": "MaterialExpressionMultiply_25",
+    "class": "MaterialExpressionMultiply",
+    "inputs": [
+      "MaterialExpressionMultiply_26",
+      "MaterialExpressionScalarParameter_30"
+    ]
+  },
+  {
+    "name": "MaterialExpressionScalarParameter_30",
+    "class": "MaterialExpressionScalarParameter",
+    "inputs": [],
+    "parameter_name": "B_2",
+    "default_value": "200.0"
+  },
+  {
+    "name": "MaterialExpressionVertexNormalWS_6",
+    "class": "MaterialExpressionVertexNormalWS",
+    "inputs": []
+  },
+  {
+    "name": "MaterialExpressionMultiply_26",
+    "class": "MaterialExpressionMultiply",
+    "inputs": [
+      "MaterialExpressionTime_4",
+      "MaterialExpressionMultiply_27"
+    ]
+  },
+  {
+    "name": "MaterialExpressionMultiply_27",
+    "class": "MaterialExpressionMultiply",
+    "inputs": [
+      "MaterialExpressionVertexNormalWS_6",
+      "MaterialExpressionMaterialFunctionCall_0"
+    ]
+  },
+  {
+    "name": "MaterialExpressionScalarParameter_31",
+    "class": "MaterialExpressionScalarParameter",
+    "inputs": [],
+    "parameter_name": "Sharpness",
+    "default_value": "1.0"
+  },
+  {
+    "name": "MaterialExpressionDivide_13",
+    "class": "MaterialExpressionDivide",
+    "inputs": [
+      "MaterialExpressionWorldPosition_2",
+      "MaterialExpressionVectorParameter_2"
+    ]
+  },
+  {
+    "name": "MaterialExpressionMaterialFunctionCall_5",
+    "class": "MaterialExpressionMaterialFunctionCall",
+    "inputs": [
+      "MaterialExpressionAdd_1"
+    ],
+    "material_function": "<Object '/Engine/Functions/Engine_MaterialFunctions03/Procedurals/PreparePerturbNormalHQ.PreparePerturbNormalHQ' (0x00000194FF5C03C0) Class 'MaterialFunction'>"
+  },
+  {
+    "name": "MaterialExpressionSphereMask_0",
+    "class": "MaterialExpressionSphereMask",
+    "inputs": [
+      "MaterialExpressionWorldPosition_5",
+      "MaterialExpressionCameraPositionWS_1",
+      "MaterialExpressionScalarParameter_0",
+      "MaterialExpressionScalarParameter_1"
+    ]
+  },
+  {
+    "name": "MaterialExpressionScalarParameter_0",
+    "class": "MaterialExpressionScalarParameter",
+    "inputs": [],
+    "parameter_name": "Radius_2",
+    "default_value": "0.0"
+  },
+  {
+    "name": "MaterialExpressionScalarParameter_1",
+    "class": "MaterialExpressionScalarParameter",
+    "inputs": [],
+    "parameter_name": "Hardness_2",
+    "default_value": "0.0"
+  },
+  {
+    "name": "MaterialExpressionNoise_0",
+    "class": "MaterialExpressionNoise",
+    "inputs": [
+      "MaterialExpressionDivide_0",
+      null
+    ]
+  },
+  {
+    "name": "MaterialExpressionAdd_0",
+    "class": "MaterialExpressionAdd",
+    "inputs": [
+      "MaterialExpressionDivide_1",
+      "MaterialExpressionMultiply_0"
+    ]
+  },
+  {
+    "name": "MaterialExpressionWorldPosition_2",
+    "class": "MaterialExpressionWorldPosition",
+    "inputs": []
+  },
+  {
+    "name": "MaterialExpressionTime_0",
+    "class": "MaterialExpressionTime",
+    "inputs": []
+  },
+  {
+    "name": "MaterialExpressionDivide_0",
+    "class": "MaterialExpressionDivide",
+    "inputs": [
+      "MaterialExpressionAdd_0",
+      "MaterialExpressionMultiply_3"
+    ]
+  },
+  {
+    "name": "MaterialExpressionScalarParameter_2",
+    "class": "MaterialExpressionScalarParameter",
+    "inputs": [],
+    "parameter_name": "scale",
+    "default_value": "10.0"
+  },
+  {
+    "name": "MaterialExpressionMultiply_0",
+    "class": "MaterialExpressionMultiply",
+    "inputs": [
+      "MaterialExpressionMultiply_1",
+      "MaterialExpressionScalarParameter_3"
+    ]
+  },
+  {
+    "name": "MaterialExpressionScalarParameter_3",
+    "class": "MaterialExpressionScalarParameter",
+    "inputs": [],
+    "parameter_name": "B_2",
+    "default_value": "200.0"
+  },
+  {
+    "name": "MaterialExpressionVertexNormalWS_0",
+    "class": "MaterialExpressionVertexNormalWS",
+    "inputs": []
+  },
+  {
+    "name": "MaterialExpressionMultiply_1",
+    "class": "MaterialExpressionMultiply",
+    "inputs": [
+      "MaterialExpressionTime_0",
+      "MaterialExpressionMultiply_2"
+    ]
+  },
+  {
+    "name": "MaterialExpressionMultiply_2",
+    "class": "MaterialExpressionMultiply",
+    "inputs": [
+      "MaterialExpressionVertexNormalWS_0",
+      "MaterialExpressionMaterialFunctionCall_0"
+    ]
+  },
+  {
+    "name": "MaterialExpressionDivide_1",
+    "class": "MaterialExpressionDivide",
+    "inputs": [
+      "MaterialExpressionWorldPosition_2",
+      "MaterialExpressionVectorParameter_1"
+    ]
+  },
+  {
+    "name": "MaterialExpressionMultiply_3",
+    "class": "MaterialExpressionMultiply",
+    "inputs": [
+      "MaterialExpressionScalarParameter_2",
+      "MaterialExpressionScalarParameter_6"
+    ]
+  },
+  {
+    "name": "MaterialExpressionPower_0",
+    "class": "MaterialExpressionPower",
+    "inputs": [
+      "MaterialExpressionNoise_0",
+      "MaterialExpressionScalarParameter_5"
+    ]
+  },
+  {
+    "name": "MaterialExpressionMultiply_4",
+    "class": "MaterialExpressionMultiply",
+    "inputs": [
+      "MaterialExpressionPower_0",
+      "MaterialExpressionScalarParameter_4"
+    ]
+  },
+  {
+    "name": "MaterialExpressionScalarParameter_4",
+    "class": "MaterialExpressionScalarParameter",
+    "inputs": [],
+    "parameter_name": "BWaveheight2",
+    "default_value": "0.5904759764671326"
+  },
+  {
+    "name": "MaterialExpressionScalarParameter_5",
+    "class": "MaterialExpressionScalarParameter",
+    "inputs": [],
+    "parameter_name": "Sharpness2",
+    "default_value": "1.0"
+  },
+  {
+    "name": "MaterialExpressionAdd_1",
+    "class": "MaterialExpressionAdd",
+    "inputs": [
+      "MaterialExpressionMultiply_24",
+      "MaterialExpressionMultiply_4"
+    ]
+  },
+  {
+    "name": "MaterialExpressionScalarParameter_6",
+    "class": "MaterialExpressionScalarParameter",
+    "inputs": [],
+    "parameter_name": "Secondwavescale",
+    "default_value": "2.0"
+  },
+  {
+    "name": "MaterialExpressionScalarParameter_7",
+    "class": "MaterialExpressionScalarParameter",
+    "inputs": [],
+    "parameter_name": "A",
+    "default_value": "0.20000000298023224"
+  },
+  {
+    "name": "MaterialExpressionMaterialFunctionCall_0",
+    "class": "MaterialExpressionMaterialFunctionCall",
+    "inputs": [
+      "MaterialExpressionVectorParameter_7",
+      "MaterialExpressionNormalize_0",
+      null
+    ],
+    "material_function": "<Object '/Engine/Functions/Engine_MaterialFunctions01/Vectors/RotateVector.RotateVector' (0x00000194FF5CE740) Class 'MaterialFunction'>"
+  },
+  {
+    "name": "MaterialExpressionCameraPositionWS_2",
+    "class": "MaterialExpressionCameraPositionWS",
+    "inputs": []
+  },
+  {
+    "name": "MaterialExpressionNormalize_0",
+    "class": "MaterialExpressionNormalize",
+    "inputs": [
+      "MaterialExpressionAdd_6"
+    ]
+  },
+  {
+    "name": "MaterialExpressionVectorParameter_1",
+    "class": "MaterialExpressionVectorParameter",
+    "inputs": [],
+    "parameter_name": "WaveShape2",
+    "default_value": "<Struct 'LinearColor' (0x00000194FE7FDD78) {r: 5.000000, g: 5.000000, b: 1.000000, a: 1.000000}>"
+  },
+  {
+    "name": "MaterialExpressionVectorParameter_2",
+    "class": "MaterialExpressionVectorParameter",
+    "inputs": [],
+    "parameter_name": "WaveShape1",
+    "default_value": "<Struct 'LinearColor' (0x00000194FE7FE1F8) {r: 3.000000, g: 2.700000, b: 1.000000, a: 1.000000}>"
+  },
+  {
+    "name": "MaterialExpressionAdd_6",
+    "class": "MaterialExpressionAdd",
+    "inputs": [
+      "MaterialExpressionCameraPositionWS_2",
+      null
+    ]
+  },
+  {
+    "name": "MaterialExpressionScalarParameter_8",
+    "class": "MaterialExpressionScalarParameter",
+    "inputs": [],
+    "parameter_name": "Metallic",
+    "default_value": "0.0"
+  },
+  {
+    "name": "MaterialExpressionScalarParameter_9",
+    "class": "MaterialExpressionScalarParameter",
+    "inputs": [],
+    "parameter_name": "Specular",
+    "default_value": "0.0"
+  }
+]

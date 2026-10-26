@@ -1,0 +1,786 @@
+{
+  "completed": true,
+  "errors": [],
+  "frames": [
+    {
+      "name": "Jupiter-lit",
+      "body": 6,
+      "view": "lit",
+      "pos": [
+        -16895564959.053665,
+        -27691323585.44846,
+        24329028000.0
+      ],
+      "rot": [
+        2.724133594256273e-07,
+        -36.869895935058594,
+        58.610992431640625
+      ],
+      "rings": [
+        {
+          "name": "SaturnRings",
+          "scale": [
+            21789645.58057047,
+            21789645.58057047,
+            21789645.58057047
+          ],
+          "position": [
+            31961785702.30332,
+            209402337048.57016,
+            44964995.78995514
+          ],
+          "rotation": [
+            -30.231050491333008,
+            0.4551253914833069,
+            -168.2076416015625
+          ],
+          "material": "MID_M_Rings_0",
+          "visible": true
+        }
+      ],
+      "diagnostics": {
+        "focus": 6,
+        "simulation_seconds": 0,
+        "time_scale": 0,
+        "surface_mode": false,
+        "logical_position_km": [
+          597875489.5304222,
+          440471316.6038632,
+          -14984417.159151135
+        ],
+        "trees": 0,
+        "grass": 0,
+        "atmosphere": true,
+        "terrain_blend": 0,
+        "volumetric_clouds": false,
+        "earth_cloud_column": 0.781406044960022,
+        "atmosphere_bottom_km": 69861,
+        "reserved_regions": {
+          "main_belt_inner_au": 2.1,
+          "main_belt_outer_au": 3.3,
+          "kuiper_inner_au": 30,
+          "kuiper_outer_au": 50
+        },
+        "bodies": [
+          {
+            "key": "Sun",
+            "radius_km": 695700,
+            "semi_major_axis_km": 0,
+            "period_days": 1,
+            "tidal_lock": false,
+            "atmosphere_km": 0,
+            "position_km": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "key": "Mercury",
+            "radius_km": 2439.4,
+            "semi_major_axis_km": 57909226.54152438,
+            "period_days": 87.96946108518885,
+            "tidal_lock": false,
+            "atmosphere_km": 0,
+            "position_km": [
+              -19460980.613990635,
+              -66913981.136100605,
+              -3679931.05106441
+            ]
+          },
+          {
+            "key": "Venus",
+            "radius_km": 6051.8,
+            "semi_major_axis_km": 108209474.53737916,
+            "period_days": 224.7024054382495,
+            "tidal_lock": false,
+            "atmosphere_km": 150,
+            "position_km": [
+              -107458597.29243943,
+              -4892846.938469082,
+              6135850.0679359995
+            ]
+          },
+          {
+            "key": "Earth",
+            "radius_km": 6371.0084,
+            "semi_major_axis_km": 149598261.1504425,
+            "period_days": 365.2577899816229,
+            "tidal_lock": false,
+            "atmosphere_km": 100,
+            "position_km": [
+              -26500456.47728982,
+              144695735.98653033,
+              -462.11285457870963
+            ]
+          },
+          {
+            "key": "Moon",
+            "radius_km": 1737.4,
+            "semi_major_axis_km": 384400,
+            "period_days": 27.321661,
+            "tidal_lock": true,
+            "atmosphere_km": 0,
+            "position_km": [
+              -26828435.600922223,
+              144489282.93074876,
+              34388.01260073938
+            ]
+          },
+          {
+            "key": "Mars",
+            "radius_km": 3389.5,
+            "semi_major_axis_km": 227943822.42757303,
+            "period_days": 686.9924923350414,
+            "tidal_lock": false,
+            "atmosphere_km": 80,
+            "position_km": [
+              208040933.90379685,
+              -2003274.6844933778,
+              -5155331.001447282
+            ]
+          },
+          {
+            "key": "Jupiter",
+            "radius_km": 69911,
+            "semi_major_axis_km": 778340816.6927108,
+            "period_days": 4332.691808027157,
+            "tidal_lock": false,
+            "atmosphere_km": 300,
+            "position_km": [
+              598140298.9669311,
+              440672079.99360573,
+              -15216768.478788756
+            ]
+          },
+          {
+            "key": "Saturn",
+            "radius_km": 58232,
+            "semi_major_axis_km": 1426666414.179921,
+            "period_days": 10755.532246083874,
+            "tidal_lock": false,
+            "atmosphere_km": 600,
+            "position_km": [
+              959638100.2927508,
+              979217915.0597695,
+              -55223571.19478801
+            ]
+          },
+          {
+            "key": "Uranus",
+            "radius_km": 25362,
+            "semi_major_axis_km": 2870658170.655732,
+            "period_days": 30702.452036650207,
+            "tidal_lock": false,
+            "atmosphere_km": 350,
+            "position_km": [
+              2158018979.8789186,
+              -2055122548.998284,
+              -35609247.96426492
+            ]
+          },
+          {
+            "key": "Neptune",
+            "radius_km": 24622,
+            "semi_major_axis_km": 4498396417.009467,
+            "period_days": 60226.23605287058,
+            "tidal_lock": false,
+            "atmosphere_km": 300,
+            "position_km": [
+              2513956734.281609,
+              -3738856178.114766,
+              19059248.949304998
+            ]
+          }
+        ]
+      },
+      "cloud_rt": 0,
+      "ap": 0
+    },
+    {
+      "name": "Saturn-lit",
+      "body": 7,
+      "view": "lit",
+      "pos": [
+        18068533912.059048,
+        24299079017.08154,
+        -22710480000.0
+      ],
+      "rot": [
+        5.885725045118306e-07,
+        36.869895935058594,
+        -126.63409423828125
+      ],
+      "rings": [
+        {
+          "name": "SaturnRings",
+          "scale": [
+            5823200000.0,
+            5823200000.0,
+            5823200000.0
+          ],
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            3.975693398236888e-16,
+            0.0
+          ],
+          "material": "MID_M_Rings_0",
+          "visible": true
+        }
+      ],
+      "diagnostics": {
+        "focus": 7,
+        "simulation_seconds": 0,
+        "time_scale": 0,
+        "surface_mode": false,
+        "logical_position_km": [
+          959402033.9651585,
+          978934862.4383017,
+          -55309723.43516066
+        ],
+        "trees": 0,
+        "grass": 0,
+        "atmosphere": true,
+        "terrain_blend": 0,
+        "volumetric_clouds": false,
+        "earth_cloud_column": 0,
+        "atmosphere_bottom_km": 58182,
+        "reserved_regions": {
+          "main_belt_inner_au": 2.1,
+          "main_belt_outer_au": 3.3,
+          "kuiper_inner_au": 30,
+          "kuiper_outer_au": 50
+        },
+        "bodies": [
+          {
+            "key": "Sun",
+            "radius_km": 695700,
+            "semi_major_axis_km": 0,
+            "period_days": 1,
+            "tidal_lock": false,
+            "atmosphere_km": 0,
+            "position_km": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "key": "Mercury",
+            "radius_km": 2439.4,
+            "semi_major_axis_km": 57909226.54152438,
+            "period_days": 87.96946108518885,
+            "tidal_lock": false,
+            "atmosphere_km": 0,
+            "position_km": [
+              -19460980.613990635,
+              -66913981.136100605,
+              -3679931.05106441
+            ]
+          },
+          {
+            "key": "Venus",
+            "radius_km": 6051.8,
+            "semi_major_axis_km": 108209474.53737916,
+            "period_days": 224.7024054382495,
+            "tidal_lock": false,
+            "atmosphere_km": 150,
+            "position_km": [
+              -107458597.29243943,
+              -4892846.938469082,
+              6135850.0679359995
+            ]
+          },
+          {
+            "key": "Earth",
+            "radius_km": 6371.0084,
+            "semi_major_axis_km": 149598261.1504425,
+            "period_days": 365.2577899816229,
+            "tidal_lock": false,
+            "atmosphere_km": 100,
+            "position_km": [
+              -26500456.47728982,
+              144695735.98653033,
+              -462.11285457870963
+            ]
+          },
+          {
+            "key": "Moon",
+            "radius_km": 1737.4,
+            "semi_major_axis_km": 384400,
+            "period_days": 27.321661,
+            "tidal_lock": true,
+            "atmosphere_km": 0,
+            "position_km": [
+              -26828435.600922223,
+              144489282.93074876,
+              34388.01260073938
+            ]
+          },
+          {
+            "key": "Mars",
+            "radius_km": 3389.5,
+            "semi_major_axis_km": 227943822.42757303,
+            "period_days": 686.9924923350414,
+            "tidal_lock": false,
+            "atmosphere_km": 80,
+            "position_km": [
+              208040933.90379685,
+              -2003274.6844933778,
+              -5155331.001447282
+            ]
+          },
+          {
+            "key": "Jupiter",
+            "radius_km": 69911,
+            "semi_major_axis_km": 778340816.6927108,
+            "period_days": 4332.691808027157,
+            "tidal_lock": false,
+            "atmosphere_km": 300,
+            "position_km": [
+              598140298.9669311,
+              440672079.99360573,
+              -15216768.478788756
+            ]
+          },
+          {
+            "key": "Saturn",
+            "radius_km": 58232,
+            "semi_major_axis_km": 1426666414.179921,
+            "period_days": 10755.532246083874,
+            "tidal_lock": false,
+            "atmosphere_km": 600,
+            "position_km": [
+              959638100.2927508,
+              979217915.0597695,
+              -55223571.19478801
+            ]
+          },
+          {
+            "key": "Uranus",
+            "radius_km": 25362,
+            "semi_major_axis_km": 2870658170.655732,
+            "period_days": 30702.452036650207,
+            "tidal_lock": false,
+            "atmosphere_km": 350,
+            "position_km": [
+              2158018979.8789186,
+              -2055122548.998284,
+              -35609247.96426492
+            ]
+          },
+          {
+            "key": "Neptune",
+            "radius_km": 24622,
+            "semi_major_axis_km": 4498396417.009467,
+            "period_days": 60226.23605287058,
+            "tidal_lock": false,
+            "atmosphere_km": 300,
+            "position_km": [
+              2513956734.281609,
+              -3738856178.114766,
+              19059248.949304998
+            ]
+          }
+        ]
+      },
+      "cloud_rt": 0,
+      "ap": 0
+    },
+    {
+      "name": "Uranus-lit",
+      "body": 8,
+      "view": "lit",
+      "pos": [
+        11714806210.04076,
+        1117312091.6800632,
+        8825976000.0
+      ],
+      "rot": [
+        -8.112855311992462e-07,
+        -36.869895935058594,
+        -174.5518341064453
+      ],
+      "rings": [
+        {
+          "name": "SaturnRings",
+          "scale": [
+            1575419.3832912478,
+            1575419.3832912478,
+            1575419.3832912478
+          ],
+          "position": [
+            60944847285.806274,
+            10433905265.280008,
+            81485382703.97517
+          ],
+          "rotation": [
+            69.67378997802734,
+            -1.863759160041809,
+            -0.25280192494392395
+          ],
+          "material": "MID_M_Rings_0",
+          "visible": true
+        }
+      ],
+      "diagnostics": {
+        "focus": 8,
+        "simulation_seconds": 0,
+        "time_scale": 0,
+        "surface_mode": false,
+        "logical_position_km": [
+          2157923576.3671207,
+          -2055010585.4202116,
+          -35610035.01065543
+        ],
+        "trees": 0,
+        "grass": 0,
+        "atmosphere": true,
+        "terrain_blend": 0,
+        "volumetric_clouds": false,
+        "earth_cloud_column": 0,
+        "atmosphere_bottom_km": 25312,
+        "reserved_regions": {
+          "main_belt_inner_au": 2.1,
+          "main_belt_outer_au": 3.3,
+          "kuiper_inner_au": 30,
+          "kuiper_outer_au": 50
+        },
+        "bodies": [
+          {
+            "key": "Sun",
+            "radius_km": 695700,
+            "semi_major_axis_km": 0,
+            "period_days": 1,
+            "tidal_lock": false,
+            "atmosphere_km": 0,
+            "position_km": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "key": "Mercury",
+            "radius_km": 2439.4,
+            "semi_major_axis_km": 57909226.54152438,
+            "period_days": 87.96946108518885,
+            "tidal_lock": false,
+            "atmosphere_km": 0,
+            "position_km": [
+              -19460980.613990635,
+              -66913981.136100605,
+              -3679931.05106441
+            ]
+          },
+          {
+            "key": "Venus",
+            "radius_km": 6051.8,
+            "semi_major_axis_km": 108209474.53737916,
+            "period_days": 224.7024054382495,
+            "tidal_lock": false,
+            "atmosphere_km": 150,
+            "position_km": [
+              -107458597.29243943,
+              -4892846.938469082,
+              6135850.0679359995
+            ]
+          },
+          {
+            "key": "Earth",
+            "radius_km": 6371.0084,
+            "semi_major_axis_km": 149598261.1504425,
+            "period_days": 365.2577899816229,
+            "tidal_lock": false,
+            "atmosphere_km": 100,
+            "position_km": [
+              -26500456.47728982,
+              144695735.98653033,
+              -462.11285457870963
+            ]
+          },
+          {
+            "key": "Moon",
+            "radius_km": 1737.4,
+            "semi_major_axis_km": 384400,
+            "period_days": 27.321661,
+            "tidal_lock": true,
+            "atmosphere_km": 0,
+            "position_km": [
+              -26828435.600922223,
+              144489282.93074876,
+              34388.01260073938
+            ]
+          },
+          {
+            "key": "Mars",
+            "radius_km": 3389.5,
+            "semi_major_axis_km": 227943822.42757303,
+            "period_days": 686.9924923350414,
+            "tidal_lock": false,
+            "atmosphere_km": 80,
+            "position_km": [
+              208040933.90379685,
+              -2003274.6844933778,
+              -5155331.001447282
+            ]
+          },
+          {
+            "key": "Jupiter",
+            "radius_km": 69911,
+            "semi_major_axis_km": 778340816.6927108,
+            "period_days": 4332.691808027157,
+            "tidal_lock": false,
+            "atmosphere_km": 300,
+            "position_km": [
+              598140298.9669311,
+              440672079.99360573,
+              -15216768.478788756
+            ]
+          },
+          {
+            "key": "Saturn",
+            "radius_km": 58232,
+            "semi_major_axis_km": 1426666414.179921,
+            "period_days": 10755.532246083874,
+            "tidal_lock": false,
+            "atmosphere_km": 600,
+            "position_km": [
+              959638100.2927508,
+              979217915.0597695,
+              -55223571.19478801
+            ]
+          },
+          {
+            "key": "Uranus",
+            "radius_km": 25362,
+            "semi_major_axis_km": 2870658170.655732,
+            "period_days": 30702.452036650207,
+            "tidal_lock": false,
+            "atmosphere_km": 350,
+            "position_km": [
+              2158018979.8789186,
+              -2055122548.998284,
+              -35609247.96426492
+            ]
+          },
+          {
+            "key": "Neptune",
+            "radius_km": 24622,
+            "semi_major_axis_km": 4498396417.009467,
+            "period_days": 60226.23605287058,
+            "tidal_lock": false,
+            "atmosphere_km": 300,
+            "position_km": [
+              2513956734.281609,
+              -3738856178.114766,
+              19059248.949304998
+            ]
+          }
+        ]
+      },
+      "cloud_rt": 0,
+      "ap": 0
+    },
+    {
+      "name": "Neptune-lit",
+      "body": 9,
+      "view": "lit",
+      "pos": [
+        3393159625.558076,
+        10909085007.879744,
+        -8568456000.0
+      ],
+      "rot": [
+        4.986077897228824e-07,
+        36.869895935058594,
+        -107.27777099609375
+      ],
+      "rings": [
+        {
+          "name": "SaturnRings",
+          "scale": [
+            1004359.0857815339,
+            1004359.0857815339,
+            1004359.0857815339
+          ],
+          "position": [
+            47437901612.620346,
+            74880606293.59428,
+            -44756147140.470436
+          ],
+          "rotation": [
+            -43.39524841308594,
+            -24.31195831298828,
+            123.6812744140625
+          ],
+          "material": "MID_M_Rings_0",
+          "visible": true
+        }
+      ],
+      "diagnostics": {
+        "focus": 9,
+        "simulation_seconds": 0,
+        "time_scale": 0,
+        "surface_mode": false,
+        "logical_position_km": [
+          2513875442.898985,
+          -3738741091.104354,
+          19035995.954591658
+        ],
+        "trees": 0,
+        "grass": 0,
+        "atmosphere": true,
+        "terrain_blend": 0,
+        "volumetric_clouds": false,
+        "earth_cloud_column": 0,
+        "atmosphere_bottom_km": 24572,
+        "reserved_regions": {
+          "main_belt_inner_au": 2.1,
+          "main_belt_outer_au": 3.3,
+          "kuiper_inner_au": 30,
+          "kuiper_outer_au": 50
+        },
+        "bodies": [
+          {
+            "key": "Sun",
+            "radius_km": 695700,
+            "semi_major_axis_km": 0,
+            "period_days": 1,
+            "tidal_lock": false,
+            "atmosphere_km": 0,
+            "position_km": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "key": "Mercury",
+            "radius_km": 2439.4,
+            "semi_major_axis_km": 57909226.54152438,
+            "period_days": 87.96946108518885,
+            "tidal_lock": false,
+            "atmosphere_km": 0,
+            "position_km": [
+              -19460980.613990635,
+              -66913981.136100605,
+              -3679931.05106441
+            ]
+          },
+          {
+            "key": "Venus",
+            "radius_km": 6051.8,
+            "semi_major_axis_km": 108209474.53737916,
+            "period_days": 224.7024054382495,
+            "tidal_lock": false,
+            "atmosphere_km": 150,
+            "position_km": [
+              -107458597.29243943,
+              -4892846.938469082,
+              6135850.0679359995
+            ]
+          },
+          {
+            "key": "Earth",
+            "radius_km": 6371.0084,
+            "semi_major_axis_km": 149598261.1504425,
+            "period_days": 365.2577899816229,
+            "tidal_lock": false,
+            "atmosphere_km": 100,
+            "position_km": [
+              -26500456.47728982,
+              144695735.98653033,
+              -462.11285457870963
+            ]
+          },
+          {
+            "key": "Moon",
+            "radius_km": 1737.4,
+            "semi_major_axis_km": 384400,
+            "period_days": 27.321661,
+            "tidal_lock": true,
+            "atmosphere_km": 0,
+            "position_km": [
+              -26828435.600922223,
+              144489282.93074876,
+              34388.01260073938
+            ]
+          },
+          {
+            "key": "Mars",
+            "radius_km": 3389.5,
+            "semi_major_axis_km": 227943822.42757303,
+            "period_days": 686.9924923350414,
+            "tidal_lock": false,
+            "atmosphere_km": 80,
+            "position_km": [
+              208040933.90379685,
+              -2003274.6844933778,
+              -5155331.001447282
+            ]
+          },
+          {
+            "key": "Jupiter",
+            "radius_km": 69911,
+            "semi_major_axis_km": 778340816.6927108,
+            "period_days": 4332.691808027157,
+            "tidal_lock": false,
+            "atmosphere_km": 300,
+            "position_km": [
+              598140298.9669311,
+              440672079.99360573,
+              -15216768.478788756
+            ]
+          },
+          {
+            "key": "Saturn",
+            "radius_km": 58232,
+            "semi_major_axis_km": 1426666414.179921,
+            "period_days": 10755.532246083874,
+            "tidal_lock": false,
+            "atmosphere_km": 600,
+            "position_km": [
+              959638100.2927508,
+              979217915.0597695,
+              -55223571.19478801
+            ]
+          },
+          {
+            "key": "Uranus",
+            "radius_km": 25362,
+            "semi_major_axis_km": 2870658170.655732,
+            "period_days": 30702.452036650207,
+            "tidal_lock": false,
+            "atmosphere_km": 350,
+            "position_km": [
+              2158018979.8789186,
+              -2055122548.998284,
+              -35609247.96426492
+            ]
+          },
+          {
+            "key": "Neptune",
+            "radius_km": 24622,
+            "semi_major_axis_km": 4498396417.009467,
+            "period_days": 60226.23605287058,
+            "tidal_lock": false,
+            "atmosphere_km": 300,
+            "position_km": [
+              2513956734.281609,
+              -3738856178.114766,
+              19059248.949304998
+            ]
+          }
+        ]
+      },
+      "cloud_rt": 0,
+      "ap": 0
+    }
+  ]
+}

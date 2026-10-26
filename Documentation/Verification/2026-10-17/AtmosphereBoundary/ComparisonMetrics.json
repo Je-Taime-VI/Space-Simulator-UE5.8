@@ -1,0 +1,30 @@
+{
+  "stage": "comparison-final",
+  "frames": 8,
+  "roi_xyxy": [
+    100,
+    300,
+    1250,
+    650
+  ],
+  "intensity_scale": 255,
+  "results": {
+    "Earth-before": {
+      "mean_absolute_rgb_difference": 19.789501190185547,
+      "p95_rgb_difference": 59.0
+    },
+    "Earth-candidate": {
+      "mean_absolute_rgb_difference": 0.5787296295166016,
+      "p95_rgb_difference": 2.0
+    },
+    "Mars-before": {
+      "mean_absolute_rgb_difference": 1.7511361837387085,
+      "p95_rgb_difference": 4.0
+    },
+    "Mars-candidate": {
+      "mean_absolute_rgb_difference": 0.7599503397941589,
+      "p95_rgb_difference": 2.0
+    }
+  },
+  "scope": "高度相差400米，包含视差、云采样和几何细节变化，不能把差异直接称为误差率。"
+}

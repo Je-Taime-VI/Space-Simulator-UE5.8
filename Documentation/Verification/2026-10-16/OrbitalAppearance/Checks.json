@@ -1,0 +1,34 @@
+{
+  "matched_pairs": [
+    {
+      "body": "Mercury",
+      "same_pose_and_light": true
+    },
+    {
+      "body": "Moon",
+      "same_pose_and_light": true
+    },
+    {
+      "body": "Mars",
+      "same_pose_and_light": true
+    }
+  ],
+  "completed_views": 8,
+  "material_statistics": {
+    "M_Planet": {
+      "pixel_instructions": 2431,
+      "samplers": 1
+    },
+    "M_Terrain": {
+      "pixel_instructions": 3206,
+      "samplers": 11
+    }
+  },
+  "cloud_settings": {
+    "r.VolumetricRenderTarget": 1,
+    "r.VolumetricRenderTarget.Mode": 0,
+    "r.VolumetricRenderTarget.UpsamplingMode": 4,
+    "r.VolumetricCloud": 1
+  },
+  "visual_review": "岩质天体细节恢复；整球云层明显棋盘格消失。云边缘仍较软，不是全局运动稳定性或GPU性能基准。"
+}

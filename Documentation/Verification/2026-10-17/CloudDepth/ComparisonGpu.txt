@@ -1,0 +1,4 @@
+[2026.10.16-19.40.16:863][310]LogPython: CLOUD_DEPTH_PROFILE comparison rt=1
+[2026.10.16-19.40.17:335][312]LogRHI: Display:     ┃     0 │      0 │      0 │      0 │  0.0% ┊          │  0.000 ms ┃     0 │      1 │      0 │      0 │   2.6% ┊ ▏        │  1.778 ms ┃                VolumetricCloud                                                                                                                       ┃
+[2026.10.16-19.40.46:198][398]LogPython: CLOUD_DEPTH_PROFILE comparison rt=0
+[2026.10.16-19.40.46:648][400]LogRHI: Display:     ┃     0 │      0 │      0 │      0 │  0.0% ┊          │  0.001 ms ┃     0 │      1 │      0 │      0 │   3.0% ┊ ▏        │  1.441 ms ┃                VolumetricCloud                                                                                                                       ┃

@@ -1,0 +1,7 @@
+{
+  "path": "/Game/SolarSystem/Materials/M_Rings.M_Rings",
+  "blend": "<BlendMode.BLEND_TRANSLUCENT: 2>",
+  "two_sided": true,
+  "pixel_instructions": 726,
+  "pixel_texture_samples": 0
+}

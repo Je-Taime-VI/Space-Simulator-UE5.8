@@ -1,0 +1,191 @@
+{
+  "success": true,
+  "date": "2026-10-11",
+  "checks": [
+    {
+      "stage": "after",
+      "body": "Earth",
+      "view": "surface",
+      "actual_lux": 124105.8515625,
+      "expected_lux": 124105.85474282826,
+      "bias": -0.048536770045757294,
+      "sky": 1.0,
+      "before_pose_delta_cm": 0.0,
+      "before_rotation_delta_deg": 0.0
+    },
+    {
+      "stage": "after",
+      "body": "Moon",
+      "view": "surface",
+      "actual_lux": 124348.421875,
+      "expected_lux": 124348.41967617639,
+      "bias": -0.05135376751422882,
+      "sky": 0.0,
+      "before_pose_delta_cm": 0.0,
+      "before_rotation_delta_deg": 0.0
+    },
+    {
+      "stage": "after",
+      "body": "Mars",
+      "view": "surface",
+      "actual_lux": 62005.1328125,
+      "expected_lux": 62005.131765886865,
+      "bias": 0.9525748491287231,
+      "sky": 1.0,
+      "before_pose_delta_cm": 0.0,
+      "before_rotation_delta_deg": 0.0
+    },
+    {
+      "stage": "after",
+      "body": "Venus",
+      "view": "surface",
+      "actual_lux": 231334.046875,
+      "expected_lux": 231334.04443512976,
+      "bias": -0.9469431638717651,
+      "sky": 1.0,
+      "before_pose_delta_cm": 0.0,
+      "before_rotation_delta_deg": 0.0
+    },
+    {
+      "stage": "after",
+      "body": "Earth",
+      "view": "blend",
+      "actual_lux": 124105.8515625,
+      "expected_lux": 124105.85474282826,
+      "bias": -0.048536770045757294,
+      "sky": 0.0,
+      "before_pose_delta_cm": 0.0,
+      "before_rotation_delta_deg": 0.0
+    },
+    {
+      "stage": "after",
+      "body": "Earth",
+      "view": "orbit",
+      "actual_lux": 124105.8515625,
+      "expected_lux": 124105.85474282826,
+      "bias": -0.048536770045757294,
+      "sky": 0.0,
+      "before_pose_delta_cm": 0.0,
+      "before_rotation_delta_deg": 0.0
+    },
+    {
+      "stage": "final",
+      "body": "Earth",
+      "view": "surface",
+      "actual_lux": 124105.8515625,
+      "expected_lux": 124105.85474282826,
+      "bias": -0.048536770045757294,
+      "sky": 1.0,
+      "before_pose_delta_cm": 0.0,
+      "before_rotation_delta_deg": 0.0
+    },
+    {
+      "stage": "final",
+      "body": "Earth",
+      "view": "blend",
+      "actual_lux": 124105.8515625,
+      "expected_lux": 124105.85474282826,
+      "bias": -0.048536770045757294,
+      "sky": 0.0,
+      "before_pose_delta_cm": 0.0,
+      "before_rotation_delta_deg": 0.0
+    },
+    {
+      "stage": "final",
+      "body": "Earth",
+      "view": "orbit",
+      "actual_lux": 124105.8515625,
+      "expected_lux": 124105.85474282826,
+      "bias": -0.048536770045757294,
+      "sky": 0.0,
+      "before_pose_delta_cm": 0.0,
+      "before_rotation_delta_deg": 0.0
+    },
+    {
+      "stage": "final",
+      "body": "Earth",
+      "view": "night",
+      "actual_lux": 124105.8515625,
+      "expected_lux": 124105.85474282826,
+      "bias": -0.048536770045757294,
+      "sky": 0.0,
+      "before_pose_delta_cm": null,
+      "before_rotation_delta_deg": null
+    },
+    {
+      "stage": "final",
+      "body": "Moon",
+      "view": "night",
+      "actual_lux": 124348.421875,
+      "expected_lux": 124348.41967617639,
+      "bias": -0.05135376751422882,
+      "sky": 0.0,
+      "before_pose_delta_cm": null,
+      "before_rotation_delta_deg": null
+    },
+    {
+      "stage": "final",
+      "body": "Mercury",
+      "view": "surface",
+      "actual_lux": 551474.1875,
+      "expected_lux": 551474.1731427442,
+      "bias": -2.20025897026062,
+      "sky": 0.0,
+      "before_pose_delta_cm": null,
+      "before_rotation_delta_deg": null
+    },
+    {
+      "stage": "final",
+      "body": "Sun",
+      "view": "orbit",
+      "actual_lux": 0.0,
+      "expected_lux": 0,
+      "bias": 0.0,
+      "sky": 0.0,
+      "before_pose_delta_cm": null,
+      "before_rotation_delta_deg": null
+    },
+    {
+      "stage": "final",
+      "body": "Saturn",
+      "view": "orbit",
+      "actual_lux": 1426.338623046875,
+      "expected_lux": 1426.338666567759,
+      "bias": 6.394574165344238,
+      "sky": 0.0,
+      "before_pose_delta_cm": null,
+      "before_rotation_delta_deg": null
+    },
+    {
+      "stage": "final",
+      "body": "Neptune",
+      "view": "orbit",
+      "actual_lux": 132.29673767089844,
+      "expected_lux": 132.2967397362633,
+      "bias": 9.825040817260742,
+      "sky": 0.0,
+      "before_pose_delta_cm": null,
+      "before_rotation_delta_deg": null
+    }
+  ],
+  "light_response": {
+    "crop": [
+      700,
+      350,
+      1150,
+      620
+    ],
+    "mean_srgb_byte": {
+      "earth-light-on": 69.10170096021947,
+      "earth-light-off-diagnostic": 0.0,
+      "earth-light-restored": 69.04158573388203
+    },
+    "restored_mean_absolute_byte_error": 0.3585679012345679
+  },
+  "limits": [
+    "图像亮度为截图局部区域的色调映射后字节统计，不是场景辐射计量。",
+    "关灯仅为诊断，没有保存到地图。",
+    "前后机位比较不排除天空、材质与曝光的共同变化。",
+    "本轮GPU抽样未包含有效场景绘制事件，不作为性能证据。"
+  ]
+}

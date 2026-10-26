@@ -1,0 +1,116 @@
+// Original radial ring renderer. All lengths below are planetocentric kilometres.
+// Radii follow NSSDCA ring fact sheets; density/colour are visual presets, NOT
+// calibrated optical depths. No NASA code or image pixels are embedded here.
+struct RingProfile
+{
+    float r, footprint, mu, mu0, phaseCos;
+    bool sameSide;
+    float alpha;
+    float3 radiance;
+
+    float wave(float frequency, float phase)
+    {
+        // Suppress frequencies beyond the pixel footprint instead of letting
+        // narrow stripes alias against TAA while the camera is moving.
+        float w=frequency*footprint*.5;
+        return sin(r*frequency+phase)*exp(-w*w*.5);
+    }
+
+    void band(float lo,float hi,float tau,float3 color,float dust)
+    {
+        float coverage=saturate((min(r+footprint*.5,hi)-max(r-footprint*.5,lo))/footprint);
+        float opacity=1-exp(-tau/mu);
+        float light;
+        if(sameSide)
+            light=mu0/(mu+mu0)*(1-exp(-tau*(1/mu+1/mu0)));
+        else if(abs(mu0-mu)<.002)
+            light=(tau/mu)*exp(-tau/mu);
+        else
+            light=mu0/(mu0-mu)*(exp(-tau/mu0)-exp(-tau/mu));
+        // Bounded dust forward scattering: grows continuously in backlight.
+        // View points from the fragment toward the observer; -Sun is the
+        // incident photon direction. Dense icy rings remain mostly diffuse.
+        const float g=.85;
+        float forward=(1-g*g)/pow(max(.0025,1+g*g-2*g*phaseCos),1.5);
+        float phase=lerp(1.,.18+.82*forward,dust);
+        alpha+=coverage*opacity;
+        radiance+=coverage*color*max(0,light)*phase;
+    }
+};
+RingProfile f;
+f.r=lerp(InnerRadiusKm,OuterRadiusKm,UV.x);
+f.footprint=max(.002,fwidth(f.r));
+float3 s=normalize(SunDirection),v=normalize(LocalView);
+f.mu=max(.025,abs(v.z));f.mu0=max(.005,abs(s.z));
+f.sameSide=v.z*s.z>=0;
+f.phaseCos=clamp(dot(-s,v),-1,1);
+f.alpha=0;f.radiance=0;
+
+if(BodyIndex<6.5)
+{
+    // Jupiter main ring and two gossamer regions. The vertically extended
+    // halo is deferred; a flat plane is not presented as a volumetric halo.
+    f.band(123000,128940,.004,float3(.26,.22,.18),1);
+    f.band(128940,181350,.00022,float3(.24,.20,.17),1);
+    f.band(181350,221900,.00011,float3(.24,.20,.17),1);
+    f.band(221900,280000,.000025,float3(.24,.20,.17),1);
+}
+else if(BodyIndex<7.5)
+{
+    float detail=max(.5,1+.13*f.wave(.00131,1)+.09*f.wave(.0077,2)+.05*f.wave(.031,4));
+    // Broad C/B/A structure, Cassini Division, Encke/Keeler gaps and F ring.
+    // Fine ringlets are illustrative; no claim of a measured radial profile.
+    f.band(74658,85000,.09*detail,float3(.30,.27,.22),.10);
+    f.band(85000,91975,.18*detail,float3(.38,.34,.28),.08);
+    f.band(91975,99000,1.1*detail,float3(.62,.57,.47),.02);
+    f.band(99000,104500,1.8*detail,float3(.72,.67,.56),.02);
+    f.band(104500,110000,1.25*detail,float3(.62,.58,.50),.02);
+    f.band(110000,117507,2.0*detail,float3(.73,.69,.60),.02);
+    f.band(117507,122340,.035*detail,float3(.37,.34,.28),.12);
+    f.band(122340,133410,.65*detail,float3(.55,.52,.46),.04);
+    f.band(133735,136487,.55*detail,float3(.57,.54,.48),.04);
+    f.band(136529,136780,.50*detail,float3(.61,.58,.50),.04);
+    f.band(139826,139926,.10,float3(.65,.62,.56),.85);
+    // Dense B rings saturate opacity; retain subtle albedo structure as well.
+    f.radiance*=1+.10*f.wave(.00131,1)+.07*f.wave(.00617,2)+.045*f.wave(.023,4);
+}
+else if(BodyIndex<8.5)
+{
+    // Narrow dark rings. Pixel coverage conserves their apparent width;
+    // there is no hard camera-angle visibility switch or minimum-pixel line.
+    float3 c=float3(.18,.175,.16);
+    f.band(41836.25,41837.75,.30,c,.15);
+    f.band(42233,42235,.50,c,.15);
+    f.band(42570,42572,.30,c,.15);
+    f.band(44714.5,44721.5,.40,c,.15);
+    f.band(45657,45665,.30,c,.15);
+    f.band(47175.2,47176.8,.40,c,.15);
+    f.band(47625.5,47628.5,.30,c,.15);
+    f.band(48297.5,48302.5,.50,c,.15);
+    f.band(50023,50025,.10,c,.4);
+    f.band(51119,51179,1.2,float3(.22,.215,.20),.10);
+    f.band(65400,69200,.00010,c,.9);
+    f.band(89200,106200,.00006,float3(.14,.16,.19),.9);
+}
+else
+{
+    float3 c=float3(.19,.18,.16);
+    f.band(40900,42900,.001,c,.85);
+    f.band(53150,53250,.025,c,.5);
+    f.band(53250,57150,.0008,c,.85);
+    f.band(57150,57250,.012,c,.5);
+    f.band(62925.5,62940.5,.065,c,.55);
+    // Adams arcs require their own time-dependent azimuthal catalogue;
+    // none is fabricated by repeating a radial strip around the planet.
+}
+
+float angle=UV.y*6.28318530718;
+float3 p=float3(cos(angle),sin(angle),0)*(f.r/RadiusKm);
+float distanceBehind=max(0,-dot(p,s));
+float distanceToAxis=length(p+s*distanceBehind);
+float penumbra=max(fwidth(distanceToAxis),.000002)+distanceBehind*SunAngularRadius;
+float shadow=smoothstep(1-penumbra,1+penumbra,distanceToAxis);
+Opacity=saturate(f.alpha);
+// UE's translucent blend multiplies by opacity. Divide the already integrated
+// source radiance here, so subpixel narrow rings are not attenuated twice.
+return f.radiance/max(.000001,f.alpha)*shadow*SolarIlluminance*0.318309886;

@@ -1,0 +1,55 @@
+{
+  "success": true,
+  "pairs": [
+    {
+      "site": "earth-sand",
+      "position_delta_cm": 0.0,
+      "rotation_delta_deg": 0.0,
+      "lighting_unchanged": true
+    },
+    {
+      "site": "earth-soil",
+      "position_delta_cm": 0.0,
+      "rotation_delta_deg": 0.0,
+      "lighting_unchanged": true
+    },
+    {
+      "site": "earth-rock",
+      "position_delta_cm": 0.0,
+      "rotation_delta_deg": 0.0,
+      "lighting_unchanged": true
+    },
+    {
+      "site": "earth-snow",
+      "position_delta_cm": 0.0,
+      "rotation_delta_deg": 0.0,
+      "lighting_unchanged": true
+    },
+    {
+      "site": "moon-regolith",
+      "position_delta_cm": 0.0,
+      "rotation_delta_deg": 0.0,
+      "lighting_unchanged": true
+    },
+    {
+      "site": "mars-soil",
+      "position_delta_cm": 0.0,
+      "rotation_delta_deg": 0.0,
+      "lighting_unchanged": true
+    },
+    {
+      "site": "venus-rock",
+      "position_delta_cm": 0.0,
+      "rotation_delta_deg": 0.0,
+      "lighting_unchanged": true
+    },
+    {
+      "site": "earth-orbit",
+      "position_delta_cm": 0.0,
+      "rotation_delta_deg": 0.0,
+      "lighting_unchanged": true
+    }
+  ],
+  "duplicate_baseline_records": 4,
+  "note": "原始基线含4条同机位重复记录，内容完全相同；配对按机位名称去重。最终轮次无重复，脚本已增加回调重入保护。"
+}

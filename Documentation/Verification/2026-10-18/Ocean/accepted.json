@@ -1,0 +1,165 @@
+{
+  "completed": true,
+  "errors": [],
+  "camera": {
+    "descend_altitude_m": -49.99999999108695,
+    "ground_height_m": -146.29277422922775,
+    "bottom_clearance_m": 2.999999999378872,
+    "returned_altitude_m": 96.70722573446255,
+    "entered_water": true,
+    "seabed_stopped": true,
+    "exited_water": true
+  },
+  "frames": [
+    {
+      "site": {
+        "name": "coast",
+        "lat": -14.376406312559912,
+        "lon": 109.82300846662602,
+        "height_m": 8,
+        "tilt": -0.14
+      },
+      "pos": [
+        -209285647.22503844,
+        580581616.0921421,
+        -158186613.25195312
+      ],
+      "rot": [
+        -104.24323272705078,
+        1.9727977514266968,
+        -152.45388793945312
+      ],
+      "material": "/Game/SolarSystem/Materials/M_Ocean_WorldScape.M_Ocean_WorldScape",
+      "blend": 1.0,
+      "sun_lux": 124105.8515625,
+      "exposure_bias": -0.048536770045757294,
+      "cloud_rt": 0,
+      "ap": 0
+    },
+    {
+      "site": {
+        "name": "sea",
+        "lat": -14.376406312559912,
+        "lon": 109.7449118967303,
+        "height_m": 12,
+        "tilt": -0.25
+      },
+      "pos": [
+        -208494226.66822177,
+        580866706.5558131,
+        -158186712.56835938
+      ],
+      "rot": [
+        -103.96420288085938,
+        3.452407121658325,
+        -146.64178466796875
+      ],
+      "material": "/Game/SolarSystem/Materials/M_Ocean_WorldScape.M_Ocean_WorldScape",
+      "blend": 1.0,
+      "sun_lux": 124105.8515625,
+      "exposure_bias": -0.048536770045757294,
+      "cloud_rt": 0,
+      "ap": 0
+    },
+    {
+      "site": {
+        "name": "underwater",
+        "lat": -14.376406312559912,
+        "lon": 109.7449118967303,
+        "height_m": -20,
+        "tilt": -0.1
+      },
+      "pos": [
+        -208493179.45524257,
+        580863789.011457,
+        -158185918.03710935
+      ],
+      "rot": [
+        -104.30799865722656,
+        1.4156866073608398,
+        -154.72219848632812
+      ],
+      "material": "/Game/SolarSystem/Materials/M_Ocean_WorldScape.M_Ocean_WorldScape",
+      "blend": 1.0,
+      "sun_lux": 124105.8515625,
+      "exposure_bias": -0.048536770045757294,
+      "cloud_rt": 0,
+      "ap": 0
+    },
+    {
+      "site": {
+        "name": "underwater-up",
+        "lat": -14.376406312559912,
+        "lon": 109.7449118967303,
+        "height_m": -20,
+        "tilt": 1.2
+      },
+      "pos": [
+        -208493179.45524257,
+        580863789.011457,
+        -158185918.03710935
+      ],
+      "rot": [
+        -99.31864166259766,
+        -10.996115684509277,
+        150.4494171142578
+      ],
+      "material": "/Game/SolarSystem/Materials/M_Ocean_WorldScape.M_Ocean_WorldScape",
+      "blend": 1.0,
+      "sun_lux": 124105.8515625,
+      "exposure_bias": -0.048536770045757294,
+      "cloud_rt": 0,
+      "ap": 0
+    },
+    {
+      "site": {
+        "name": "high-20km",
+        "lat": -14.376406312559912,
+        "lon": 109.7449118967303,
+        "height_m": 20000,
+        "tilt": -0.7
+      },
+      "pos": [
+        -209148342.07533056,
+        582689077.6991605,
+        -158682996.65039062
+      ],
+      "rot": [
+        -101.85887145996094,
+        8.185911178588867,
+        -126.11468505859375
+      ],
+      "material": "/Game/SolarSystem/Materials/M_Ocean_WorldScape.M_Ocean_WorldScape",
+      "blend": 1.0,
+      "sun_lux": 124105.8515625,
+      "exposure_bias": -0.048536770045757294,
+      "cloud_rt": 0,
+      "ap": 0
+    },
+    {
+      "site": {
+        "name": "handoff-300km",
+        "lat": -14.376406312559912,
+        "lon": 109.7449118967303,
+        "height_m": 300000,
+        "tilt": -1.2
+      },
+      "pos": [
+        -218311455.64299425,
+        608217590.8138928,
+        -165635145.08789062
+      ],
+      "rot": [
+        -99.31864166259766,
+        10.996115684509277,
+        -110.95958709716797
+      ],
+      "material": "/Game/SolarSystem/Materials/M_Ocean_WorldScape.M_Ocean_WorldScape",
+      "blend": 0.5829904079437256,
+      "sun_lux": 124105.8515625,
+      "exposure_bias": -0.048536770045757294,
+      "cloud_rt": 0,
+      "ap": 0
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "M_Planet": {
+    "clip": 0.5,
+    "shading": "<MaterialShadingModel.MSM_DEFAULT_LIT: 1>",
+    "uniform_trial_active": false
+  },
+  "M_Terrain": {
+    "clip": 0.5,
+    "shading": "<MaterialShadingModel.MSM_DEFAULT_LIT: 1>",
+    "uniform_trial_active": false,
+    "connected_seabed_fix": true
+  },
+  "M_Ocean_WorldScape": {
+    "clip": 0.5,
+    "shading": "<MaterialShadingModel.MSM_SINGLE_LAYER_WATER: 10>",
+    "uniform_trial_active": false
+  }
+}

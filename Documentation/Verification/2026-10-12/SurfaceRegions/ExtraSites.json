@@ -1,0 +1,20 @@
+[
+  {
+    "name": "earth-forest-region",
+    "body": 3,
+    "latlon": [
+      13.958021888744653,
+      73.01245141467899
+    ],
+    "height_m": 15
+  },
+  {
+    "name": "earth-sand-region",
+    "body": 3,
+    "latlon": [
+      24.521776458795944,
+      74.82145096131296
+    ],
+    "height_m": 15
+  }
+]

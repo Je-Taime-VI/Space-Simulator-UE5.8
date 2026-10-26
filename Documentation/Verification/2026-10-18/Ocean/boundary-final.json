@@ -1,0 +1,65 @@
+{
+  "completed": true,
+  "errors": [],
+  "camera": {
+    "descend_altitude_m": -49.99999999108695,
+    "ground_height_m": -146.29277422922775,
+    "bottom_clearance_m": 2.999999999378872,
+    "returned_altitude_m": 96.70722573446255,
+    "entered_water": true,
+    "seabed_stopped": true,
+    "exited_water": true
+  },
+  "frames": [
+    {
+      "site": {
+        "name": "below-20km",
+        "lat": -14.376406312559912,
+        "lon": 109.7449118967303,
+        "height_m": 19990,
+        "tilt": -0.08
+      },
+      "pos": [
+        -209148014.82127458,
+        582688165.9665492,
+        -158682748.359375
+      ],
+      "rot": [
+        -104.33251190185547,
+        1.134531855583191,
+        -155.82382202148438
+      ],
+      "material": "/Game/SolarSystem/Materials/M_Ocean_WorldScape.M_Ocean_WorldScape",
+      "blend": 1.0,
+      "sun_lux": 124105.8515625,
+      "exposure_bias": -0.048536770045757294,
+      "cloud_rt": 0,
+      "ap": 0
+    },
+    {
+      "site": {
+        "name": "above-20km",
+        "lat": -14.376406312559912,
+        "lon": 109.7449118967303,
+        "height_m": 20010,
+        "tilt": -0.08
+      },
+      "pos": [
+        -209148669.32938653,
+        582689989.4317716,
+        -158683244.94140625
+      ],
+      "rot": [
+        -104.33251190185547,
+        1.134531855583191,
+        -155.82382202148438
+      ],
+      "material": "/Game/SolarSystem/Materials/M_Ocean_WorldScape.M_Ocean_WorldScape",
+      "blend": 1.0,
+      "sun_lux": 124105.8515625,
+      "exposure_bias": -0.048536770045757294,
+      "cloud_rt": 0,
+      "ap": 0
+    }
+  ]
+}

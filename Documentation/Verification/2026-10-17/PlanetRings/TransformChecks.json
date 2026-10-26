@@ -1,0 +1,26 @@
+[
+  {
+    "body": "Jupiter",
+    "center_matches": true,
+    "rotation_matches": true,
+    "material": "/Game/SolarSystem/Materials/M_Rings.M_Rings"
+  },
+  {
+    "body": "Saturn",
+    "center_matches": true,
+    "rotation_matches": true,
+    "material": "/Game/SolarSystem/Materials/M_Rings.M_Rings"
+  },
+  {
+    "body": "Uranus",
+    "center_matches": true,
+    "rotation_matches": true,
+    "material": "/Game/SolarSystem/Materials/M_Rings.M_Rings"
+  },
+  {
+    "body": "Neptune",
+    "center_matches": true,
+    "rotation_matches": true,
+    "material": "/Game/SolarSystem/Materials/M_Rings.M_Rings"
+  }
+]

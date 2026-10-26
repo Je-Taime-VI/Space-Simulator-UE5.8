@@ -1,0 +1,71 @@
+{
+  "success": true,
+  "pairs": [
+    {
+      "site": "earth-sand",
+      "position_same": true,
+      "rotation_same": true,
+      "sun_same": true,
+      "exposure_same": true,
+      "height_same": true
+    },
+    {
+      "site": "earth-soil",
+      "position_same": true,
+      "rotation_same": true,
+      "sun_same": true,
+      "exposure_same": true,
+      "height_same": true
+    },
+    {
+      "site": "earth-rock",
+      "position_same": true,
+      "rotation_same": true,
+      "sun_same": true,
+      "exposure_same": true,
+      "height_same": true
+    },
+    {
+      "site": "earth-snow",
+      "position_same": true,
+      "rotation_same": true,
+      "sun_same": true,
+      "exposure_same": true,
+      "height_same": true
+    },
+    {
+      "site": "moon-regolith",
+      "position_same": true,
+      "rotation_same": true,
+      "sun_same": true,
+      "exposure_same": true,
+      "height_same": true
+    },
+    {
+      "site": "mars-soil",
+      "position_same": true,
+      "rotation_same": true,
+      "sun_same": true,
+      "exposure_same": true,
+      "height_same": true
+    },
+    {
+      "site": "venus-rock",
+      "position_same": true,
+      "rotation_same": true,
+      "sun_same": true,
+      "exposure_same": true,
+      "height_same": true
+    },
+    {
+      "site": "earth-orbit",
+      "position_same": true,
+      "rotation_same": true,
+      "sun_same": true,
+      "exposure_same": true,
+      "height_same": true
+    }
+  ],
+  "height_function_unchanged": true,
+  "height_function_sha256": "a19ee5f004abd89428df2025e8a7ca5d8ba757e59ad9172fa9cc5981ddad3c19"
+}

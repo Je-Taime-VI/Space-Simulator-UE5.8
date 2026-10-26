@@ -1,0 +1,33 @@
+{
+  "checked_date": "2026-10-17",
+  "source_url": "https://eyes.nasa.gov/apps/solar-system/app.js",
+  "source_sha256": "fe97e0c5460ed53551fc5c55b2e941a1a1a5a22ac25a35487f8211f968071620",
+  "bodies": {
+    "jupiter": {
+      "ring_component_configured": false
+    },
+    "saturn": {
+      "ring_component_configured": true,
+      "inner_radius_km": 74270.580913,
+      "outer_radius_km": 140478.924731,
+      "top_texture_reference": "https://eyes.nasa.gov/assets/static/sprites/saturn_rings_top.png",
+      "bottom_texture_reference": "https://eyes.nasa.gov/assets/static/sprites/saturn_rings_bottom.png"
+    },
+    "uranus": {
+      "ring_component_configured": true,
+      "inner_radius_km": 26840.0,
+      "outer_radius_km": 103000.0,
+      "top_texture_reference": "https://eyes.nasa.gov/assets/static/sprites/uranus_rings.png",
+      "bottom_texture_reference": "https://eyes.nasa.gov/assets/static/sprites/uranus_rings.png"
+    },
+    "neptune": {
+      "ring_component_configured": true,
+      "inner_radius_km": 40900.0,
+      "outer_radius_km": 62964.0,
+      "top_texture_reference": "https://eyes.nasa.gov/assets/static/sprites/neptune_rings.png",
+      "bottom_texture_reference": "https://eyes.nasa.gov/assets/static/sprites/neptune_rings.png"
+    }
+  },
+  "interpretation": "网页实现参数，不等同于完整科学环目录；仅木星当前配置未发现该组件，不推断木星没有环。",
+  "reuse": "只保存参数事实与纹理来源引用；未复制网页程序或纹理到运行资产。"
+}

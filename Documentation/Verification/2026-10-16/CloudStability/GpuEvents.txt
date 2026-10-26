@@ -1,0 +1,10 @@
+[2026.10.16-08.43.48:072][201]LogPython: CLOUD_STABILITY_PROFILE Venus-crescent-final-still
+[2026.10.16-08.43.48:873][204]LogRHI: Display:     ┃     0 │      0 │      0 │      0 │  0.0% ┊          │ 0.001 ms ┃     0 │      1 │      0 │      0 │  21.1% ┊ █▋       │  6.417 ms ┃                VolumetricCloud                                                                                                                       ┃
+[2026.10.16-08.44.11:869][272]LogPython: CLOUD_STABILITY_PROFILE Earth-orbit-final-still
+[2026.10.16-08.44.12:331][274]LogRHI: Display:     ┃     0 │      0 │      0 │      0 │  0.0% ┊          │  0.001 ms ┃     0 │      1 │      0 │      0 │   2.6% ┊ ▏        │  1.611 ms ┃                VolumetricCloud                                                                                                                       ┃
+[2026.10.16-08.44.39:989][358]LogPython: CLOUD_STABILITY_PROFILE Earth-20km-final-still
+[2026.10.16-08.44.40:460][360]LogRHI: Display:     ┃     0 │      0 │      0 │      0 │  0.0% ┊          │ 0.000 ms ┃     0 │      1 │      0 │      0 │  23.3% ┊ █▊       │  5.255 ms ┃                VolumetricCloud                                                                                                                       ┃
+[2026.10.16-08.45.08:324][443]LogPython: CLOUD_STABILITY_PROFILE Earth-inside-final-still
+[2026.10.16-08.45.08:817][445]LogRHI: Display:     ┃     0 │      0 │      0 │      0 │  0.0% ┊          │ 0.000 ms ┃     0 │      1 │      0 │      0 │  16.4% ┊ █▎       │  3.284 ms ┃                VolumetricCloud                                                                                                                       ┃
+[2026.10.16-08.45.36:339][528]LogPython: CLOUD_STABILITY_PROFILE Venus-inside-final-still
+[2026.10.16-08.45.36:839][530]LogRHI: Display:     ┃     0 │      0 │      0 │      0 │  0.0% ┊          │ 0.003 ms ┃     0 │      1 │       0 │      0 │  19.8% ┊ █▌       │  6.812 ms ┃                VolumetricCloud                                                                                                                       ┃

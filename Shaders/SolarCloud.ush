@@ -1,0 +1,17 @@
+// Shared coverage plus a compact, offline-baked periodic 3D erosion field.
+float3 p=Position*.00001;
+float z=(length(p)-RadiusKm-CloudBottomKm)/CloudThicknessKm;
+if(z<=0||z>=1)return 0;
+float shape=smoothstep(0,.15,z)*(1-smoothstep(.65,1,z));
+float cover=.95;
+if(BodyIndex!=2)
+{
+    float3 n=normalize(p);
+    float2 uv=float2(atan2(n.y,n.x)*.159154943+.5,acos(clamp(n.z,-1,1))*.318309886);
+    cover=Texture2DSampleLevel(CloudMap,CloudMapSampler,uv,0).r;
+    if(cover<.04)return 0;
+}
+float detail=Texture3DSampleLevel(CloudDetail,CloudDetailSampler,p/64.,0).r;
+float density=BodyIndex==2?(.65+detail*.25):saturate(cover*1.4-.15+(detail-.5)*.55);
+// Extinction is integrated over metres by VolumetricCloud.usf.
+return shape*density*(BodyIndex==2?.00018:.0004);

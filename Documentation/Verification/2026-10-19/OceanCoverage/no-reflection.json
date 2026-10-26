@@ -1,0 +1,46 @@
+{
+  "completed": true,
+  "errors": [],
+  "frames": [
+    {
+      "job": {
+        "name": "handoff",
+        "lat": 23.261616396234317,
+        "lon": 89.81408866409365,
+        "alt": 9.398,
+        "tilt": -0.4
+      },
+      "ground_km": -0.015457865467471521,
+      "blend": 1.0,
+      "ocean_hidden": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "system_tick": false,
+      "position": [
+        1901996.925966458,
+        586171970.2058278,
+        251981471.6290096
+      ],
+      "rotation": [
+        -68.24166870117188,
+        -8.434192657470703,
+        -160.00831604003906
+      ]
+    }
+  ]
+}

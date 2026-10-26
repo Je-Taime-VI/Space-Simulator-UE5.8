@@ -1,0 +1,70 @@
+[
+  {
+    "name": "earth-sand",
+    "body": 3,
+    "latlon": [
+      -14.376406312559912,
+      109.8449118967303
+    ],
+    "height_m": 3
+  },
+  {
+    "name": "earth-soil",
+    "body": 3,
+    "latlon": [
+      25,
+      0
+    ],
+    "height_m": 3
+  },
+  {
+    "name": "earth-rock",
+    "body": 3,
+    "latlon": [
+      -24.96845016207194,
+      102.60891371019434
+    ],
+    "height_m": 3
+  },
+  {
+    "name": "earth-snow",
+    "body": 3,
+    "latlon": [
+      -80,
+      101.2888794703978
+    ],
+    "height_m": 3
+  },
+  {
+    "name": "moon-regolith",
+    "body": 4,
+    "latlon": [
+      25,
+      0
+    ],
+    "height_m": 3
+  },
+  {
+    "name": "mars-soil",
+    "body": 5,
+    "latlon": [
+      25,
+      0
+    ],
+    "height_m": 3
+  },
+  {
+    "name": "venus-rock",
+    "body": 2,
+    "latlon": [
+      25,
+      0
+    ],
+    "height_m": 3
+  },
+  {
+    "name": "earth-orbit",
+    "body": 3,
+    "orbit": true
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "component": "/Game/SolarSystem/Maps/UEDPIE_0_SolarSystem.SolarSystem:PersistentLevel.SolarSystemActor_0.PlanetaryCloudVolume",
+  "material": "/Game/SolarSystem/Maps/UEDPIE_0_SolarSystem.SolarSystem:PersistentLevel.SolarSystemActor_0.MID_M_PlanetCloudVolume_1",
+  "rt_earth": 0,
+  "focus": 2,
+  "rt_venus": 0,
+  "same_component": true,
+  "same_material_instance": true,
+  "body_parameter": 2.0,
+  "layer_bottom_km": 60.0,
+  "layer_height_km": 22.0,
+  "visible": true,
+  "sample_scale": 0.25,
+  "altitude_km": 21024.328,
+  "simulation_seconds": 157.3854147158563,
+  "capture_complete": true,
+  "captured_frames": 56,
+  "restored_focus": 3,
+  "rt_restored": 0
+}

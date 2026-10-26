@@ -1,0 +1,29 @@
+{
+  "map": "/WorldScape/Levels/Planets_Levels/Demonstration_EarthLikePlanet.Demonstration_EarthLikePlanet",
+  "material": "/WorldScape/Ressources/Materials/WorldScapeMaterials/Ocean/M_Water_WorldScape.M_Water_WorldScape",
+  "parent": "/WorldScape/Ressources/Materials/WorldScapeMaterials/Ocean/MI_Planetary_Ocean.MI_Planetary_Ocean",
+  "radius_cm": 637817792.0,
+  "ocean_lod": 72,
+  "parameters": {
+    "Roughness": 0.20000000298023224,
+    "PhaseG": 0.18333299458026886,
+    "ColorScaleBehindWater": 0.5,
+    "Opacity": 0.0,
+    "Coeffcint": 2551.86962890625,
+    "Radius_1": 521830.9375,
+    "Hardness_1": 0.10000000149011612,
+    "scale": 2491.61328125,
+    "B": 375.1418151855469,
+    "B_2": 262.8733825683594,
+    "Sharpness": 2.561156988143921,
+    "Radius_2": 8192009.5,
+    "Hardness_2": -0.13104799389839172,
+    "BWaveheight2": 779.9737548828125,
+    "Sharpness2": 2.0,
+    "Secondwavescale": 4.642506122589111,
+    "A": 0.019999999552965164,
+    "Metallic": 0.5,
+    "Specular": 0.20000000298023224
+  },
+  "postprocess_blendables": []
+}

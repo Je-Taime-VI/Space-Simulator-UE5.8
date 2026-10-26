@@ -1,0 +1,211 @@
+Using bundled DotNet SDK version: 10.0 win-x64
+Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" BigWorldEditor Win64 Development "-Project=D:\BIG WORLD UE5.8\BigWorld.uproject" -WaitMutex "-Log=D:\BIG WORLD UE5.8\Saved\Logs\BuildEditor.log"
+Log file: D:\BIG WORLD UE5.8\Saved\Logs\BuildEditor.log
+Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+  Executing up to 8 processes, one per physical core
+  Requested 1.5 GB memory per action, 6.56 GB available: limiting max parallel actions to 4
+Using 'git status' to determine working set for adaptive non-unity build (D:\BIG WORLD UE5.8).
+UbaServer - Listening on 0.0.0.0:1345
+Building BigWorldEditor...
+===== Toolchain Information =====
+Using ISPC compiler (E:\Epic Games\UE_5.8\Engine\Source\ThirdParty\Intel\ISPC\bin\Windows\ispc.exe)
+  Intel(r) Implicit SPMD Program Compiler (Intel(r) ISPC), 1.24.0 (build commit  @ 20250404, LLVM 18.1.2) 
+Using Visual Studio 14.44.35228 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207) and Windows 10.0.26100.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[Adaptive Build] Excluded from BigWorld unity file: SolarExplorer.cpp, SolarModel.cpp, SolarSystemActor.cpp
+=================================
+Using Unreal Build Accelerator local executor to run 4 action(s)
+  CPU 8 physical cores, 16 logical cores
+  Memory 15.25 GB physical, 15.84 GB/27.75 GB committed
+  UBA Storage capacity 40 GB
+[1/4] Compile [x64] SolarModel.cpp
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(164,81): warning C4305: “参数”: 从“double”到“float”截断
+        if(Latitude>.95+Noise(N*32,3)*.018 || H>4.) return FLinearColor(.81,.89,.91)*(1+V*.16);
+                                                                                ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(164,77): warning C4305: “参数”: 从“double”到“float”截断
+        if(Latitude>.95+Noise(N*32,3)*.018 || H>4.) return FLinearColor(.81,.89,.91)*(1+V*.16);
+                                                                            ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(164,73): warning C4305: “参数”: 从“double”到“float”截断
+        if(Latitude>.95+Noise(N*32,3)*.018 || H>4.) return FLinearColor(.81,.89,.91)*(1+V*.16);
+                                                                        ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(165,85): warning C4305: “参数”: 从“double”到“float”截断
+        if(H<0) return FMath::Lerp(FLinearColor(.018,.09,.16),FLinearColor(.035,.26,.30),FMath::Exp(H*2));
+                                                                                    ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(165,81): warning C4305: “参数”: 从“double”到“float”截断
+        if(H<0) return FMath::Lerp(FLinearColor(.018,.09,.16),FLinearColor(.035,.26,.30),FMath::Exp(H*2));
+                                                                                ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(165,76): warning C4305: “参数”: 从“double”到“float”截断
+        if(H<0) return FMath::Lerp(FLinearColor(.018,.09,.16),FLinearColor(.035,.26,.30),FMath::Exp(H*2));
+                                                                           ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(165,58): warning C4305: “参数”: 从“double”到“float”截断
+        if(H<0) return FMath::Lerp(FLinearColor(.018,.09,.16),FLinearColor(.035,.26,.30),FMath::Exp(H*2));
+                                                         ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(165,54): warning C4305: “参数”: 从“double”到“float”截断
+        if(H<0) return FMath::Lerp(FLinearColor(.018,.09,.16),FLinearColor(.035,.26,.30),FMath::Exp(H*2));
+                                                     ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(165,49): warning C4305: “参数”: 从“double”到“float”截断
+        if(H<0) return FMath::Lerp(FLinearColor(.018,.09,.16),FLinearColor(.035,.26,.30),FMath::Exp(H*2));
+                                                ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(168,86): warning C4305: “参数”: 从“double”到“float”截断
+        FLinearColor C=FMath::Lerp(FLinearColor(.052,.145,.049),FLinearColor(.42,.30,.15),Desert);
+                                                                                     ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(168,82): warning C4305: “参数”: 从“double”到“float”截断
+        FLinearColor C=FMath::Lerp(FLinearColor(.052,.145,.049),FLinearColor(.42,.30,.15),Desert);
+                                                                                 ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(168,78): warning C4305: “参数”: 从“double”到“float”截断
+        FLinearColor C=FMath::Lerp(FLinearColor(.052,.145,.049),FLinearColor(.42,.30,.15),Desert);
+                                                                             ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(168,59): warning C4305: “参数”: 从“double”到“float”截断
+        FLinearColor C=FMath::Lerp(FLinearColor(.052,.145,.049),FLinearColor(.42,.30,.15),Desert);
+                                                          ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(168,54): warning C4305: “参数”: 从“double”到“float”截断
+        FLinearColor C=FMath::Lerp(FLinearColor(.052,.145,.049),FLinearColor(.42,.30,.15),Desert);
+                                                     ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(168,49): warning C4305: “参数”: 从“double”到“float”截断
+        FLinearColor C=FMath::Lerp(FLinearColor(.052,.145,.049),FLinearColor(.42,.30,.15),Desert);
+                                                ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(169,46): warning C4305: “参数”: 从“double”到“float”截断
+        C=FMath::Lerp(C,FLinearColor(.23,.22,.20),Smooth(1.,3.8,H));
+                                             ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(169,42): warning C4305: “参数”: 从“double”到“float”截断
+        C=FMath::Lerp(C,FLinearColor(.23,.22,.20),Smooth(1.,3.8,H));
+                                         ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(169,38): warning C4305: “参数”: 从“double”到“float”截断
+        C=FMath::Lerp(C,FLinearColor(.23,.22,.20),Smooth(1.,3.8,H));
+                                     ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(175,75): warning C4305: “参数”: 从“double”到“float”截断
+        return FMath::Lerp(FLinearColor(.14,.145,.15),FLinearColor(.4,.39,.37),Mare)*FMath::Clamp(1+V*.6+Craters(N)*.20,.4,1.3);
+                                                                          ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(175,71): warning C4305: “参数”: 从“double”到“float”截断
+        return FMath::Lerp(FLinearColor(.14,.145,.15),FLinearColor(.4,.39,.37),Mare)*FMath::Clamp(1+V*.6+Craters(N)*.20,.4,1.3);
+                                                                      ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(175,68): warning C4305: “参数”: 从“double”到“float”截断
+        return FMath::Lerp(FLinearColor(.14,.145,.15),FLinearColor(.4,.39,.37),Mare)*FMath::Clamp(1+V*.6+Craters(N)*.20,.4,1.3);
+                                                                   ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(175,50): warning C4305: “参数”: 从“double”到“float”截断
+        return FMath::Lerp(FLinearColor(.14,.145,.15),FLinearColor(.4,.39,.37),Mare)*FMath::Clamp(1+V*.6+Craters(N)*.20,.4,1.3);
+                                                 ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(175,45): warning C4305: “参数”: 从“double”到“float”截断
+        return FMath::Lerp(FLinearColor(.14,.145,.15),FLinearColor(.4,.39,.37),Mare)*FMath::Clamp(1+V*.6+Craters(N)*.20,.4,1.3);
+                                            ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(175,41): warning C4305: “参数”: 从“double”到“float”截断
+        return FMath::Lerp(FLinearColor(.14,.145,.15),FLinearColor(.4,.39,.37),Mare)*FMath::Clamp(1+V*.6+Craters(N)*.20,.4,1.3);
+                                        ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(177,136): warning C4305: “参数”: 从“double”到“float”截断
+    if(Body==5) { if(Latitude>.965)return FLinearColor(.8,.78,.72); return FMath::Lerp(FLinearColor(.20,.08,.045),FLinearColor(.53,.26,.13),FMath::Clamp(.5+Noise(N*8,5)*2,0.,1.))*(1+V*.4); }
+                                                                                                                                       ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(177,132): warning C4305: “参数”: 从“double”到“float”截断
+    if(Body==5) { if(Latitude>.965)return FLinearColor(.8,.78,.72); return FMath::Lerp(FLinearColor(.20,.08,.045),FLinearColor(.53,.26,.13),FMath::Clamp(.5+Noise(N*8,5)*2,0.,1.))*(1+V*.4); }
+                                                                                                                                   ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(177,128): warning C4305: “参数”: 从“double”到“float”截断
+    if(Body==5) { if(Latitude>.965)return FLinearColor(.8,.78,.72); return FMath::Lerp(FLinearColor(.20,.08,.045),FLinearColor(.53,.26,.13),FMath::Clamp(.5+Noise(N*8,5)*2,0.,1.))*(1+V*.4); }
+                                                                                                                               ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(177,109): warning C4305: “参数”: 从“double”到“float”截断
+    if(Body==5) { if(Latitude>.965)return FLinearColor(.8,.78,.72); return FMath::Lerp(FLinearColor(.20,.08,.045),FLinearColor(.53,.26,.13),FMath::Clamp(.5+Noise(N*8,5)*2,0.,1.))*(1+V*.4); }
+                                                                                                            ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(177,105): warning C4305: “参数”: 从“double”到“float”截断
+    if(Body==5) { if(Latitude>.965)return FLinearColor(.8,.78,.72); return FMath::Lerp(FLinearColor(.20,.08,.045),FLinearColor(.53,.26,.13),FMath::Clamp(.5+Noise(N*8,5)*2,0.,1.))*(1+V*.4); }
+                                                                                                        ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(177,101): warning C4305: “参数”: 从“double”到“float”截断
+    if(Body==5) { if(Latitude>.965)return FLinearColor(.8,.78,.72); return FMath::Lerp(FLinearColor(.20,.08,.045),FLinearColor(.53,.26,.13),FMath::Clamp(.5+Noise(N*8,5)*2,0.,1.))*(1+V*.4); }
+                                                                                                    ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(178,45): warning C4305: “参数”: 从“double”到“float”截断
+    if(Body==2) return FLinearColor(.32,.23,.135)*(0.85+Noise(N*18+FVector(2,5,3),5)*.55);
+                                            ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(178,41): warning C4305: “参数”: 从“double”到“float”截断
+    if(Body==2) return FLinearColor(.32,.23,.135)*(0.85+Noise(N*18+FVector(2,5,3),5)*.55);
+                                        ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(178,37): warning C4305: “参数”: 从“double”到“float”截断
+    if(Body==2) return FLinearColor(.32,.23,.135)*(0.85+Noise(N*18+FVector(2,5,3),5)*.55);
+                                    ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(184,83): warning C4305: “参数”: 从“double”到“float”截断
+        FLinearColor C=FMath::Lerp(FLinearColor(.38,.20,.12),FLinearColor(.79,.68,.49),Smooth(.12,.85,Belt));
+                                                                                  ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(184,79): warning C4305: “参数”: 从“double”到“float”截断
+        FLinearColor C=FMath::Lerp(FLinearColor(.38,.20,.12),FLinearColor(.79,.68,.49),Smooth(.12,.85,Belt));
+                                                                              ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(184,75): warning C4305: “参数”: 从“double”到“float”截断
+        FLinearColor C=FMath::Lerp(FLinearColor(.38,.20,.12),FLinearColor(.79,.68,.49),Smooth(.12,.85,Belt));
+                                                                          ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(184,57): warning C4305: “参数”: 从“double”到“float”截断
+        FLinearColor C=FMath::Lerp(FLinearColor(.38,.20,.12),FLinearColor(.79,.68,.49),Smooth(.12,.85,Belt));
+                                                        ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(184,53): warning C4305: “参数”: 从“double”到“float”截断
+        FLinearColor C=FMath::Lerp(FLinearColor(.38,.20,.12),FLinearColor(.79,.68,.49),Smooth(.12,.85,Belt));
+                                                    ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(184,49): warning C4305: “参数”: 从“double”到“float”截断
+        FLinearColor C=FMath::Lerp(FLinearColor(.38,.20,.12),FLinearColor(.79,.68,.49),Smooth(.12,.85,Belt));
+                                                ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(186,51): warning C4305: “参数”: 从“double”到“float”截断
+        return FMath::Lerp(C,FLinearColor(.56,.18,.09),Spot*.85)*(1+V*.17+.04*FMath::Sin(Lat*140+Warp*6));
+                                                  ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(186,47): warning C4305: “参数”: 从“double”到“float”截断
+        return FMath::Lerp(C,FLinearColor(.56,.18,.09),Spot*.85)*(1+V*.17+.04*FMath::Sin(Lat*140+Warp*6));
+                                              ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(186,43): warning C4305: “参数”: 从“double”到“float”截断
+        return FMath::Lerp(C,FLinearColor(.56,.18,.09),Spot*.85)*(1+V*.17+.04*FMath::Sin(Lat*140+Warp*6));
+                                          ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(188,83): warning C4305: “参数”: 从“double”到“float”截断
+    if(Body==7) return FMath::Lerp(FLinearColor(.60,.49,.32),FLinearColor(.78,.68,.47),.5+.5*FMath::Sin(Lat*32+Warp*.8))*(1+V*.10+.025*FMath::Sin(Lat*145+Warp*3));
+                                                                                  ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(188,79): warning C4305: “参数”: 从“double”到“float”截断
+    if(Body==7) return FMath::Lerp(FLinearColor(.60,.49,.32),FLinearColor(.78,.68,.47),.5+.5*FMath::Sin(Lat*32+Warp*.8))*(1+V*.10+.025*FMath::Sin(Lat*145+Warp*3));
+                                                                              ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(188,75): warning C4305: “参数”: 从“double”到“float”截断
+    if(Body==7) return FMath::Lerp(FLinearColor(.60,.49,.32),FLinearColor(.78,.68,.47),.5+.5*FMath::Sin(Lat*32+Warp*.8))*(1+V*.10+.025*FMath::Sin(Lat*145+Warp*3));
+                                                                          ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(188,57): warning C4305: “参数”: 从“double”到“float”截断
+    if(Body==7) return FMath::Lerp(FLinearColor(.60,.49,.32),FLinearColor(.78,.68,.47),.5+.5*FMath::Sin(Lat*32+Warp*.8))*(1+V*.10+.025*FMath::Sin(Lat*145+Warp*3));
+                                                        ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(188,53): warning C4305: “参数”: 从“double”到“float”截断
+    if(Body==7) return FMath::Lerp(FLinearColor(.60,.49,.32),FLinearColor(.78,.68,.47),.5+.5*FMath::Sin(Lat*32+Warp*.8))*(1+V*.10+.025*FMath::Sin(Lat*145+Warp*3));
+                                                    ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(188,49): warning C4305: “参数”: 从“double”到“float”截断
+    if(Body==7) return FMath::Lerp(FLinearColor(.60,.49,.32),FLinearColor(.78,.68,.47),.5+.5*FMath::Sin(Lat*32+Warp*.8))*(1+V*.10+.025*FMath::Sin(Lat*145+Warp*3));
+                                                ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(189,45): warning C4305: “参数”: 从“double”到“float”截断
+    if(Body==8) return FLinearColor(.40,.64,.68)*(.96+.04*Stripe);
+                                            ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(189,41): warning C4305: “参数”: 从“double”到“float”截断
+    if(Body==8) return FLinearColor(.40,.64,.68)*(.96+.04*Stripe);
+                                        ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(189,37): warning C4305: “参数”: 从“double”到“float”截断
+    if(Body==8) return FLinearColor(.40,.64,.68)*(.96+.04*Stripe);
+                                    ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(190,33): warning C4305: “参数”: 从“double”到“float”截断
+    return FLinearColor(.34,.56,.67)*(.93+.07*Stripe+V*.05);
+                                ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(190,29): warning C4305: “参数”: 从“double”到“float”截断
+    return FLinearColor(.34,.56,.67)*(.93+.07*Stripe+V*.05);
+                            ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(190,25): warning C4305: “参数”: 从“double”到“float”截断
+    return FLinearColor(.34,.56,.67)*(.93+.07*Stripe+V*.05);
+                        ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(166,48): warning C4305: “参数”: 从“double”到“float”截断
+        if(H<.065) return FLinearColor(.46,.40,.24);
+                                               ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(166,44): warning C4305: “参数”: 从“double”到“float”截断
+        if(H<.065) return FLinearColor(.46,.40,.24);
+                                           ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(166,40): warning C4305: “参数”: 从“double”到“float”截断
+        if(H<.065) return FLinearColor(.46,.40,.24);
+                                       ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(177,63): warning C4305: “参数”: 从“double”到“float”截断
+    if(Body==5) { if(Latitude>.965)return FLinearColor(.8,.78,.72); return FMath::Lerp(FLinearColor(.20,.08,.045),FLinearColor(.53,.26,.13),FMath::Clamp(.5+Noise(N*8,5)*2,0.,1.))*(1+V*.4); }
+                                                              ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(177,59): warning C4305: “参数”: 从“double”到“float”截断
+    if(Body==5) { if(Latitude>.965)return FLinearColor(.8,.78,.72); return FMath::Lerp(FLinearColor(.20,.08,.045),FLinearColor(.53,.26,.13),FMath::Clamp(.5+Noise(N*8,5)*2,0.,1.))*(1+V*.4); }
+                                                          ^
+D:\BIG WORLD UE5.8\Source\BigWorld\SolarSystem\SolarModel.cpp(177,56): warning C4305: “参数”: 从“double”到“float”截断
+    if(Body==5) { if(Latitude>.965)return FLinearColor(.8,.78,.72); return FMath::Lerp(FLinearColor(.20,.08,.045),FLinearColor(.53,.26,.13),FMath::Clamp(.5+Noise(N*8,5)*2,0.,1.))*(1+V*.4); }
+                                                       ^
+[2/4] Link [x64] UnrealEditor-BigWorld.lib
+  正在创建库 D:/BIG WORLD UE5.8/Intermediate/Build/Win64/x64/UnrealEditor/Development/BigWorld/UnrealEditor-BigWorld.lib 和对象 D:/BIG WORLD UE5.8/Intermediate/Build/Win64/x64/UnrealEditor/Development/BigWorld/UnrealEditor-BigWorld.exp
+[3/4] Link [x64] UnrealEditor-BigWorld.dll
+[4/4] WriteMetadata BigWorldEditor.target [NoUba]
+
+Total time in Unreal Build Accelerator local executor: 9.12 seconds
+Output binary: E:\Epic Games\UE_5.8\Engine\Binaries\Win64\UnrealEditor.exe
+
+Result: Succeeded
+Total execution time: 10.32 seconds
+Trace written to file C:\Users\GrayRaveN\AppData\Local\UnrealBuildTool\Trace.uba with size 6.3kb

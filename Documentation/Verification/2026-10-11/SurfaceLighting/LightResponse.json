@@ -1,0 +1,62 @@
+{
+  "fixed_exposure": true,
+  "samples": [
+    {
+      "phase": 0,
+      "bias": -0.048536770045757294,
+      "method": "<AutoExposureMethod.AEM_MANUAL: 2>",
+      "sun": 124105.8515625,
+      "sky": 1.0
+    },
+    {
+      "phase": 1,
+      "bias": -0.048536770045757294,
+      "method": "<AutoExposureMethod.AEM_MANUAL: 2>",
+      "sun": 124105.8515625,
+      "sky": 1.0
+    },
+    {
+      "phase": 2,
+      "bias": -0.048536770045757294,
+      "method": "<AutoExposureMethod.AEM_MANUAL: 2>",
+      "sun": 0.0,
+      "sky": 0.0
+    },
+    {
+      "phase": 3,
+      "bias": -0.048536770045757294,
+      "method": "<AutoExposureMethod.AEM_MANUAL: 2>",
+      "sun": 0.0,
+      "sky": 0.0
+    },
+    {
+      "phase": 4,
+      "bias": -0.048536770045757294,
+      "method": "<AutoExposureMethod.AEM_MANUAL: 2>",
+      "sun": 124105.8515625,
+      "sky": 1.0
+    },
+    {
+      "phase": 5,
+      "bias": -0.048536770045757294,
+      "method": "<AutoExposureMethod.AEM_MANUAL: 2>",
+      "sun": 124105.8515625,
+      "sky": 1.0
+    },
+    {
+      "phase": 6,
+      "bias": -0.048536770045757294,
+      "method": "<AutoExposureMethod.AEM_MANUAL: 2>",
+      "sun": 124105.8515625,
+      "sky": 1.0
+    },
+    {
+      "phase": 7,
+      "bias": -0.048536770045757294,
+      "method": "<AutoExposureMethod.AEM_MANUAL: 2>",
+      "sun": 124105.8515625,
+      "sky": 1.0
+    }
+  ],
+  "scope": "同机位太阳与天空光关闭/恢复；关灯画面仅为诊断。转向检查记录固定曝光设置，不等同逐帧亮度计测量。"
+}

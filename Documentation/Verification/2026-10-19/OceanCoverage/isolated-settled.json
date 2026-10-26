@@ -1,0 +1,90 @@
+{
+  "completed": true,
+  "errors": [],
+  "frames": [
+    {
+      "job": {
+        "name": "shore-terrain-only",
+        "lat": 23.261616396234317,
+        "lon": 89.83508866409365,
+        "alt": 0.011,
+        "east": -1,
+        "tilt": -0.15,
+        "hide_proxy": true,
+        "hide_ocean": true
+      },
+      "ground_km": 0.002960997086557526,
+      "blend": 1.0,
+      "ocean_hidden": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "system_tick": false,
+      "position": [
+        1684671.3759563002,
+        585310237.3590598,
+        251610750.71784922
+      ],
+      "rotation": [
+        66.9687728881836,
+        -3.3585455417633057,
+        -8.011232376098633
+      ]
+    },
+    {
+      "job": {
+        "name": "handoff-no-water",
+        "lat": 23.261616396234317,
+        "lon": 89.81408866409365,
+        "alt": 9.398,
+        "tilt": -0.4,
+        "hide_ocean": true
+      },
+      "ground_km": -0.015457865467471521,
+      "blend": 1.0,
+      "ocean_hidden": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "system_tick": false,
+      "position": [
+        1901996.925966458,
+        586171970.2058278,
+        251981471.6290096
+      ],
+      "rotation": [
+        -68.24166870117188,
+        -8.434192657470703,
+        -160.00831604003906
+      ]
+    }
+  ]
+}

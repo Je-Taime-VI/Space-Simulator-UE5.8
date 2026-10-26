@@ -16,6 +16,21 @@ double Land(const FVector& N)
     const FVector Warp(Noise(N*2+FVector(12,4,0),3),Noise(N*2+FVector(2,17,3),3),Noise(N*2+FVector(8,7,19),3));
     return Noise(N*2.6+Warp*1.7+FVector(11.2,7.7,5.1),6)-0.06;
 }
+struct FRegionRules
+{
+    using float3=FVector;
+    static float axisZ(const FVector& N) { return N.Z; }
+    static float noise(const FVector& N,int Count) { return Noise(N,Count); }
+    static float smoothstep(float A,float B,float V) { return Smooth(A,B,V); }
+    static float saturate(float V) { return FMath::Clamp(V,0.f,1.f); }
+    static float abs(float V) { return FMath::Abs(V); }
+    static float pow(float A,float B) { return FMath::Pow(A,B); }
+    static float exp(float V) { return FMath::Exp(V); }
+    static float max(float A,float B) { return FMath::Max(A,B); }
+    static float lerp(float A,float B,float T) { return FMath::Lerp(A,B,T); }
+    static FVector lerp(const FVector& A,const FVector& B,float T) { return FMath::Lerp(A,B,T); }
+    #include "SolarBiomeRules.inl"
+};
 double Craters(const FVector& N)
 {
     // Cellular craters in 3D avoid a longitude seam and polar UV distortion.
@@ -56,15 +71,31 @@ TArray<FSolarBody> SolarModel::Defaults()
     Add(TEXT("Sun"),TEXT("太阳"),695700,1.32712440018e11,0,0,0,0,0,0,25.38,7.25,0,false);
     Add(TEXT("Mercury"),TEXT("水星"),2439.4,22031.86855,.38709927,.20563593,7.00497902,48.33076593,77.45779628,252.25032350,58.6462,.034,0,true);
     Add(TEXT("Venus"),TEXT("金星"),6051.8,324858.592,.72333566,.00677672,3.39467605,76.67984255,131.60246718,181.97909950,243.018,177.36,150,true);
-    Add(TEXT("Earth"),TEXT("地球"),6371.0084,398600.435507,1.00000261,.01671123,0,0,102.93768193,100.46457166,.99726968,23.43928,100,true);
+    Add(TEXT("Earth"),TEXT("地球"),6371.0084,398600.435507,1.00000261,.01671123,-.00001531,0,102.93768193,100.46457166,.99726968,23.43928,100,true);
     Result.Last().bOcean=true;
     Add(TEXT("Moon"),TEXT("月球"),1737.4,4902.800118,384400/AU,.0549,5.145,125.08,318.15,218.316,27.321661,6.68,0,true);
     Result.Last().ParentIndex=3; Result.Last().PeriodDays=27.321661; Result.Last().bTidalLock=true;
     Add(TEXT("Mars"),TEXT("火星"),3389.5,42828.375816,1.52371034,.09339410,1.84969142,49.55953891,-23.94362959,-4.55343205,1.02595676,25.19,80,true);
-    Add(TEXT("Jupiter"),TEXT("木星"),69911,126712764.1,5.202887,.04838624,1.30439695,100.47390909,14.72847983,34.39644051,.41354,3.13,0,false);
-    Add(TEXT("Saturn"),TEXT("土星"),58232,37940584.84,9.53667594,.05386179,2.48599187,113.66242448,92.59887831,49.95424423,.44401,26.73,0,false);
-    Add(TEXT("Uranus"),TEXT("天王星"),25362,5794556.4,19.18916464,.04725744,.77263783,74.01692503,170.95427630,313.23810451,.71833,97.77,0,false);
-    Add(TEXT("Neptune"),TEXT("海王星"),24622,6836527.1,30.06992276,.00859048,1.77004347,131.78422574,44.96476227,-55.12002969,.67125,28.32,0,false);
+    Add(TEXT("Jupiter"),TEXT("木星"),69911,126712764.1,5.202887,.04838624,1.30439695,100.47390909,14.72847983,34.39644051,.41354,3.13,300,false);
+    Add(TEXT("Saturn"),TEXT("土星"),58232,37940584.84,9.53667594,.05386179,2.48599187,113.66242448,92.59887831,49.95424423,.44401,26.73,600,false);
+    Add(TEXT("Uranus"),TEXT("天王星"),25362,5794556.4,19.18916464,.04725744,.77263783,74.01692503,170.95427630,313.23810451,.71833,97.77,350,false);
+    Add(TEXT("Neptune"),TEXT("海王星"),24622,6836527.1,30.06992276,.00859048,1.77004347,131.78422574,44.96476227,-55.12002969,.67125,28.32,300,false);
+    // IAU/NAIF J2000 pole directions converted from equatorial to ecliptic.
+    // Preserve catalogue obliquity exactly; precession/nutation remain out of scope.
+    const double RA[]={286.13,281.0103,272.76,0,269.9949,317.269202,268.056595,40.589,257.311,299.36};
+    const double Dec[]={63.87,61.4155,67.16,90,66.5392,54.432516,64.495303,83.537,-15.175,43.46};
+    const double Eps=FMath::DegreesToRadians(23.43928);
+    for(int I=0;I<Result.Num();++I)
+    {
+        const double A=FMath::DegreesToRadians(RA[I]),D=FMath::DegreesToRadians(Dec[I]);
+        FVector Pole(FMath::Cos(D)*FMath::Cos(A),FMath::Cos(Eps)*FMath::Cos(D)*FMath::Sin(A)+FMath::Sin(Eps)*FMath::Sin(D),-FMath::Sin(Eps)*FMath::Cos(D)*FMath::Sin(A)+FMath::Cos(Eps)*FMath::Sin(D));
+        // IAU cartographic north uses a negative spin rate for these two bodies.
+        // This model uses positive periods about the angular-momentum pole instead.
+        if(I==2||I==8)Pole=-Pole;
+        const FVector Normal=OrbitNormal(Result[I]);
+        const FVector Tangent=(Pole-Normal*FVector::DotProduct(Pole,Normal)).GetSafeNormal();
+        Result[I].PoleLongitudeDeg=FMath::RadiansToDegrees(FMath::Atan2(Tangent.Y,Tangent.X));
+    }
     return Result;
 }
 
@@ -81,6 +112,19 @@ FVector SolarModel::OrbitPosition(const FSolarBody& B,double Seconds)
     return FVector((co*cw-so*sw*ci)*X+(-co*sw-so*cw*ci)*Y,(so*cw+co*sw*ci)*X+(-so*sw+co*cw*ci)*Y,sw*si*X+cw*si*Y);
 }
 
+FVector SolarModel::OrbitNormal(const FSolarBody& B)
+{
+    const double I=FMath::DegreesToRadians(B.InclinationDeg),O=FMath::DegreesToRadians(B.AscendingNodeDeg);
+    return FVector(FMath::Sin(I)*FMath::Sin(O),-FMath::Sin(I)*FMath::Cos(O),FMath::Cos(I));
+}
+FVector SolarModel::SpinAxis(const FSolarBody& B)
+{
+    const FVector Normal=OrbitNormal(B);
+    const double A=FMath::DegreesToRadians(B.PoleLongitudeDeg),T=FMath::DegreesToRadians(B.AxialTiltDeg);
+    const double X=FMath::Cos(A),Y=FMath::Sin(A);
+    const FVector Tangent=FVector(X,Y,-(Normal.X*X+Normal.Y*Y)/Normal.Z).GetSafeNormal();
+    return (Normal*FMath::Cos(T)+Tangent*FMath::Sin(T)).GetSafeNormal();
+}
 void SolarModel::Evaluate(const TArray<FSolarBody>& Bodies,double Seconds,TArray<FVector>& P,TArray<FQuat>& Q)
 {
     P.SetNum(Bodies.Num()); Q.SetNum(Bodies.Num());
@@ -90,8 +134,13 @@ void SolarModel::Evaluate(const TArray<FSolarBody>& Bodies,double Seconds,TArray
     for(int I=0;I<Bodies.Num();++I)
     {
         const auto& B=Bodies[I];
-        if(B.bTidalLock) Q[I]=FRotationMatrix::MakeFromXZ((P[B.ParentIndex]-P[I]).GetSafeNormal(),FVector::UpVector).ToQuat();
-        else Q[I]=FQuat(FVector::RightVector,FMath::DegreesToRadians(B.AxialTiltDeg))*FQuat(FVector::UpVector,2*PI*FMath::Fmod(Seconds/(B.SpinDays*86400),1.));
+        if(B.bTidalLock)
+        {
+            const FVector Axis=SpinAxis(B),ToParent=(P[B.ParentIndex]-P[I]).GetSafeNormal();
+            // Keep the sub-parent longitude fixed while retaining the oblique pole.
+            Q[I]=FRotationMatrix::MakeFromXZ((ToParent-Axis*FVector::DotProduct(ToParent,Axis)).GetSafeNormal(),Axis).ToQuat();
+        }
+        else Q[I]=FRotationMatrix::MakeFromZ(SpinAxis(B)).ToQuat()*FQuat(FVector::UpVector,2*PI*FMath::Fmod(Seconds/(B.SpinDays*86400),1.));
     }
 }
 
@@ -122,35 +171,39 @@ float SolarModel::CloudDensity(const FVector& N)
 
 FLinearColor SolarModel::SurfaceColor(int32 Body,const FVector& N)
 {
-    const double V=Noise(N*140+FVector(4,1,3),4), Latitude=FMath::Abs(N.Z);
+    if(Body>=1 && Body<=5)
+    {
+        const FVector C=SurfaceRegion(Body,N,HeightKm(Body,N)).Color;
+        return FLinearColor(C.X,C.Y,C.Z);
+    }
+    const double V=Noise(N*140+FVector(4,1,3),4);
     if(Body==0) { const double Grain=Noise(N*110,4); return FLinearColor(1.,.65+Grain*.5,.21+Grain*.2); }
-    if(Body==3)
-    {
-        const double H=HeightKm(Body,N);
-        if(Latitude>.95+Noise(N*32,3)*.018 || H>4.) return FLinearColor(.81,.89,.91)*(1+V*.16);
-        if(H<0) return FMath::Lerp(FLinearColor(.018,.09,.16),FLinearColor(.035,.26,.30),FMath::Exp(H*2));
-        if(H<.065) return FLinearColor(.46,.40,.24);
-        const double Desert=Smooth(.08,.24,Noise(N*8+FVector(7,7,3),4))*(1-Smooth(.48,.7,Latitude));
-        FLinearColor C=FMath::Lerp(FLinearColor(.052,.145,.049),FLinearColor(.42,.30,.15),Desert);
-        C=FMath::Lerp(C,FLinearColor(.23,.22,.20),Smooth(1.,3.8,H));
-        return C*(.95+V*.5);
-    }
-    if(Body==1 || Body==4)
-    {
-        const double Mare=Smooth(-.03,.13,Noise(N*3+FVector(8,Body,3),4));
-        return FMath::Lerp(FLinearColor(.14,.145,.15),FLinearColor(.4,.39,.37),Mare)*FMath::Clamp(1+V*.6+Craters(N)*.20,.4,1.3);
-    }
-    if(Body==5) { if(Latitude>.965)return FLinearColor(.8,.78,.72); return FMath::Lerp(FLinearColor(.20,.08,.045),FLinearColor(.53,.26,.13),FMath::Clamp(.5+Noise(N*8,5)*2,0.,1.))*(1+V*.4); }
-    if(Body==2) return FLinearColor(.72,.56,.30)*(0.85+Noise(N*18+FVector(2,5,3),5)*.55);
     const double Lat=FMath::Asin(FMath::Clamp(N.Z,-1.,1.));
     const double Warp=Noise(N*9,5), Stripe=.5+.5*FMath::Sin(Lat*85+Warp*8);
     if(Body==6)
     {
-        FLinearColor C=FMath::Lerp(FLinearColor(.38,.20,.12),FLinearColor(.79,.68,.49),Stripe);
+        const double Belt=.5+.5*FMath::Sin(Lat*26+Warp*1.4);
+        FLinearColor C=FMath::Lerp(FLinearColor(.38,.20,.12),FLinearColor(.79,.68,.49),Smooth(.12,.85,Belt));
         const double Spot=FMath::Exp(-FMath::Square((Lat+.36)/.10)-FMath::Square(FMath::Atan2(N.Y,N.X)/.24));
-        return FMath::Lerp(C,FLinearColor(.56,.18,.09),Spot*.85)*(1+V*.17);
+        return FMath::Lerp(C,FLinearColor(.56,.18,.09),Spot*.85)*(1+V*.17+.04*FMath::Sin(Lat*140+Warp*6));
     }
-    if(Body==7) return FMath::Lerp(FLinearColor(.51,.39,.23),FLinearColor(.80,.70,.46),.5+.5*FMath::Sin(Lat*105+Warp*3))*(1+V*.10);
-    if(Body==8) return FLinearColor(.32,.62,.67)*(.90+.10*Stripe);
-    return FLinearColor(.10,.27,.61)*(.76+.24*Stripe+V*.1);
+    if(Body==7) return FMath::Lerp(FLinearColor(.60,.49,.32),FLinearColor(.78,.68,.47),.5+.5*FMath::Sin(Lat*32+Warp*.8))*(1+V*.10+.025*FMath::Sin(Lat*145+Warp*3));
+    if(Body==8) return FLinearColor(.40,.64,.68)*(.96+.04*Stripe);
+    return FLinearColor(.34,.56,.67)*(.93+.07*Stripe+V*.05);
+}
+
+FSolarSurfaceRegion SolarModel::SurfaceRegion(int32 Body,const FVector& N,double H,double Slope)
+{
+    return FRegionRules().biome(Body,N.GetSafeNormal(1e-12,FVector::UpVector),H,Slope);
+}
+
+double SolarModel::SurfaceSlope(int32 Body,const FVector& N,double RadiusKm)
+{
+    // Centred 40 m height samples match the scale of vegetation placement.
+    const FVector X=FVector::CrossProduct(N,FVector::UpVector).GetSafeNormal(1e-9,FVector::ForwardVector);
+    const FVector Y=FVector::CrossProduct(N,X);
+    const double Step=.02/FMath::Max(RadiusKm,1.);
+    const double DX=(HeightKm(Body,(N+X*Step).GetSafeNormal())-HeightKm(Body,(N-X*Step).GetSafeNormal()))/.04;
+    const double DY=(HeightKm(Body,(N+Y*Step).GetSafeNormal())-HeightKm(Body,(N-Y*Step).GetSafeNormal()))/.04;
+    return 1-1/FMath::Sqrt(1+DX*DX+DY*DY);
 }

@@ -1,0 +1,230 @@
+{
+  "material": "/Game/SolarSystem/Materials/M_Terrain.M_Terrain",
+  "shading": "<MaterialShadingModel.MSM_DEFAULT_LIT: 1>",
+  "world_space_normal": true,
+  "pixel_instructions": 2202,
+  "samplers": 11,
+  "inputs": {
+    "<MaterialProperty.MP_BASE_COLOR: 5>": {
+      "node": "MaterialExpressionCustom",
+      "output": "return"
+    },
+    "<MaterialProperty.MP_NORMAL: 10>": {
+      "node": "MaterialExpressionCustom",
+      "output": "DetailNormal"
+    },
+    "<MaterialProperty.MP_ROUGHNESS: 8>": {
+      "node": "MaterialExpressionCustom",
+      "output": "SurfaceRoughness"
+    },
+    "<MaterialProperty.MP_AMBIENT_OCCLUSION: 18>": {
+      "node": "MaterialExpressionCustom",
+      "output": "SurfaceAO"
+    },
+    "<MaterialProperty.MP_EMISSIVE_COLOR: 0>": {
+      "node": "MaterialExpressionConstant",
+      "output": "",
+      "value": 0.0
+    },
+    "<MaterialProperty.MP_METALLIC: 6>": {
+      "node": "MaterialExpressionConstant",
+      "output": "",
+      "value": 0.0
+    }
+  },
+  "textures": [
+    {
+      "parameter": "SandColor",
+      "source": "/WorldScape/Ressources/Textures/Sand/T_Sand_Far_C",
+      "project_copy": "/Game/SolarSystem/Textures/Surface/T_SandColor.T_SandColor",
+      "size": [
+        2048,
+        2048
+      ],
+      "max_size": 2048,
+      "never_stream": false,
+      "srgb": true,
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>"
+    },
+    {
+      "parameter": "SandNormal",
+      "source": "/WorldScape/Ressources/Textures/Sand/T_Sand_Far_N",
+      "project_copy": "/Game/SolarSystem/Textures/Surface/T_SandNormal.T_SandNormal",
+      "size": [
+        2048,
+        2048
+      ],
+      "max_size": 2048,
+      "never_stream": false,
+      "srgb": false,
+      "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>"
+    },
+    {
+      "parameter": "SandORMH",
+      "source": "/WorldScape/Ressources/Textures/Sand/T_Sand_Far_ORMH",
+      "project_copy": "/Game/SolarSystem/Textures/Surface/T_SandORMH.T_SandORMH",
+      "size": [
+        2048,
+        2048
+      ],
+      "max_size": 2048,
+      "never_stream": false,
+      "srgb": false,
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>"
+    },
+    {
+      "parameter": "RockColor",
+      "source": "/WorldScape/Ressources/Textures/Rock/T_Rock3",
+      "project_copy": "/Game/SolarSystem/Textures/Surface/T_RockColor_Rock3.T_RockColor_Rock3",
+      "size": [
+        2048,
+        2048
+      ],
+      "max_size": 2048,
+      "never_stream": false,
+      "srgb": true,
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>"
+    },
+    {
+      "parameter": "RockNormal",
+      "source": "/WorldScape/Ressources/Textures/Rock/T_Rock3N",
+      "project_copy": "/Game/SolarSystem/Textures/Surface/T_RockNormal_Rock3.T_RockNormal_Rock3",
+      "size": [
+        2048,
+        2048
+      ],
+      "max_size": 2048,
+      "never_stream": false,
+      "srgb": false,
+      "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>"
+    },
+    {
+      "parameter": "SoilColor",
+      "source": "/WorldScape/Ressources/Textures/Dirt/T_Dirt_Albedo",
+      "project_copy": "/Game/SolarSystem/Textures/Surface/T_SoilColor.T_SoilColor",
+      "size": [
+        2048,
+        2048
+      ],
+      "max_size": 2048,
+      "never_stream": false,
+      "srgb": true,
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>"
+    },
+    {
+      "parameter": "SoilNormal",
+      "source": "/WorldScape/Ressources/Textures/Dirt/T_Dirt_Normal",
+      "project_copy": "/Game/SolarSystem/Textures/Surface/T_SoilNormal.T_SoilNormal",
+      "size": [
+        2048,
+        2048
+      ],
+      "max_size": 2048,
+      "never_stream": false,
+      "srgb": false,
+      "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>"
+    },
+    {
+      "parameter": "SnowColor",
+      "source": "/WorldScape/Ressources/Textures/Snow/T_Snow_Albedo",
+      "project_copy": "/Game/SolarSystem/Textures/Surface/T_SnowColor.T_SnowColor",
+      "size": [
+        1024,
+        1024
+      ],
+      "max_size": 2048,
+      "never_stream": false,
+      "srgb": true,
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>"
+    },
+    {
+      "parameter": "SnowNormal",
+      "source": "/WorldScape/Ressources/Textures/Snow/T_Snow_N",
+      "project_copy": "/Game/SolarSystem/Textures/Surface/T_SnowNormal.T_SnowNormal",
+      "size": [
+        2048,
+        2048
+      ],
+      "max_size": 2048,
+      "never_stream": false,
+      "srgb": false,
+      "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>"
+    },
+    {
+      "parameter": "SnowORMH",
+      "source": "/WorldScape/Ressources/Textures/Snow/T_Snow_ORMH",
+      "project_copy": "/Game/SolarSystem/Textures/Surface/T_SnowORMH.T_SnowORMH",
+      "size": [
+        2048,
+        2048
+      ],
+      "max_size": 2048,
+      "never_stream": false,
+      "srgb": false,
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>"
+    }
+  ],
+  "parameters": {
+    "DetailStrength": 1.0,
+    "NormalStrength": 1.0,
+    "DebugLayerWeights": 0.0,
+    "DetailFadeStartCm": 30000.0,
+    "DetailFadeEndCm": 250000.0,
+    "SandTileCm": 300.0,
+    "RockTileCm": 600.0,
+    "SoilTileCm": 250.0,
+    "SnowTileCm": 400.0
+  },
+  "radii": [
+    {
+      "body": "Sun",
+      "expected_km": 695700.0,
+      "material_km": 695700.0
+    },
+    {
+      "body": "Mercury",
+      "expected_km": 2439.4,
+      "material_km": 2439.39990234375
+    },
+    {
+      "body": "Venus",
+      "expected_km": 6051.8,
+      "material_km": 6051.7998046875
+    },
+    {
+      "body": "Earth",
+      "expected_km": 6371.0084,
+      "material_km": 6371.00830078125
+    },
+    {
+      "body": "Moon",
+      "expected_km": 1737.4,
+      "material_km": 1737.4000244140625
+    },
+    {
+      "body": "Mars",
+      "expected_km": 3389.5,
+      "material_km": 3389.5
+    },
+    {
+      "body": "Jupiter",
+      "expected_km": 69911.0,
+      "material_km": 69911.0
+    },
+    {
+      "body": "Saturn",
+      "expected_km": 58232.0,
+      "material_km": 58232.0
+    },
+    {
+      "body": "Uranus",
+      "expected_km": 25362.0,
+      "material_km": 25362.0
+    },
+    {
+      "body": "Neptune",
+      "expected_km": 24622.0,
+      "material_km": 24622.0
+    }
+  ]
+}

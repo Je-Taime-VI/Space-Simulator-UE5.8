@@ -1,0 +1,20 @@
+{
+  "<MaterialProperty.MP_ROUGHNESS: 8>": {
+    "r": false,
+    "g": true,
+    "b": false,
+    "a": false
+  },
+  "<MaterialProperty.MP_AMBIENT_OCCLUSION: 18>": {
+    "r": true,
+    "g": false,
+    "b": false,
+    "a": false
+  },
+  "<MaterialProperty.MP_METALLIC: 6>": {
+    "r": false,
+    "g": false,
+    "b": true,
+    "a": false
+  }
+}

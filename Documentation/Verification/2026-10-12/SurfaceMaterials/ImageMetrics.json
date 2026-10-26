@@ -1,0 +1,13 @@
+{
+  "pixel_scale": "0-255 RGB",
+  "crop_xyxy": [
+    500,
+    180,
+    1200,
+    630
+  ],
+  "returned_mean_absolute_difference": 1.501032829284668,
+  "detail_disabled_mean_absolute_difference": 21.75634765625,
+  "earth_orbit_mean_absolute_difference": 1.1495577096939087,
+  "note": "静态固定区域差分仅辅助同机位对照，不是移动稳定性或画质评分；云与时间重建可能改变像素。"
+}

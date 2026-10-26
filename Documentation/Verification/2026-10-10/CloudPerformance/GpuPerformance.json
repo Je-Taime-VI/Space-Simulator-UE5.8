@@ -1,0 +1,183 @@
+{
+  "date": "2026-10-10",
+  "gpu": "RTX 3060 Laptop 6GB",
+  "viewport": [
+    1376,
+    808
+  ],
+  "screenshots": [
+    1280,
+    720
+  ],
+  "scope": "编辑器内PIE、固定J2000、冻结相机、GPU事件抽样。后台运行导致GPU时钟变化，多个Scene包含编辑视图，末个Scene为PIE；不能折算为稳定前台FPS。",
+  "baseline_earth": {
+    "scene_gpu_ms": 801.912,
+    "cloud_gpu_ms": 775.417,
+    "cloud_off_scene_ms": 27.557,
+    "half_resolution_old_shader_cloud_ms": 132.908
+  },
+  "final_samples": [
+    {
+      "body": 3,
+      "view": "orbit",
+      "sample": 0,
+      "scene_gpu_ms": [
+        34.56,
+        62.72
+      ],
+      "cloud_gpu_ms": [
+        2.173
+      ]
+    },
+    {
+      "body": 3,
+      "view": "orbit",
+      "sample": 1,
+      "scene_gpu_ms": [
+        34.496,
+        63.094
+      ],
+      "cloud_gpu_ms": [
+        2.146
+      ]
+    },
+    {
+      "body": 3,
+      "view": "orbit",
+      "sample": 2,
+      "scene_gpu_ms": [
+        23.787,
+        42.203
+      ],
+      "cloud_gpu_ms": [
+        1.466
+      ]
+    },
+    {
+      "body": 2,
+      "view": "orbit",
+      "sample": 0,
+      "scene_gpu_ms": [
+        14.536,
+        29.136
+      ],
+      "cloud_gpu_ms": [
+        2.313
+      ]
+    },
+    {
+      "body": 2,
+      "view": "orbit",
+      "sample": 1,
+      "scene_gpu_ms": [
+        7.607,
+        18.053
+      ],
+      "cloud_gpu_ms": [
+        1.875
+      ]
+    },
+    {
+      "body": 2,
+      "view": "orbit",
+      "sample": 2,
+      "scene_gpu_ms": [
+        15.306,
+        30.141
+      ],
+      "cloud_gpu_ms": [
+        2.095
+      ]
+    },
+    {
+      "body": 3,
+      "view": "orbit-repeat",
+      "sample": 0,
+      "scene_gpu_ms": [
+        34.153,
+        64.955
+      ],
+      "cloud_gpu_ms": [
+        3.141
+      ]
+    },
+    {
+      "body": 2,
+      "view": "orbit-repeat",
+      "sample": 0,
+      "scene_gpu_ms": [
+        12.515,
+        25.589
+      ],
+      "cloud_gpu_ms": [
+        2.584
+      ]
+    },
+    {
+      "body": 3,
+      "view": "low-orbit",
+      "sample": 0,
+      "scene_gpu_ms": [
+        25.786,
+        58.414
+      ],
+      "cloud_gpu_ms": [
+        3.084
+      ]
+    },
+    {
+      "body": 3,
+      "view": "inside",
+      "sample": 0,
+      "scene_gpu_ms": [
+        5.897,
+        15.953
+      ],
+      "cloud_gpu_ms": [
+        4.814
+      ]
+    },
+    {
+      "body": 3,
+      "view": "surface",
+      "sample": 0,
+      "scene_gpu_ms": [
+        9.389,
+        25.87
+      ],
+      "cloud_gpu_ms": [
+        0.87
+      ]
+    },
+    {
+      "body": 2,
+      "view": "inside",
+      "sample": 0,
+      "scene_gpu_ms": [
+        1.849,
+        15.04
+      ],
+      "cloud_gpu_ms": [
+        6.665
+      ]
+    },
+    {
+      "body": 2,
+      "view": "surface",
+      "sample": 0,
+      "scene_gpu_ms": [
+        3.792,
+        18.858
+      ],
+      "cloud_gpu_ms": [
+        3.173
+      ]
+    }
+  ],
+  "initial_memory_observation": {
+    "dedicated_vram_used_mib": 2936,
+    "dedicated_vram_total_mib": 6144,
+    "free_physical_memory_kib": 2667732
+  },
+  "limitations": "旧版原始云仅1次有效GPU事件；新版整球各3次并往返复查。无旧版金星同机位原始GPU基准，不能给出金星前后倍率。没有长时间帧率/切换首帧尖峰统计或风扇声学测量。"
+}

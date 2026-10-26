@@ -1,0 +1,32 @@
+[
+  {
+    "material": "/Game/SolarSystem/Materials/M_Ocean_WorldScape.M_Ocean_WorldScape",
+    "shading": "<MaterialShadingModel.MSM_SINGLE_LAYER_WATER: 10>",
+    "blend": "<BlendMode.BLEND_MASKED: 1>",
+    "two_sided": false,
+    "clip": 0.5,
+    "statistics": "<Struct 'MaterialStatistics' (0x0000022D18036DC0) {num_vertex_shader_instructions: 407, num_pixel_shader_instructions: 2324, num_samplers: 3, num_vertex_texture_samples: 2, num_pixel_texture_samples: 5, num_virtual_texture_samples: 0, num_uv_scalars: 0, num_interpolator_scalars: 0}>",
+    "nodes": 90,
+    "endpoint_guard": true
+  },
+  {
+    "material": "/Game/SolarSystem/Materials/M_Planet.M_Planet",
+    "shading": "<MaterialShadingModel.MSM_DEFAULT_LIT: 1>",
+    "blend": "<BlendMode.BLEND_MASKED: 1>",
+    "two_sided": false,
+    "clip": 0.5,
+    "statistics": "<Struct 'MaterialStatistics' (0x0000022D18032820) {num_vertex_shader_instructions: 1338, num_pixel_shader_instructions: 2431, num_samplers: 1, num_vertex_texture_samples: 0, num_pixel_texture_samples: 4, num_virtual_texture_samples: 0, num_uv_scalars: 0, num_interpolator_scalars: 0}>",
+    "nodes": 44,
+    "endpoint_guard": true
+  },
+  {
+    "material": "/Game/SolarSystem/Materials/M_Terrain.M_Terrain",
+    "shading": "<MaterialShadingModel.MSM_DEFAULT_LIT: 1>",
+    "blend": "<BlendMode.BLEND_MASKED: 1>",
+    "two_sided": false,
+    "clip": 0.5,
+    "statistics": "<Struct 'MaterialStatistics' (0x0000022D18036180) {num_vertex_shader_instructions: 148, num_pixel_shader_instructions: 3206, num_samplers: 11, num_vertex_texture_samples: 0, num_pixel_texture_samples: 4, num_virtual_texture_samples: 0, num_uv_scalars: 0, num_interpolator_scalars: 0}>",
+    "nodes": 86,
+    "endpoint_guard": true
+  }
+]

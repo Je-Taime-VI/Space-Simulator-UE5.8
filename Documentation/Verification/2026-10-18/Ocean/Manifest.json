@@ -1,0 +1,227 @@
+[
+  {
+    "source": "Saved/Diagnostics/Ocean_20261018/before.json",
+    "archive": "Documentation/Verification/2026-10-18/Ocean/before.json",
+    "sha256": "0fb813713b175d172b075164dfc2969a07007160c9b9d7a48175f9f948ecc331"
+  },
+  {
+    "source": "Saved/Diagnostics/Ocean_20261018/after.json",
+    "archive": "Documentation/Verification/2026-10-18/Ocean/after.json",
+    "sha256": "1f7aea42d0df916604dd0289af9cd0f1e62a17eb4591e27010465803354ae134"
+  },
+  {
+    "source": "Saved/Diagnostics/Ocean_20261018/precision.json",
+    "archive": "Documentation/Verification/2026-10-18/Ocean/precision.json",
+    "sha256": "dabf5800a0e96db081096c1c44fef1a846ccb0082b3659e9d7cfce5ab498adaa"
+  },
+  {
+    "source": "Saved/Diagnostics/Ocean_20261018/wrapped.json",
+    "archive": "Documentation/Verification/2026-10-18/Ocean/wrapped.json",
+    "sha256": "73a571580ed833bbab5ddc3123fedf76e880a077995faacd8bb58195fa9c84c0"
+  },
+  {
+    "source": "Saved/Diagnostics/Ocean_20261018/final.json",
+    "archive": "Documentation/Verification/2026-10-18/Ocean/final.json",
+    "sha256": "1f7aea42d0df916604dd0289af9cd0f1e62a17eb4591e27010465803354ae134"
+  },
+  {
+    "source": "Saved/Diagnostics/Ocean_20261018/accepted.json",
+    "archive": "Documentation/Verification/2026-10-18/Ocean/accepted.json",
+    "sha256": "1f7aea42d0df916604dd0289af9cd0f1e62a17eb4591e27010465803354ae134"
+  },
+  {
+    "source": "Saved/Diagnostics/Ocean_20261018/release.json",
+    "archive": "Documentation/Verification/2026-10-18/Ocean/release.json",
+    "sha256": "c052a71230fdfffd01faa6c84ff4fe45613a78d59d46b15b886e6a513ed4e468"
+  },
+  {
+    "source": "Saved/Diagnostics/Ocean_20261018/verified.json",
+    "archive": "Documentation/Verification/2026-10-18/Ocean/verified.json",
+    "sha256": "c052a71230fdfffd01faa6c84ff4fe45613a78d59d46b15b886e6a513ed4e468"
+  },
+  {
+    "source": "Saved/Diagnostics/Ocean_20261018/spherical.json",
+    "archive": "Documentation/Verification/2026-10-18/Ocean/spherical.json",
+    "sha256": "52e05b869aa7116460887c948b1d524cd3a89ee3c3a31db778a4d02fa87353d8"
+  },
+  {
+    "source": "Saved/Diagnostics/Ocean_20261018/threshold.json",
+    "archive": "Documentation/Verification/2026-10-18/Ocean/threshold.json",
+    "sha256": "52e05b869aa7116460887c948b1d524cd3a89ee3c3a31db778a4d02fa87353d8"
+  },
+  {
+    "source": "Saved/Diagnostics/Ocean_20261018/endpoints.json",
+    "archive": "Documentation/Verification/2026-10-18/Ocean/endpoints.json",
+    "sha256": "52e05b869aa7116460887c948b1d524cd3a89ee3c3a31db778a4d02fa87353d8"
+  },
+  {
+    "source": "Saved/Diagnostics/Ocean_20261018/boundary.json",
+    "archive": "Documentation/Verification/2026-10-18/Ocean/boundary.json",
+    "sha256": "5404d0c876ededecd06c6fcd0d8a450443f64c71f0cf68421baa742d1449a78b"
+  },
+  {
+    "source": "Saved/Diagnostics/Ocean_20261018/boundary-final.json",
+    "archive": "Documentation/Verification/2026-10-18/Ocean/boundary-final.json",
+    "sha256": "ee1646cd441c54b93b4ed2e417131b79045f3c26d00b122baaa476c0ae97abe5"
+  },
+  {
+    "source": "Saved/Diagnostics/Ocean_20261018/grid-isolation.json",
+    "archive": "Documentation/Verification/2026-10-18/Ocean/grid-isolation.json",
+    "sha256": "19314cdb649a98313058c084615f04c6f6cc865a851d2fb0e516567fdcf6cf52"
+  },
+  {
+    "source": "Saved/Diagnostics/Ocean_20261018/grid-visible.json",
+    "archive": "Documentation/Verification/2026-10-18/Ocean/grid-visible.json",
+    "sha256": "19314cdb649a98313058c084615f04c6f6cc865a851d2fb0e516567fdcf6cf52"
+  },
+  {
+    "source": "Saved/Diagnostics/Ocean_20261018/Sites.json",
+    "archive": "Documentation/Verification/2026-10-18/Ocean/Sites.json",
+    "sha256": "d3d2e276bff72def534901a4863eade8cc48a24a212e8ebbade7b325f7a50182"
+  },
+  {
+    "source": "Saved/Diagnostics/Ocean_20261018/DemoOceanAudit.json",
+    "archive": "Documentation/Verification/2026-10-18/Ocean/DemoOceanAudit.json",
+    "sha256": "e6a79aae2a213b82b49b73dc41e4747f5c04f4a3c484907f7dba2b25918bc3d6"
+  },
+  {
+    "source": "Saved/Diagnostics/Ocean_20261018/DemoWaterGraph.json",
+    "archive": "Documentation/Verification/2026-10-18/Ocean/DemoWaterGraph.json",
+    "sha256": "dc368600dcc3180ecf50c6d1b22b11a55e6f1361eade459a02b7046c361ce92b"
+  },
+  {
+    "source": "Saved/Diagnostics/Ocean_20261018/Material.json",
+    "archive": "Documentation/Verification/2026-10-18/Ocean/Material.json",
+    "sha256": "1822cce6cecfd629aff1c3e07d250789c1f068cf5d04cbd66a3a9625d971a3db"
+  },
+  {
+    "source": "Saved/Diagnostics/Ocean_20261018/MaterialFinal.json",
+    "archive": "Documentation/Verification/2026-10-18/Ocean/MaterialFinal.json",
+    "sha256": "be12b2e0d499cfba5ddf6e6fd55cdce39fb8e93f885618aec54c481e71a5440b"
+  },
+  {
+    "source": "Saved/Diagnostics/Ocean_20261018/ModelValidation.json",
+    "archive": "Documentation/Verification/2026-10-18/Ocean/ModelValidation.json",
+    "sha256": "74ef9193d3b2d602134df92a74e3112d01ec6c04c78993248de62ca4492f9784"
+  },
+  {
+    "source": "Saved/Diagnostics/Ocean_20261018/RetainedSpeed.json",
+    "archive": "Documentation/Verification/2026-10-18/Ocean/RetainedSpeed.json",
+    "sha256": "51e1040eb3e48af2c740850a45d165b6d4f36601b7b992195b7373ec5477566f"
+  },
+  {
+    "source": "Saved/Logs/OceanBuild.log",
+    "archive": "Documentation/Verification/2026-10-18/Ocean/OceanBuild.log",
+    "sha256": "1ff78c4f8dcb69553d782d05803abf93efd2e1c2dc818da5288d492ea904cd5e"
+  },
+  {
+    "source": "Saved/Logs/OceanCoverageBuild.log",
+    "archive": "Documentation/Verification/2026-10-18/Ocean/OceanCoverageBuild.log",
+    "sha256": "ca7fb32f691ac65afc8b126a3916c64fa4eaf3a378075f980b9d551421560f4f"
+  },
+  {
+    "source": "Saved/Diagnostics/Ocean_20261018/before/sea00000.png",
+    "archive": "Images/2026-10-18/Ocean/sea-before.png",
+    "sha256": "44929665db627d08bde4745c2c5a931a0d73fdbd7ac83457cef7e6bca2e2f507"
+  },
+  {
+    "source": "Saved/Diagnostics/Ocean_20261018/before/coast00000.png",
+    "archive": "Images/2026-10-18/Ocean/coast-before.png",
+    "sha256": "540bfbb92d7a3fbb7aa85deb6aac78b686b921fece77d6b06d271629184778f9"
+  },
+  {
+    "source": "Saved/Diagnostics/Ocean_20261018/before/underwater00000.png",
+    "archive": "Images/2026-10-18/Ocean/underwater-before.png",
+    "sha256": "229ad8de603e483c2bcc731aae2ef9e49c3c5269a5f07ec209e22bf8f079d338"
+  },
+  {
+    "source": "Saved/Diagnostics/Ocean_20261018/before/underwater-up00000.png",
+    "archive": "Images/2026-10-18/Ocean/underwater-up-before.png",
+    "sha256": "9e30c0779d0b3688e49f644ae30a37a5320237bb1cd00d3de92634e2a21344a8"
+  },
+  {
+    "source": "Saved/Diagnostics/Ocean_20261018/before/high-20km00000.png",
+    "archive": "Images/2026-10-18/Ocean/high-20km-before.png",
+    "sha256": "b6fb17b20ab951c6fc9ce9efa448c8ceca375c4250e18c9409da6ce36d06fc3f"
+  },
+  {
+    "source": "Saved/Diagnostics/Ocean_20261018/before/handoff-300km00000.png",
+    "archive": "Images/2026-10-18/Ocean/handoff-300km-before.png",
+    "sha256": "d88efd65732907598e035a7f39577213eaba6af9cb303b8be0d9763d5549393c"
+  },
+  {
+    "source": "Saved/Diagnostics/Ocean_20261018/endpoints/sea00000.png",
+    "archive": "Images/2026-10-18/Ocean/sea-final.png",
+    "sha256": "f4d94dea1eac50ccb5e8163df71c1f6fac4e4ce790ab70ec015fcc223af54705"
+  },
+  {
+    "source": "Saved/Diagnostics/Ocean_20261018/endpoints/coast00000.png",
+    "archive": "Images/2026-10-18/Ocean/coast-final.png",
+    "sha256": "1198950111abdfa6162a774f52c2fa16317c59ceb383b8eb3ddbfc8209ea81f4"
+  },
+  {
+    "source": "Saved/Diagnostics/Ocean_20261018/endpoints/underwater00000.png",
+    "archive": "Images/2026-10-18/Ocean/underwater-final.png",
+    "sha256": "1ee5f0badb0c2e7acc1dc0a55906cb91a6452ec687f63c4327ce0942c72124c2"
+  },
+  {
+    "source": "Saved/Diagnostics/Ocean_20261018/endpoints/underwater-up00000.png",
+    "archive": "Images/2026-10-18/Ocean/underwater-up-final.png",
+    "sha256": "608ea537ab8d1ca210099d316a203989fec3ae3850050d5480e92bdaac038070"
+  },
+  {
+    "source": "Saved/Diagnostics/Ocean_20261018/endpoints/high-20km00000.png",
+    "archive": "Images/2026-10-18/Ocean/high-20km-final.png",
+    "sha256": "3315f2a9cdc78e1dbc827c7ffb60dbcffec1f5772b428e4231cca4e1d307092f"
+  },
+  {
+    "source": "Saved/Diagnostics/Ocean_20261018/endpoints/handoff-300km00000.png",
+    "archive": "Images/2026-10-18/Ocean/handoff-300km-final.png",
+    "sha256": "aeab65cb86bc07af41eb05f2f903db05f1db7d4ef4d1242b06adcea32f560da1"
+  },
+  {
+    "source": "Saved/Diagnostics/Ocean_20261018/after/sea00000.png",
+    "archive": "Images/2026-10-18/Ocean/sea-initial-port.png",
+    "sha256": "f6762d10328404a11dc7965a5954140467db77aa9ae80266998ef607754eafde"
+  },
+  {
+    "source": "Saved/Diagnostics/Ocean_20261018/after/underwater-up00000.png",
+    "archive": "Images/2026-10-18/Ocean/underwater-up-initial-port.png",
+    "sha256": "e966c1370e8fcc7afcf0df239495d5e574104d1a14499cd77eab3762dfadc88a"
+  },
+  {
+    "source": "Saved/Diagnostics/Ocean_20261018/after/handoff-300km00000.png",
+    "archive": "Images/2026-10-18/Ocean/handoff-300km-initial-port.png",
+    "sha256": "9d0c6eab0199ea8a400c3ca5be0120e03d41da365c9dfff5ca23c1e019bf2071"
+  },
+  {
+    "source": "Saved/Diagnostics/Ocean_20261018/boundary/below-20km00000.png",
+    "archive": "Images/2026-10-18/Ocean/below-20km-boundary.png",
+    "sha256": "0dea3ae15d98f9e8d4501d18e1ede57db8a1272a354e785968fafa40d5ff9a2e"
+  },
+  {
+    "source": "Saved/Diagnostics/Ocean_20261018/boundary/above-20km00000.png",
+    "archive": "Images/2026-10-18/Ocean/above-20km-boundary.png",
+    "sha256": "c822be6d5a2d87924a61c1a9a547e23f6051c875e53746902543f006538616f1"
+  },
+  {
+    "source": "Saved/Diagnostics/Ocean_20261018/boundary-final/below-20km00000.png",
+    "archive": "Images/2026-10-18/Ocean/below-20km-boundary-final.png",
+    "sha256": "906bf096f260177dd0a980740daf006735b491447a0f46b708ad3d37c83f8687"
+  },
+  {
+    "source": "Saved/Diagnostics/Ocean_20261018/boundary-final/above-20km00000.png",
+    "archive": "Images/2026-10-18/Ocean/above-20km-boundary-final.png",
+    "sha256": "554b18ce6794d5e888986c5e736048b945fbc36e793296e7838cfc3575a0994a"
+  },
+  {
+    "source": "Saved/Diagnostics/Ocean_20261018/verified/sea00000.png",
+    "archive": "Images/2026-10-18/Ocean/sea-verified.png",
+    "sha256": "df6be8250bddb42fa57246ab7987a4a49b71c0818076a89bf7f372ca1a3996b1"
+  },
+  {
+    "source": "Saved/Diagnostics/Ocean_20261018/grid-isolation/sea00000.png",
+    "archive": "Images/2026-10-18/Ocean/sea-grid-isolation.png",
+    "sha256": "1d1d424de29bed4a5ed6b699efb8c55d8bf5177d65d1148b6664062917101cf1"
+  }
+]

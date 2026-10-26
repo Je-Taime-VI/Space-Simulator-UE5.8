@@ -1,0 +1,138 @@
+{
+	"catalogue_audit": [
+		{
+			"key": "Sun",
+			"obliquity_deg": 7.25,
+			"inclination_deg": 0,
+			"eccentricity": 0,
+			"radius_km": 695700,
+			"semi_major_axis_au": 0,
+			"spin_axis_ecliptic": [
+				0.12232446809011328,
+				-0.031030699595996466,
+				0.99200494967971498
+			]
+		},
+		{
+			"key": "Mercury",
+			"obliquity_deg": 0.034000000000000002,
+			"inclination_deg": 7.0049790200000004,
+			"eccentricity": 0.20563592999999999,
+			"radius_km": 2439.4000000000001,
+			"semi_major_axis_au": 0.38709927,
+			"spin_axis_ecliptic": [
+				0.091377638969954739,
+				-0.081599806075609196,
+				0.99246742956366063
+			]
+		},
+		{
+			"key": "Venus",
+			"obliquity_deg": 177.36000000000001,
+			"inclination_deg": 3.3946760500000002,
+			"eccentricity": 0.00677672,
+			"radius_km": 6051.8000000000002,
+			"semi_major_axis_au": 0.72333566000000005,
+			"spin_axis_ecliptic": [
+				-0.018655224251597682,
+				-0.010894718529933109,
+				-0.99976661662423816
+			]
+		},
+		{
+			"key": "Earth",
+			"obliquity_deg": 23.43928,
+			"inclination_deg": -1.5310000000000001e-05,
+			"eccentricity": 0.016711230000000001,
+			"radius_km": 6371.0083999999997,
+			"semi_major_axis_au": 1.0000026099999999,
+			"spin_axis_ecliptic": [
+				2.4356815144646118e-17,
+				0.39777722316906811,
+				0.91748203291830488
+			]
+		},
+		{
+			"key": "Moon",
+			"obliquity_deg": 6.6799999999999997,
+			"inclination_deg": 5.1449999999999996,
+			"eccentricity": 0.054899999999999997,
+			"radius_km": 1737.4000000000001,
+			"semi_major_axis_au": 0.0025695552897999907,
+			"spin_axis_ecliptic": [
+				-0.021707782299875442,
+				-0.015698849998203392,
+				0.9996410947416855
+			]
+		},
+		{
+			"key": "Mars",
+			"obliquity_deg": 25.190000000000001,
+			"inclination_deg": 1.8496914200000001,
+			"eccentricity": 0.093394099999999994,
+			"radius_km": 3389.5,
+			"semi_major_axis_au": 1.5237103400000001,
+			"spin_axis_ecliptic": [
+				0.44722352267447235,
+				-0.03933109106589415,
+				0.893557041291826
+			]
+		},
+		{
+			"key": "Jupiter",
+			"obliquity_deg": 3.1299999999999999,
+			"inclination_deg": 1.3043969500000001,
+			"eccentricity": 0.048386239999999997,
+			"radius_km": 69911,
+			"semi_major_axis_au": 5.2028869999999996,
+			"spin_axis_ecliptic": [
+				-0.014721562591522061,
+				-0.03594219259792758,
+				0.99924543250700815
+			]
+		},
+		{
+			"key": "Saturn",
+			"obliquity_deg": 26.73,
+			"inclination_deg": 2.4859918699999999,
+			"eccentricity": 0.05386179,
+			"radius_km": 58232,
+			"semi_major_axis_au": 9.5366759400000003,
+			"spin_axis_ecliptic": [
+				0.085478755467500805,
+				0.46244068105502856,
+				0.88252025408434043
+			]
+		},
+		{
+			"key": "Uranus",
+			"obliquity_deg": 97.769999999999996,
+			"inclination_deg": 0.77263782999999997,
+			"eccentricity": 0.047257439999999998,
+			"radius_km": 25362,
+			"semi_major_axis_au": 19.189164640000001,
+			"spin_axis_ecliptic": [
+				0.21199957957073878,
+				0.96798902192741865,
+				-0.13436305924557412
+			]
+		},
+		{
+			"key": "Neptune",
+			"obliquity_deg": 28.32,
+			"inclination_deg": 1.7700434700000001,
+			"eccentricity": 0.0085904799999999993,
+			"radius_km": 24622,
+			"semi_major_axis_au": 30.069922760000001,
+			"spin_axis_ecliptic": [
+				0.3610171600153565,
+				-0.31194999713953331,
+				0.87883662273433494
+			]
+		}
+	],
+	"failures": [],
+	"success": true,
+	"earth_water_fraction": 0.65625,
+	"terrain_invalid": 0
+}

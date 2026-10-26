@@ -1,0 +1,7 @@
+{
+  "material": "/Game/SolarSystem/Materials/M_Ocean_WorldScape.M_Ocean_WorldScape",
+  "shading": "<MaterialShadingModel.MSM_SINGLE_LAYER_WATER: 10>",
+  "blend": "<BlendMode.BLEND_MASKED: 1>",
+  "two_sided": true,
+  "statistics": "<Struct 'MaterialStatistics' (0x0000028EC789F660) {num_vertex_shader_instructions: 400, num_pixel_shader_instructions: 1253, num_samplers: 3, num_vertex_texture_samples: 2, num_pixel_texture_samples: 5, num_virtual_texture_samples: 0, num_uv_scalars: 0, num_interpolator_scalars: 0}>"
+}

@@ -1,0 +1,40 @@
+{
+  "completed": true,
+  "errors": [],
+  "camera": {
+    "descend_altitude_m": -49.99999999108695,
+    "ground_height_m": -146.29277422922775,
+    "bottom_clearance_m": 3.0000000002883667,
+    "returned_altitude_m": 96.70722573446255,
+    "entered_water": true,
+    "seabed_stopped": true,
+    "exited_water": true
+  },
+  "frames": [
+    {
+      "site": {
+        "name": "sea",
+        "lat": -14.376406312559912,
+        "lon": 109.7449118967303,
+        "height_m": 12,
+        "tilt": -0.25
+      },
+      "pos": [
+        -208494226.66822177,
+        580866706.5558131,
+        -158186712.56835938
+      ],
+      "rot": [
+        -103.96420288085938,
+        3.452407121658325,
+        -146.64178466796875
+      ],
+      "material": "/Game/SolarSystem/Materials/M_Ocean_WorldScape.M_Ocean_WorldScape",
+      "blend": 1.0,
+      "sun_lux": 124105.8515625,
+      "exposure_bias": -0.048536770045757294,
+      "cloud_rt": 0,
+      "ap": 0
+    }
+  ]
+}

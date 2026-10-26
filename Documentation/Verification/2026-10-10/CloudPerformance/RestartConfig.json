@@ -1,0 +1,7 @@
+{
+  "r.VolumetricRenderTarget": 1,
+  "r.VolumetricRenderTarget.Mode": 1,
+  "reprojection_distance_km": 4.0,
+  "engine": "5.8.2-56702186+++UE5+Release-5.8",
+  "loaded_from_disk_after_restart": true
+}

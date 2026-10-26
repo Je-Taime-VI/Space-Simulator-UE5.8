@@ -1,0 +1,60 @@
+{
+  "materials": [
+    {
+      "material": "M_Terrain",
+      "shading": "<MaterialShadingModel.MSM_DEFAULT_LIT: 1>",
+      "pixel_instructions": 1923,
+      "vertex_instructions": 148,
+      "base_color_connected": true,
+      "emissive_constant": 0.0
+    },
+    {
+      "material": "M_Ocean",
+      "shading": "<MaterialShadingModel.MSM_DEFAULT_LIT: 1>",
+      "pixel_instructions": 1200,
+      "vertex_instructions": 148,
+      "base_color_connected": true,
+      "emissive_constant": 0.0
+    },
+    {
+      "material": "M_Planet",
+      "shading": "<MaterialShadingModel.MSM_DEFAULT_LIT: 1>",
+      "pixel_instructions": 1810,
+      "vertex_instructions": 1315
+    },
+    {
+      "material": "M_Star",
+      "shading": "<MaterialShadingModel.MSM_UNLIT: 0>",
+      "pixel_instructions": 204,
+      "vertex_instructions": 148
+    },
+    {
+      "material": "M_Clouds",
+      "shading": "<MaterialShadingModel.MSM_UNLIT: 0>",
+      "pixel_instructions": 180,
+      "vertex_instructions": 339
+    },
+    {
+      "material": "M_PlanetCloudVolume",
+      "shading": "<MaterialShadingModel.MSM_DEFAULT_LIT: 1>",
+      "pixel_instructions": 341,
+      "vertex_instructions": 272
+    },
+    {
+      "material": "M_Rings",
+      "shading": "<MaterialShadingModel.MSM_UNLIT: 0>",
+      "pixel_instructions": 119,
+      "vertex_instructions": 153
+    },
+    {
+      "material": "M_Atmosphere",
+      "shading": "<MaterialShadingModel.MSM_UNLIT: 0>",
+      "pixel_instructions": 200,
+      "vertex_instructions": 272
+    }
+  ],
+  "reference_lux": 120000.0,
+  "physical_exposure": true,
+  "base_ev100": 14.965784284662087,
+  "scope": "编译后材质统计与连接检查；画面和昼夜另由截图与运行记录验证。"
+}

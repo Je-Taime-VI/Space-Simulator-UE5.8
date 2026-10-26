@@ -1,0 +1,29 @@
+// One height evaluation feeds albedo and a body-local surface-gradient normal.
+// Derivatives reuse adjacent pixels, avoiding additional crater field evaluations.
+float3 n=normalize(N);
+int body=(int)BodyIndex;
+ReliefNormal=n;
+float3 c;
+if(body>=1 && body<=5)
+{
+    float height=field.height(body,n);
+    c=field.surfaceAppearance(body,n,height);
+    // Earth's metre-scale height noise and the ocean need their own filtered
+    // normal representation; retain the existing smooth proxy there for now.
+    if(body!=3 && VenusCloudCover<.5)
+    {
+        float3 dx=ddx(n)*RadiusKm,dy=ddy(n)*RadiusKm;
+        float3 rx=cross(dy,n),ry=cross(n,dx);
+        float det=dot(dx,rx);
+        if(abs(det)>1e-10)
+        {
+            float3 gradient=(rx*ddx(height)+ry*ddy(height))/det;
+            // Limit unstable derivatives at silhouette/helper pixels.
+            gradient*=min(1.,.75/max(length(gradient),1e-6));
+            ReliefNormal=normalize(n-gradient);
+        }
+    }
+}
+else c=field.color(body,n);
+if(body==2 && VenusCloudCover>.5)c=float3(.78,.69,.48)*(1+field.noise(n*24,4)*.16);
+return saturate(c);

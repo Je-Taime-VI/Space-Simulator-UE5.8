@@ -1,0 +1,65 @@
+[
+  {
+    "name": "shore",
+    "lat": 23.261616396234317,
+    "lon": 89.83508866409365,
+    "alt": 0.011,
+    "east": -1,
+    "tilt": -0.15
+  },
+  {
+    "name": "shore-no-water",
+    "lat": 23.261616396234317,
+    "lon": 89.83508866409365,
+    "alt": 0.011,
+    "east": -1,
+    "tilt": -0.15,
+    "hide_ocean": true
+  },
+  {
+    "name": "shore-no-proxy",
+    "lat": 23.261616396234317,
+    "lon": 89.83508866409365,
+    "alt": 0.011,
+    "east": -1,
+    "tilt": -0.15,
+    "hide_proxy": true
+  },
+  {
+    "name": "deep",
+    "lat": 23.261616396234317,
+    "lon": 85.0,
+    "alt": -0.993,
+    "tilt": -0.08
+  },
+  {
+    "name": "deep-no-atmos",
+    "lat": 23.261616396234317,
+    "lon": 85.0,
+    "alt": -0.993,
+    "tilt": -0.08,
+    "hide_atmos": true
+  },
+  {
+    "name": "deep-no-proxy",
+    "lat": 23.261616396234317,
+    "lon": 85.0,
+    "alt": -0.993,
+    "tilt": -0.08,
+    "hide_proxy": true
+  },
+  {
+    "name": "below-bottom",
+    "lat": 23.261616396234317,
+    "lon": 85.0,
+    "alt": -1.126,
+    "tilt": -0.08
+  },
+  {
+    "name": "handoff",
+    "lat": 23.261616396234317,
+    "lon": 89.81408866409365,
+    "alt": 9.398,
+    "tilt": -0.4
+  }
+]

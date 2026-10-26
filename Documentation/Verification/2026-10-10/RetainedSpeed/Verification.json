@@ -1,0 +1,126 @@
+{
+  "success": true,
+  "failures": [],
+  "cases": [
+    {
+      "case": "automatic_at_35m",
+      "speed_km_s": 0.01225000000026739,
+      "expected_km_s": 0.01225,
+      "automatic": true,
+      "distance_m": 0.0
+    },
+    {
+      "case": "hold_4s_at_30fps",
+      "speed_km_s": 0.024500000000534813,
+      "expected_km_s": 0.0245,
+      "automatic": false,
+      "distance_m": 0.0
+    },
+    {
+      "case": "hold_4s_at_60fps",
+      "speed_km_s": 0.02450000000053513,
+      "expected_km_s": 0.0245,
+      "automatic": false,
+      "distance_m": 0.0
+    },
+    {
+      "case": "hold_4s_at_144fps",
+      "speed_km_s": 0.024500000000534622,
+      "expected_km_s": 0.0245,
+      "automatic": false,
+      "distance_m": 0.0
+    },
+    {
+      "case": "released_move_1s",
+      "speed_km_s": 0.024500000000534622,
+      "expected_km_s": 0.0245,
+      "automatic": false,
+      "distance_m": 24.500000020064718
+    },
+    {
+      "case": "retained_at_10m_clearance",
+      "speed_km_s": 0.024500000000534622,
+      "expected_km_s": 0.0245,
+      "automatic": false,
+      "distance_m": 25.00000000009993
+    },
+    {
+      "case": "decrease_4s",
+      "speed_km_s": 0.012250000000267295,
+      "expected_km_s": 0.01225,
+      "automatic": false,
+      "distance_m": 0.0
+    },
+    {
+      "case": "decrease_release",
+      "speed_km_s": 0.012250000000267295,
+      "expected_km_s": 0.01225,
+      "automatic": false,
+      "distance_m": 0.0
+    },
+    {
+      "case": "both_restore_automatic",
+      "speed_km_s": 0.01225000000026739,
+      "expected_km_s": 0.01225,
+      "automatic": true,
+      "distance_m": 0.0
+    },
+    {
+      "case": "partial_chord_release",
+      "speed_km_s": 0.01225000000026739,
+      "expected_km_s": 0.01225,
+      "automatic": true,
+      "distance_m": 0.0
+    },
+    {
+      "case": "full_chord_release",
+      "speed_km_s": 0.01225000000026739,
+      "expected_km_s": 0.01225,
+      "automatic": true,
+      "distance_m": 0.0
+    },
+    {
+      "case": "new_decrease_after_reset",
+      "speed_km_s": 0.0061250000001336884,
+      "expected_km_s": 0.006125,
+      "automatic": false,
+      "distance_m": 0.0
+    },
+    {
+      "case": "new_decrease_retained",
+      "speed_km_s": 0.0061250000001336884,
+      "expected_km_s": 0.006125,
+      "automatic": false,
+      "distance_m": 0.0
+    },
+    {
+      "case": "short_tap_no_speed_jump",
+      "speed_km_s": 0.012464126228529972,
+      "expected_km_s": 0.012464126228257908,
+      "automatic": false,
+      "distance_m": 0.0
+    },
+    {
+      "case": "loading_stall_not_10s_adjustment",
+      "speed_km_s": 0.012464126228529972,
+      "expected_km_s": 0.012464126228257908,
+      "automatic": false,
+      "distance_m": 0.0
+    },
+    {
+      "case": "released_manual_bypasses_displacement_cap",
+      "speed_km_s": 3.1360000000687807,
+      "expected_km_s": 3.136,
+      "automatic": false,
+      "distance_m": 313.6000000050174
+    },
+    {
+      "case": "retained_manual_ground_projection",
+      "speed_km_s": 3.1360000000687807,
+      "expected_km_s": 3.136,
+      "automatic": false,
+      "distance_m": 32.00000000143845
+    }
+  ],
+  "scope": "实际 C++ 共用入口的时长、状态转换和移动回归；30/60/144 Hz为注入步长，未注入物理键盘或测量渲染FPS。"
+}
